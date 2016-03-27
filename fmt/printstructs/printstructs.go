@@ -20,9 +20,11 @@ func main() {
 	
 	fmt.Printf("empty type = %T\n", empty)
 	fmt.Printf("empty value = %v\n", empty)
+	fmt.Printf("empty #value = %#v\n", empty)
 	fmt.Printf("empty value with field names = %+v\n", empty)
 	
 	fmt.Printf("struct1 type = %T\n", struct1)
 	fmt.Printf("struct1 value = %v\n", struct1)
+	fmt.Printf("struct1 #value = %#v\n", struct1)
 	fmt.Printf("struct1 value with field names = %+v\n", struct1)
 }
