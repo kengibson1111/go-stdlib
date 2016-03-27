@@ -21,3 +21,5 @@ Formatted I/O
   characters. But with runes, a for range loop will start each iteration at the beginning of the rune
   while a for loop will iterate one byte at a time. Something to think about when processing strings.
   The sample code uses a for range loop. Notice the byte position.
+
+* runesutf8pkg - same results as runes but the code uses the unicode/utf8 package.
