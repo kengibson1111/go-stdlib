@@ -25,3 +25,5 @@ Formatted I/O
 
 * printstructs - a couple of different struct types. %T, %v, %+v seem to be the most effective printing
   verbs for structs.
+
+* printbool - pretty boring :). just demonstrating %t.
