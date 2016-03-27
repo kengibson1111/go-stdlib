@@ -22,3 +22,6 @@ Formatted I/O
   The sample code uses a for range loop. Notice the byte position.
 
 * runesutf8pkg - same results as runes but the code uses the unicode/utf8 package.
+
+* printstructs - a couple of different struct types. %T, %v, %+v seem to be the most effective printing
+  verbs for structs.
