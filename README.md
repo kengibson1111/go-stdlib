@@ -6,4 +6,6 @@ I don't think you can fully understand a language and runtime without understand
 
 Formatted I/O
 
-* Printf - several samples showing formatting verbs for various types.
+* printstrings - several samples showing formatting verbs for strings.
+
+* printbytes - same as printstrings only for a byte array.
