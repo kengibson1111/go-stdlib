@@ -1,6 +1,5 @@
 # go-packages
-Code samples from golang's default packages. types.md is just my understanding of possible types in golang.
-I don't think you can fully understand a language and runtime without understanding available types.
+Code samples from golang's default packages. types.md is a summary of primitive types in golang.
 
 ## fmt
 
