@@ -2,6 +2,8 @@
 
 ## Architecture-independent
 
+These are portable across hardware architectures.
+
 * bool - true or false. golang does not specify bit-length.
 
 * uint8 - the set of all unsigned 8-bit integers (0 to 255)
@@ -28,7 +30,9 @@
   from a byte array to string or string to byte array, a copy is made. When you make a substring
   the substring can be another slice pointing to the same byte array.
 
-## Architecture-specific (better to stay away from to avoid portability issues)
+## Architecture-specific
+
+Better to stay away from to avoid portability issues.
 
 * uint - either 32 or 64 bits
 
