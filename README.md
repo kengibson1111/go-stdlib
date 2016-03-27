@@ -9,3 +9,5 @@ Formatted I/O
 * printstrings - several samples showing formatting verbs for strings.
 
 * printbytes - same as printstrings only for a byte array.
+
+* rawbytes - more printing but starting with a raw string.
