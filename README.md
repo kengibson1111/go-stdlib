@@ -27,3 +27,9 @@ Formatted I/O
   verbs for structs.
 
 * printbool - pretty boring :). just demonstrating %t.
+
+## net/http
+
+HTTP client and server functions.
+
+* simplehttpserver - this listens on 8080 and echos the URL without the leading forward slash.
