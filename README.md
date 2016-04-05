@@ -32,4 +32,5 @@ Formatted I/O
 
 HTTP client and server functions.
 
-* simplehttpserver - this listens on 8080 and echos the URL without the leading forward slash.
+* simplehttpserver - this listens on 8080 and echos the URL without the leading forward slash. Straight
+  from golang.org's wiki.
