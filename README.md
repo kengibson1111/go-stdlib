@@ -1,5 +1,24 @@
 # go-packages
 Code samples from golang's default packages. types.md is a summary of primitive types in golang.
+This is a collection of various public examples. If I am working on a project, it is easier to
+refer to my own repo and notes.
+
+## crypto/tls
+A little prework required for the server and client.
+
+* tlscert - generates a cert and private key for localhost. Straight from golang's public open source.
+  I just filled in the blanks and changed isCA to true.
+
+Move server.key and server.pem into the same directory where you will run tlsserver. Take the contents
+of the cert and copy it into the rootPEM value in tlsclient. Now you have a client that recognizes
+a cert specific to tlsserver. The cert and key are only good for localhost so don't try to use
+it externally. It's a demo, man.
+
+* tlsserver - simple example of a TLS server. It requires a generated server.key and server.pem.
+  This came from a public gist with few mods.
+
+* tlsclient - simple example of a TLS client. It requires the contents of the server.pem. This
+  came from a public gist with a couple of mods to recognize the cert.
 
 ## fmt
 
