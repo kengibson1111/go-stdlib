@@ -1,5 +1,5 @@
 # go-packages
-Code samples from golang's default packages. types.md is a summary of primitive types in golang.
+Code samples using golang's default packages. types.md is a summary of primitive types in golang.
 This is a collection of various public examples. If I am working on a project, it is easier to
 refer to my own repo and notes.
 
@@ -63,3 +63,16 @@ HTTP client and server functions.
   port where simplehttpsserver is running. Use the crypto/tls/tlscert sample to build server.pem
   and server.key files. Rename those to client.pem and client.key respectively. Copy the server.pem
   from simplehttpsserver.
+
+* servemux - this builds on simplehttpsserver. It uses TLS, so you will need to generate server.pem and
+  server.key files using the crypto/tls/tlscert sample. Drop those 2 files in the same directory where you
+  run servemux. You can hit the server using servemuxclient. This is demonstrating the ability to
+  assign handlers to URL patterns. Patterns are matched from the most specific to least specific. And
+  the advantage over just a function is the abillity to define a complex type that implements the
+  Handler interface. In the sample code, the Handler implementation is an empty struct. But
+  it doesn't have to be. Very cool.
+
+* servemuxclient - this establishes a TLS handshake and does an HTTP GET on 127.0.0.1:443 - the
+  port where servemux is running. Use the crypto/tls/tlscert sample to build server.pem
+  and server.key files. Rename those to client.pem and client.key respectively. Copy the server.pem
+  from servemux. This shows how 3 different URLs are handled by servemux.
