@@ -77,7 +77,7 @@ HTTP client and server functions.
   and server.key files. Rename those to client.pem and client.key respectively. Copy the server.pem
   from servemux. This shows how 4 different URLs are handled by servemux. What I like about this
   is how you can use self-signed certs and self-generated keys to control internal micro-service
-  communication. TO the external world, self-signed certs are evil. But if YOU know where the keys
+  communication. To the external world, self-signed certs are evil. But if YOU know where the keys
   and certs are coming from, you can figure out a way to generate keys and certs every 5-10 days.
   And while the external API consumer hates that, internally micro-services are protected through
   a consistent, reliable cert and key rotation strategy. Cool.
@@ -85,5 +85,11 @@ HTTP client and server functions.
 ## reflect
 
 * makefunc - straight from golang.org's documentation. Still trying to wrap my head around this, but
-  I think this may be help with dynamically creating a function and binding to a runtime. Maybe not,
+  I think this may help with dynamically creating a function and binding to a runtime. Maybe not,
   but an interesting sample.
+
+* structtag - from golang's docs. It looks like golang provides an easy way to parse JSON-like tags and
+  values within a string. Very nice. You can reflect an internal type that is a struct with one string.
+  The string value is intended to be like JSON tags and values. Get the one field value through
+  reflection. Then get the tags. Maybe a way to extend this example is to look up tag names
+  dynamically and grab values.
