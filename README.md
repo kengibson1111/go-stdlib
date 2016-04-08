@@ -81,3 +81,9 @@ HTTP client and server functions.
   and certs are coming from, you can figure out a way to generate keys and certs every 5-10 days.
   And while the external API consumer hates that, internally micro-services are protected through
   a consistent, reliable cert and key rotation strategy. Cool.
+
+## reflect
+
+* makefunc - straight from golang.org's documentation. Still trying to wrap my head around this, but
+  I think this may be help with dynamically creating a function and binding to a runtime. Maybe not,
+  but an interesting sample.
