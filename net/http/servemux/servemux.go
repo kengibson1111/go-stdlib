@@ -16,12 +16,21 @@ const LEN_APIV1 = len("/api/v1/")
 
 type ApiV1Handler struct {}
 
+type ApiV1SomeAPIHandler struct {}
+
+func (handler *ApiV1SomeAPIHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	log.Println("(APIV1SomeAPI handler) path = ", r.URL.Path)
+	fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[LEN_APIV1:])
+
+}
+
+
+
 func (handler *ApiV1Handler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	log.Println("(APIV1 handler) path = ", r.URL.Path)
 	fmt.Fprintf(w, "Hi there, I love %s!", r.URL.Path[LEN_APIV1:])
 
 }
-
 
 
 func handler(w http.ResponseWriter, r *http.Request) {
@@ -42,6 +51,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 func main() {
 
 	mux := http.NewServeMux()
+	mux.Handle("/api/v1/someapi", &ApiV1SomeAPIHandler{})
 	mux.Handle("/api/v1/", &ApiV1Handler{})
 	mux.HandleFunc("/", handler)
 

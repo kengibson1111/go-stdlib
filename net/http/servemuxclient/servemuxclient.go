@@ -50,8 +50,15 @@ func main() {
 	contents, err = ioutil.ReadAll(resp.Body)
 	fmt.Printf("%s\n", string(contents))
 
-	// try a valid path
+	// try valid paths
 	resp, err = client.Get("https://127.0.0.1:443/api/v1/someapi")
+	if err != nil {
+		fmt.Println(err)
+	}
+	contents, err = ioutil.ReadAll(resp.Body)
+	fmt.Printf("%s\n", string(contents))
+
+	resp, err = client.Get("https://127.0.0.1:443/api/v1/someapi2")
 	if err != nil {
 		fmt.Println(err)
 	}
