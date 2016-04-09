@@ -47,6 +47,12 @@ Formatted I/O
 
 * printbool - pretty boring :). just demonstrating %t.
 
+## html
+
+* escapestring - special escaping for only <, >, &, ', and ".
+
+* unescapestring - special unescaping for only <, >, &, ', and ".
+
 ## net/http
 
 HTTP client and server functions.
