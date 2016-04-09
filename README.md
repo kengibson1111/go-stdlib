@@ -107,6 +107,10 @@ HTTP client and server functions.
 
 This shows how to use scanner to parse text tokens.
 
+## text/tabwriter
+
+This shows how to use tabwriter to format text in neat columns.
+
 ## text/template
 
 pre-cursor to html/template examples. Everything in html/template builds upon text/template.
