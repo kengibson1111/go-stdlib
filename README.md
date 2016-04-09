@@ -129,7 +129,7 @@ pre-cursor to html/template examples. Everything in html/template builds upon te
   Although this sample doesn't show it, imagine if your helpers are calling functions like
   in the block and func samples. Hmmmmm.
 
-* share - this shows how to share a set of base helpers and share them. In this sample, T0
+* share - this shows how to define a set of base helpers and share them. In this sample, T0
   and T1 are defined and we know that T1 will be calling T2, but T2 is not defined yet. Then
   the helpers are cloned twice - each with its own definition of T2. Kind of sounds like a
   dynamic way to define 2 implementations of the same interface. Powerful.
