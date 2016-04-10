@@ -103,6 +103,14 @@ HTTP client and server functions.
 * typeof - from golang's docs. This shows the use of TypeOf in order to check whether or not an
   interface implementation really implements an interface. Pretty simple.
 
+## testing
+
+* benchparallel - this doesn't output anything at this point, but I thought it was interesting
+  because of the text/template work I was doing at the time. Benchmark functions are meant to be run
+  as part of a test suite usually with the "go test -cpu" command. golang's baseline text/template
+  functionality is very powerful, and I saw this as a value extension to any templates created and
+  executed. I will most likely revisit this.
+
 ## text/scanner
 
 This shows how to use scanner to parse text tokens.
