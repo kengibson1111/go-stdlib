@@ -7,24 +7,26 @@ refer to my own repo and notes.
 
 Terms to understand:
 
-####cipher: method of encrypting data.
-####ciphertext: the encrypted data resulting from using a cipher.
-####algorithm: a mathematical way to solve a problem.
-####key: a value used with an algorithm to encrypt data. Length is important. Think of someone trying
+* cipher: method of encrypting data.
+* ciphertext: the encrypted data resulting from using a cipher.
+* algorithm: a mathematical way to solve a problem.
+* key: a value used with an algorithm to encrypt data. Length is important. Think of someone trying
   to break an encryption. They will have to use all key values of all lengths against all possible
   algorithms in order to produce something that is understandable from encrypted data.
-####block cipher: a way to encrypt a block of data (like 64 contiguous bits instead of just 1 bit)
+* block cipher: a way to encrypt a block of data (like 64 contiguous bits instead of just 1 bit)
   using a cryptographic key and an algorithm.
-####initialization vector (IV): sometimes called a nonce. It is an arbitrary number chosen in a data
+* initialization vector (IV): sometimes called a nonce. It is an arbitrary number chosen in a data
   exchange session. It is used with the key. So to extend the notes of 'key' above, now a hacker
   has to combine all possible IVs with all possible key values of all possible lengths against all
   possible algorithms in order to produce something understandable from encrypted data. IVs are used
   typically during secure browser sessions. SSL and TLS does this behind the scenes using certs
   and keys.
-####cipher block chaining (CBC): this is really cool. This is a combination of block cipher and IV but it also
+* cipher block chaining (CBC): this is really cool. This is a combination of block cipher and IV but it also
   gets better. The decryption of each block depends on preceding ciphertext blocks - that is the
   chaining. So if there is any bit inconsistency in ANY block for an encrypted message, the entire
   message is considered invalid.
+
+Samples:
 
 * cbcdecrypter - example using CBC in order to decrypt encrypted CBC data. From the output, notice the difference
   between what is hex-encoded, hex-decoded, and unencrypted. In this case, the first block of ciphertext
