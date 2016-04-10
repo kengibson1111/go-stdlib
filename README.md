@@ -40,6 +40,11 @@ Samples:
   encryption/decryption strategy, go against the norm. Put the IV somewhere else. This example does not
   cover the use of HMAC after encryption for authentication purposes. The AES encryption algorithm is used.
 
+## crypto/rand
+
+This shows how to fill a byte array with secure random values. Great for initialization vector (IV)
+creation.
+
 ## crypto/tls
 A little prework required for the server and client.
 
