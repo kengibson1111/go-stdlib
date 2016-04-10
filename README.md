@@ -15,6 +15,8 @@ Terms to understand:
   algorithms in order to produce something that is understandable from encrypted data.
 * block cipher: a way to encrypt a block of data (like 64 contiguous bits instead of just 1 bit)
   using a cryptographic key and an algorithm.
+* stream cipher: basically encrypting one but at a time. Generally not used, but there are
+  use cases. CFB works with streams (see below).
 * initialization vector (IV): sometimes called a nonce. It is an arbitrary number chosen in a data
   exchange session. It is used with the key. So to extend the notes of 'key' above, now a hacker
   has to combine all possible IVs with all possible key values of all possible lengths against all
