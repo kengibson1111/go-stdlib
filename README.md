@@ -49,6 +49,10 @@ Samples:
   has the IV for the rest of the ciphertext. This example does not cover the use of HMAC in order to
   authenticate before decrypting. The AES encryption algorithm is used.
 
+* cfbencrypter - example using CFB in order to encrypt. The IV is a random value in the first CFB
+  block. This example does not cover the use of HMAC after encryption for authentication purposes. The AES
+  encryption algorithm is used.
+
 ## crypto/rand
 
 This shows how to fill a byte array with secure random values. Great for initialization vector (IV)
