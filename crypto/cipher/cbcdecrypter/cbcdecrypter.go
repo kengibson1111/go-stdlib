@@ -12,6 +12,7 @@ func main() {
 	encodedtext := "f363f3ccdcb12bb883abf484ba77d9cd7d32b5baecb3d4b1b3e0e4beffdb3ded"
 	ciphertext, _ := hex.DecodeString(encodedtext)
 
+	fmt.Printf("Block size: %v\n", aes.BlockSize)
 	fmt.Printf("Encoded: %s\n", encodedtext)
 	fmt.Printf("Decoded: %s\n", ciphertext)
 
