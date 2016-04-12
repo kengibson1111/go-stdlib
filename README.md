@@ -71,6 +71,14 @@ Samples:
   block. This example does not cover the use of HMAC after encryption for authentication purposes. The AES
   encryption algorithm is used.
 
+* streamwriter - this shows how to get a plaintext stream and encrypt while writing using OFB. This example does
+  not cover the use of HMAC after encryption for authentication purposes. The AES encryption algorithm is used.
+  Pretty cool to show off, but not realistic because of lack of authentication.
+
+* streamreader - this shows how to get an encrypted stream and decrypt while writing using OFB. This example does
+  not cover the use of HMAC after encryption for authentication purposes. The AES encryption algorithm is used.
+  Pretty cool to show off, but not realistic because of lack of authentication.
+
 ## crypto/rand
 
 This shows how to fill a byte array with secure random values. Great for initialization vector (IV)
