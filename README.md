@@ -84,6 +84,10 @@ Samples:
 This shows how to fill a byte array with secure random values. Great for initialization vector (IV)
 creation.
 
+## crypto/sha1
+
+This shows 2 ways to create the same checksum using a sha1 hash.
+
 ## crypto/tls
 A little prework required for the server and client.
 
