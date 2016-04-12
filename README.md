@@ -31,6 +31,9 @@ Terms to understand:
   of encrypting a set number of bits at a time, CFB encrypts one bit at a time. It uses an IV.
   The previously encrypted ciphertext block is XOR'ed with the current plaintext block in order to
   create the current ciphertext block. This works well with streams.
+* counter (CTR) - this looks a lot like CFB - one bit at a time, the XOR'ing. The CTR can use an
+  IV as a nonce, but also uses an internal counter. And it does not appear that padding to the block
+  size is required.
 
 Samples:
 
@@ -41,7 +44,7 @@ Samples:
   IV somewhere else. This example does not cover the use of HMAC in order to authenticate before
   decrypting. The AES encryption algorithm is used.
 
-* cbcencrypter - example using CBC in order to encrypt. The IV is a random value in the first CBC
+* cbcencrypter - example using CBC in order to encrypt. The IV is a random value in the first ciphertext
   block. That doesn't have to always be the case, but it is common. So if you want to create a custom
   encryption/decryption strategy, go against the norm. Put the IV somewhere else. This example does not
   cover the use of HMAC after encryption for authentication purposes. The AES encryption algorithm is used.
@@ -51,9 +54,15 @@ Samples:
   has the IV for the rest of the ciphertext. This example does not cover the use of HMAC in order to
   authenticate before decrypting. The AES encryption algorithm is used.
 
-* cfbencrypter - example using CFB in order to encrypt. The IV is a random value in the first CFB
+* cfbencrypter - example using CFB in order to encrypt. The IV is a random value in the first ciphertext
   block. This example does not cover the use of HMAC after encryption for authentication purposes. The AES
   encryption algorithm is used.
+
+* ctr - example using CTR in order to encrypt and decrypt. The IV is a random value in the first ciphertext
+  block. This example does not cover the use of HMAC after encryption for authentication purposes. The AES
+  encryption algorithm is used. A key distinction for CTR seems to be the ability to be used for both
+  encryption and decryption which is why the sample shows both. For CBC and CFB, encrypters and decrypters
+  are unique.
 
 ## crypto/rand
 
