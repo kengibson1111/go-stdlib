@@ -34,6 +34,9 @@ Terms to understand:
 * counter (CTR) - this looks a lot like CFB - one bit at a time, the XOR'ing. The CTR can use an
   IV as a nonce, but also uses an internal counter. And it does not appear that padding to the block
   size is required.
+* output feedback (OFB) - this is like CFB, but the difference is that the resulting encrypted block is
+  not the ciphertext. It is the output of the XOR. So there are no chaining dependencies. And with no chaining
+  dependencies, it is like CTR since OFB can be used for encryption and decryption.
 
 Samples:
 
@@ -63,6 +66,10 @@ Samples:
   encryption algorithm is used. A key distinction for CTR seems to be the ability to be used for both
   encryption and decryption which is why the sample shows both. For CBC and CFB, encrypters and decrypters
   are unique.
+
+* ofb - example using OFB in order to encrypt and decrypt. The IV is a random value in the first ciphertext
+  block. This example does not cover the use of HMAC after encryption for authentication purposes. The AES
+  encryption algorithm is used.
 
 ## crypto/rand
 
