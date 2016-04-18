@@ -79,6 +79,10 @@ Samples:
   not cover the use of HMAC after encryption for authentication purposes. The AES encryption algorithm is used.
   Pretty cool to show off, but not realistic because of lack of authentication.
 
+## crypto/md5
+
+This shows 2 ways to create the same checksum using a md5 hash.
+
 ## crypto/rand
 
 This shows how to fill a byte array with secure random values. Great for initialization vector (IV)
@@ -87,6 +91,10 @@ creation.
 ## crypto/sha1
 
 This shows 2 ways to create the same checksum using a sha1 hash.
+
+## crypto/sha256
+
+This shows 2 ways to create the same checksum using a sha256 hash. Also covers the use of sha224.
 
 ## crypto/tls
 A little prework required for the server and client.
