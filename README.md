@@ -113,6 +113,25 @@ it externally. It's a demo, man.
 * tlsclient - simple example of a TLS client. It requires the contents of the server.pem. This
   came from a public gist with a couple of mods to recognize the cert.
 
+## encoding/json
+
+* decoder - basic JSON decoding
+
+* decoderstream - like the previous example but using the Decoder stream fucntionality.
+
+* decodertoken - like the previous example but reading individual tokens from the stream.
+
+* indent - shows marshaling and indenting as two separate steps.
+
+* marshal - shows basic marshaling.
+
+* marshalindent - shows marshaling and indenting as one step.
+
+* rawmessage - this is really cool. Shows how to delay parsing until a lower-level type
+  is identified. Then parsing continues.
+
+* unmarshal - shows basic unmarshaling.
+
 ## encoding/xml
 
 * encoder - this shows how to define xml translation in a golang type definition. That information
