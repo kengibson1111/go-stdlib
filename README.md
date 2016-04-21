@@ -117,7 +117,7 @@ it externally. It's a demo, man.
 
 * decoder - basic JSON decoding
 
-* decoderstream - like the previous example but using the Decoder stream fucntionality.
+* decoderstream - like the previous example but using the Decoder stream functionality.
 
 * decodertoken - like the previous example but reading individual tokens from the stream.
 
