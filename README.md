@@ -96,6 +96,11 @@ This shows 2 ways to create the same checksum using a sha1 hash.
 
 This shows 2 ways to create the same checksum using a sha256 hash. Also covers the use of sha224.
 
+## crypto/sha512
+
+This shows 2 ways to create the same checksum using a sha512 hash. Also covers the use of sha384,
+sha512/224, and sha512/256.
+
 ## crypto/tls
 A little prework required for the server and client.
 
