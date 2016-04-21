@@ -113,6 +113,16 @@ it externally. It's a demo, man.
 * tlsclient - simple example of a TLS client. It requires the contents of the server.pem. This
   came from a public gist with a couple of mods to recognize the cert.
 
+## encoding/xml
+
+* encoder - this shows how to define xml translation in a golang type definition. That information
+  is used by an Encoder to output XML to a stream.
+
+* marshalindent - MarshalIndent works like Marshal, but prettifies the output byte slice.
+
+* unmarshal - like the previous 2 samples with type definition, but reading XML instead of
+  writing.
+
 ## fmt
 
 Formatted I/O
