@@ -113,6 +113,22 @@ it externally. It's a demo, man.
 * tlsclient - simple example of a TLS client. It requires the contents of the server.pem. This
   came from a public gist with a couple of mods to recognize the cert.
 
+## encoding/gob
+
+* basic - shows how to use basic functionality. In this sample, you have to imagine one type
+  being available in one process for encoding and another version of the same type being
+  available in another process. Bytes are streamed and even though the encoded type is different
+  from the decoded type, the Decoder gets as much info as is available without an error. Like
+  protobufs but it is built into golang.
+
+* custommarshal - shows how to implement gob marshaling for a custom type - necessary becaause
+  internal field types may not have an exported scope.
+
+* custominterface - really cool. The custom type would be registered in the encoder and decoder
+  gob processes. The type implements a method on a custom interface. The interface is available
+  in the encoder and decoder processes. The encoder encodes through the interface. The decoder
+  decodes through the interface and calls the interface's method.
+
 ## encoding/json
 
 * decoder - basic JSON decoding
