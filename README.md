@@ -118,6 +118,11 @@ it externally. It's a demo, man.
 * tlsclient - simple example of a TLS client. It requires the contents of the server.pem. This
   came from a public gist with a couple of mods to recognize the cert.
 
+## crypto/x509
+
+* verify - basic example showing how to verify a root cert chain. It also uses encoding/pem.
+  This sample will panic because the cert chain is not valid.
+
 ## encoding/gob
 
 * basic - shows how to use basic functionality. In this sample, you have to imagine one type
