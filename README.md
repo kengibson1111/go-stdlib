@@ -120,8 +120,8 @@ it externally. It's a demo, man.
 
 ## crypto/x509
 
-* verify - basic example showing how to verify a root cert chain. It also uses encoding/pem.
-  This sample will panic because the cert chain is not valid.
+* verify - basic example showing how to verify a cert against a root cert chain. It also uses
+  encoding/pem. This sample will panic because the cert is not valid.
 
 ## encoding/gob
 
@@ -131,7 +131,7 @@ it externally. It's a demo, man.
   from the decoded type, the Decoder gets as much info as is available without an error. Like
   protobufs but it is built into golang.
 
-* custommarshal - shows how to implement gob marshaling for a custom type - necessary becaause
+* custommarshal - shows how to implement gob marshaling for a custom type - necessary because
   internal field types may not have an exported scope.
 
 * custominterface - really cool. The custom type would be registered in the encoder and decoder
