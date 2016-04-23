@@ -135,7 +135,8 @@ signature implementation of the PKCS#1 spec. So examples will only focus on thos
 
 Think of the variations possible with OEAP:
 (1) It uses an optional label with the message so that if the same public key is used to
-encrypt, you can verify the label and switch off the label for decryption.
+encrypt different types of messages, you can verify the label and switch off the label for
+decryption.
 
 (2) It uses a random number generator from crypto/rand to make sure 2 encryptions of the
 same message with the same hash algorithm are different.
