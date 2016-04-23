@@ -223,6 +223,24 @@ Formatted I/O
 
 * unescapestring - special unescaping for only <, >, &, ', and ".
 
+## html/template
+
+* basic - shows basic template functionality.
+
+* block - this is showing how to customize a template block. block is shorthand for defining a
+  template and executing it in place. That is what allows the template block to be redefined.
+  In this sample, overlay is redefining the master template block. Notice how the master template
+  instance assign the join function pointer and not the overlay. But the overlay template
+  redefinition of the master template block uses join. Starting to get interesting when
+  considering dynamic execution functionality. This is the same as the text/template block
+  sample.
+
+* autoescape - this shows some of the safety features of html/template vs. text/template.
+  HTML escaping happens by default. So it looks like it combines functionality from the
+  default html package with text/template.
+
+* escape - this shows HTML, JS, and URL escaping.
+
 ## net/http
 
 HTTP client and server functions.
