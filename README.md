@@ -142,9 +142,9 @@ decryption.
 (2) It uses a random number generator from crypto/rand to make sure 2 encryptions of the
 same message with the same hash algorithm are different.
 
-(3) it uses a hash algorithm.
+(3) it uses a hash algorithm. The samples use crypto/sha512.
 
-The samples use crypto/sha512.
+Samples:
 
 * encryptoeap - this shows how to use the public key of an rsa.PrivateKey in order to encrypt.
   A signature is not included.
@@ -189,6 +189,14 @@ it externally. It's a demo, man.
 
 * verify - basic example showing how to verify a cert against a root cert chain. It also uses
   encoding/pem. This sample will panic because the cert is not valid.
+
+## encoding/base32
+
+* decode - shows how to decode a base32-encoded value to it's original string value.
+
+* encode - shows how to encode a string value to base32.
+
+* newencoder - this streams a string to a base32 value.
 
 ## encoding/gob
 
