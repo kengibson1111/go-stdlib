@@ -198,6 +198,16 @@ it externally. It's a demo, man.
 
 * newencoder - this streams a string to a base32 value.
 
+## encoding/base64
+
+* package - basic encode/decode sample.
+
+* decode - shows how to decode a base64-encoded value to it's original string value.
+
+* encode - shows how to encode a string value to base64.
+
+* newencoder - this streams a string to a base64 value.
+
 ## encoding/gob
 
 * basic - shows how to use basic functionality. In this sample, you have to imagine one type
