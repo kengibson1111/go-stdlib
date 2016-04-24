@@ -208,6 +208,16 @@ it externally. It's a demo, man.
 
 * newencoder - this streams a string to a base64 value.
 
+## encoding/binary
+
+* binaryread - shows how to read binary bytes into a float64. That was just for the sample.
+  Binary encoding can be used for any type.
+
+* binarywrite - shows how to write a float64 into binary bytes. Reverse of the previous sample.
+
+* binarywritemulti - like the previous example, but shows how to mix various types in a
+  single write stream. Printing out the binary bytes actually is a legible string in the sample.
+
 ## encoding/gob
 
 * basic - shows how to use basic functionality. In this sample, you have to imagine one type
