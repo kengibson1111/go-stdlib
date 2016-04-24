@@ -5,7 +5,7 @@ refer to my own repo and notes.
 
 ## bytes
 
-* buffer - shows how to use a buffer in various ways (Write, as a stream, transfering to another
+* buffer - shows how to use a buffer in various ways (Write, as a stream, transferring to another
   stream)
 
 * bufferreader - shows how to turn a buffer into an io.Reader. Handy.
