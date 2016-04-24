@@ -128,7 +128,8 @@ creation.
 
 This is pretty cool because it combines functionality from other crypto packages to implement
 RSA encryption as specified by PKCS#1 - public/private key pairs which are mathematically
-related. Private keys are not distributed and used to decrypt messages and verify signatures.
+related. Private keys are not distributed and used to decrypt messages and send signatures.
+Public keys are distributed and used to encrypt messages and verify signatures.
 
 RSA-OEAP is the latest RSA encryption implementation of the PKCS#1 spec. RSA-PSS is the latest
 signature implementation of the PKCS#1 spec. So examples will only focus on those.
