@@ -149,6 +149,8 @@ same message with the same hash algorithm are different.
 * decryptoeap - this shows how to use an rsa.PrivateKey in order to decrypt. A signature is
   not included.
 
+* conversation - this shows the basics of both OEAP and PSS. All from public sources.
+
 ## crypto/sha1
 
 This shows 2 ways to create the same checksum using a sha1 hash.
