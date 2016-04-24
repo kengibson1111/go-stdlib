@@ -142,7 +142,9 @@ decryption.
 (2) It uses a random number generator from crypto/rand to make sure 2 encryptions of the
 same message with the same hash algorithm are different.
 
-(3) it uses a hash algorithm. The samples use crypto/sha512.
+(3) it uses a hash algorithm.
+
+The samples use crypto/sha512.
 
 * encryptoeap - this shows how to use the public key of an rsa.PrivateKey in order to encrypt.
   A signature is not included.
