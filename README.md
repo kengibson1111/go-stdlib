@@ -218,6 +218,18 @@ it externally. It's a demo, man.
 * binarywritemulti - like the previous example, but shows how to mix various types in a
   single write stream. Printing out the binary bytes actually is a legible string in the sample.
 
+## encoding/csv
+
+* csvread - basic comma-delimited reading.
+
+* csvreadall - like the previous sample only it will read all rows at once.
+
+* csvreadopt - this shows how to set parse and comment options.
+
+* csvwrite - basic writing into comma-delimited rows.
+
+* csvwriteall - like the previous sample only it will write all rows at once.
+
 ## encoding/gob
 
 * basic - shows how to use basic functionality. In this sample, you have to imagine one type
