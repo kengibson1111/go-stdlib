@@ -3,6 +3,21 @@ Code samples using golang's default packages. types.md is a summary of primitive
 This is a collection of various public examples. If I am working on a project, it is easier to
 refer to my own repo and notes.
 
+## bytes
+
+* buffer - shows how to use a buffer in various ways (Write, as a stream, transfering to another
+  stream)
+
+* bufferreader - shows how to turn a buffer into an io.Reader. Handy.
+
+* compare - basic comparison and equality.
+
+* comparesearch - shows how to find a byte slice in a sorted set of byte slices.
+
+* trimprefix - prefix trimming and substitution.
+
+* trimsuffix - suffix trimming and substitution.
+
 ## crypto/cipher
 
 Terms to understand:
