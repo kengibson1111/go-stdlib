@@ -3,6 +3,20 @@ Code samples using golang's default packages. types.md is a summary of primitive
 This is a collection of various public examples. If I am working on a project, it is easier to
 refer to my own repo and notes.
 
+## bufio
+
+* customscan - shows how to plug in a custom 32-bit integer scan function. Writing custom functions
+  may be a simple way to build a JSON or XML validator.
+
+* emptyfinaltoken - shows how to implement a forgiving string parser when an empty string is
+  encountered.
+
+* linescan - example of how to scan lines from a stream.
+
+* wordscan - uses a default set of delimiters to scan words in a string.
+
+* writer - shows how to write to a stream.
+
 ## bytes
 
 * buffer - shows how to use a buffer in various ways (Write, as a stream, transferring to another
