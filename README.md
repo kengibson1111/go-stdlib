@@ -5,7 +5,7 @@ refer to my own repo and notes.
 
 ## archive/tar
 
-* basictar - shows how a tar is created.
+* basictar - creates a tar and then iterates through each file in the tar.
 
 ## bufio
 
