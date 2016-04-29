@@ -317,6 +317,16 @@ it externally. It's a demo, man.
 * unmarshal - like the previous 2 samples with type definition, but reading XML instead of
   writing.
 
+## errors
+
+* basic - basic example of a custom implementation of the error interface. tour-of-go covers
+  interface implementations (including error) in more detail.
+
+* newerror - the only sample which actually imports the errors package. Still not sure
+  how useful this is compared to the basic sample.
+
+* errorf - this uses fmt.Errorf to create a formatted error.
+ 
 ## fmt
 
 Formatted I/O
