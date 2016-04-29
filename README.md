@@ -3,6 +3,10 @@ Code samples using golang's default packages. types.md is a summary of primitive
 This is a collection of various public examples. If I am working on a project, it is easier to
 refer to my own repo and notes.
 
+## archive/tar
+
+* basictar - shows how a tar is created.
+
 ## bufio
 
 * customscan - shows how to plug in a custom 32-bit integer scan function. Writing custom functions
