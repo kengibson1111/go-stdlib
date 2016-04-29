@@ -7,6 +7,15 @@ refer to my own repo and notes.
 
 * basictar - creates a tar and then iterates through each file in the tar.
 
+## archive/zip
+
+* zipwriter - creates temp.zip and writes it to disk. An extension to this sample would
+  be creating a zip from a directory structure on disk.
+
+* zipreader - reads temp.zip, creates a temp directory, and writes the contents of
+  each file in temp.zip to the temp directory. Unlike zipwriter, this sample covers a
+  potentially deep directory structure.
+
 ## bufio
 
 * customscan - shows how to plug in a custom 32-bit integer scan function. Writing custom functions
