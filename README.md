@@ -69,6 +69,12 @@ refer to my own repo and notes.
 
 * zwriter - simple writer sample.
 
+## container/heap
+
+* intheap - simple heap of integers. A heap is great for priority queues.
+
+* pqheap - heap for a custom type.
+
 ## crypto/cipher
 
 Terms to understand:
