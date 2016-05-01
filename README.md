@@ -45,6 +45,12 @@ refer to my own repo and notes.
 
 * trimsuffix - suffix trimming and substitution.
 
+## compress/flate
+
+* freader - simple reader sample.
+
+* fwriter - simple writer sample.
+
 ## compress/gzip
 
 * greader - simple reader sample.
