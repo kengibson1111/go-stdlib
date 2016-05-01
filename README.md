@@ -75,6 +75,10 @@ refer to my own repo and notes.
 
 * pqheap - heap for a custom type.
 
+## container/list
+
+* basic - basic doubly linked list.
+
 ## crypto/cipher
 
 Terms to understand:
