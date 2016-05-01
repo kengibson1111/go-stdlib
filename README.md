@@ -362,6 +362,8 @@ Formatted I/O
 
 * printints - shows several formatting verbs for integers.
 
+* printfloats - shows several formatting verbs for floats.
+
 ## html
 
 * escapestring - special escaping for only <, >, &, ', and ".

@@ -20,11 +20,20 @@ func main() {
     }
     fmt.Printf("\n")
 
+    fmt.Println("Printf with %s:")
+    fmt.Printf("%s\n", sample)
+
     fmt.Println("Printf with %x:")
     fmt.Printf("%x\n", sample)
 
     fmt.Println("Printf with % x:")
     fmt.Printf("% x\n", sample)
+
+    fmt.Println("Printf with %X:")
+    fmt.Printf("%X\n", sample)
+
+    fmt.Println("Printf with % X:")
+    fmt.Printf("% X\n", sample)
 
     fmt.Println("Printf with %q:")
     fmt.Printf("%q\n", sample)
