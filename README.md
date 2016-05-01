@@ -364,6 +364,8 @@ Formatted I/O
 
 * printfloats - shows several formatting verbs for floats.
 
+* printptr - just demonstrates %p.
+
 ## html
 
 * escapestring - special escaping for only <, >, &, ', and ".
