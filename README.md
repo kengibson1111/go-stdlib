@@ -45,6 +45,12 @@ refer to my own repo and notes.
 
 * trimsuffix - suffix trimming and substitution.
 
+## compress/zlib
+
+* zreader - simple reader sample.
+
+* zwriter - simple writer sample.
+
 ## crypto/cipher
 
 Terms to understand:
