@@ -360,6 +360,8 @@ Formatted I/O
 
 * printbool - pretty boring :). just demonstrating %t.
 
+* printints - shows several formatting verbs for integers.
+
 ## html
 
 * escapestring - special escaping for only <, >, &, ', and ".
