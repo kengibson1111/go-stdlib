@@ -45,6 +45,12 @@ refer to my own repo and notes.
 
 * trimsuffix - suffix trimming and substitution.
 
+## compress/lzw
+
+* lreader - simple reader sample.
+
+* lwriter - simple writer sample.
+
 ## compress/zlib
 
 * zreader - simple reader sample.
