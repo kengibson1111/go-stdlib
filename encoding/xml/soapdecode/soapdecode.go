@@ -17,18 +17,18 @@ type SoapHeader struct {
 }
 
 type CustomHeader struct {
-	XMLName xml.Name `xml:"http://YourCorpClientHere.com/ CustomHeader"`
+	XMLName xml.Name `xml:"http://someNSURL.com/ CustomHeader"`
 	Tusername *UserName
 	Tpassword *Password
 }
 
 type UserName struct {
-	XMLName xml.Name `xml:"http://YourCorpClientHere.com/ UserName"`
+	XMLName xml.Name `xml:"http://someNSURL.com/ UserName"`
 	Token string     `xml:",chardata"`
 }
 
 type Password struct {
-	XMLName xml.Name `xml:"http://YourCorpClientHere.com/ Password"`
+	XMLName xml.Name `xml:"http://someNSURL.com/ Password"`
 	Token string     `xml:",chardata"`
 }
 
@@ -38,12 +38,12 @@ type SoapBody struct {
 }
 
 type TokenResponse struct {
-	XMLName xml.Name `xml:"http://YourCorpClientHere.com/ GetTokenResponse"`
+	XMLName xml.Name `xml:"http://someNSURL.com/ GetTokenResponse"`
 	Tresult *TokenResult
 }
 
 type TokenResult struct {
-	XMLName xml.Name `xml:"http://YourCorpClientHere.com/ GetTokenResult"`
+	XMLName xml.Name `xml:"http://someNSURL.com/ GetTokenResult"`
 	Token   string   `xml:",chardata"`
 }
 
@@ -52,13 +52,13 @@ var data = `<?xml version="1.0" encoding="utf-8"?>
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<soap:Header>
-		<CustomHeader xmlns="http://YourCorpClientHere.com/">
+		<CustomHeader xmlns="http://someNSURL.com/">
 			<UserName>someName</UserName>
 			<Password>somePassword</Password>
 		</CustomHeader>
 	</soap:Header>
 	<soap:Body>
-		<GetTokenResponse xmlns="http://YourCorpClientHere.com/">
+		<GetTokenResponse xmlns="http://someNSURL.com/">
 			<GetTokenResult>TestToken</GetTokenResult>
 		</GetTokenResponse>
 	</soap:Body>
