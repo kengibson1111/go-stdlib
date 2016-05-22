@@ -431,6 +431,10 @@ Formatted I/O
 
 * escape - this shows HTML, JS, and URL escaping.
 
+## log
+
+* logger - basic use of a Logger.
+
 ## net/http
 
 HTTP client and server functions.
