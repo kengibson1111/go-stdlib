@@ -197,8 +197,10 @@ This shows 2 ways to create the same checksum using a md5 hash.
 
 ## crypto/rand
 
-This shows how to fill a byte array with secure random values. Great for initialization vector (IV)
+* basic - shows how to fill a byte array with secure random values. Great for initialization vector (IV)
 creation.
+
+* uuid - shows how to build a version 4 UUID.
 
 ## crypto/rsa
 
