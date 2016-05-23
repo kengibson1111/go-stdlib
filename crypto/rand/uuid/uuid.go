@@ -16,11 +16,11 @@ func main() {
 
 	// 1st half of byte 7 is "4". So the first OR guarantees
 	// that the 1st half of byte 7 is at least 4. The AND guarantees that the
-	// max value of byte 7 is 4. Always 4.
+	// max value of the 1st half of byte 7 is 4. Always 4.
 	b[6] = (b[6] | 0x40) & 0x4F
 	// 1st half of byte 9 is "8", "9", "a", or "b". The first
 	// OR guarantees that the 1st half of byte 9 is at least 8. The AND
-	// guarantees that the max value of byte 9 is b.
+	// guarantees that the max value of the 1st half of byte 9 is b.
 	b[8] = (b[8] | 0x80) & 0xBF
 	
 	//done
