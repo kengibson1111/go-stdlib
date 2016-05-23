@@ -18,6 +18,6 @@ func main() {
 	// this make sure that the 17th is "8", "9", "a", or "b"
 	b[8] = (b[8] | 0x80) & 0xBF
 
-	uuid := fmt.Sprintf("%X-%X-%X-%X-%X", b[0:4], b[4:6], b[6:8], b[8:10], b[10:])
+	uuid := fmt.Sprintf("%x-%x-%x-%x-%x", b[0:4], b[4:6], b[6:8], b[8:10], b[10:])
 	fmt.Println("UUID: ", uuid)
 }
