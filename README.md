@@ -1,12 +1,8 @@
 # go-stdlib ![go-stdlib](/images/google-go.png)
 
-Code samples using Go's standard library.[^1] [Types](https://github.com/kengibson1111/go-stdlib/blob/master/types.md) is a summary of primitive types in Go. This is a collection of various public examples. It is good to know what Go offers out of the box before bulding addition modules.
+Code samples using [Go's standard library](https://pkg.go.dev/std).[^1] [Types](https://github.com/kengibson1111/go-stdlib/blob/master/types.md) is a summary of primitive types in Go. This is a collection of various public examples. It is good to know what Go offers out of the box before bulding addition modules.
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
-
-## archive/tar
-
-* basictar - creates a tar and then iterates through each file in the tar.
 
 ## archive/zip
 
