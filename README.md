@@ -1,7 +1,8 @@
-# go-packages
-Code samples using golang's default packages. types.md is a summary of primitive types in golang.
-This is a collection of various public examples. If I am working on a project, it is easier to
-refer to my own repo and notes.
+# go-stdlib ![go-stdlib](/images/google-go.png)
+
+Code samples using Go's standard library.[^1] [Types](https://github.com/kengibson1111/go-stdlib/blob/master/types.md) is a summary of primitive types in Go. This is a collection of various public examples. It is good to know what Go offers out of the box before bulding addition modules.
+
+Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
 ## archive/tar
 
@@ -550,3 +551,7 @@ pre-cursor to html/template examples. Everything in html/template builds upon te
   and T1 are defined and we know that T1 will be calling T2, but T2 is not defined yet. Then
   the helpers are cloned twice - each with its own definition of T2. Kind of sounds like a
   dynamic way to define 2 implementations of the same interface. Powerful.
+
+***
+
+[^1]: Icon provided by [seekvectors.com](https://seekvectors.com/).
