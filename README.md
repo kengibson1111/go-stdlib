@@ -6,9 +6,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## archive/zip
 
-* zipwriter - creates temp.zip and writes it to disk. An extension to this sample would
-  be creating a zip from a directory structure on disk.
-
 * zipreader - reads temp.zip, creates a temp directory, and writes the contents of
   each file in temp.zip to the temp directory. Unlike zipwriter, this sample covers a
   potentially deep directory structure.

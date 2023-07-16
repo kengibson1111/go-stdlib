@@ -1,3 +1,6 @@
 go 1.20
 
-use ./archive/tar/gostdlib-basictar
+use (
+	./archive/tar/gostdlib-basictar
+	./archive/zip/gostdlib-zipreader
+)
