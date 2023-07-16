@@ -2,7 +2,7 @@ go 1.20
 
 use (
 	./archive/tar/gostdlib-archive-tar
-	./archive/zip/gostdlib-zipreader
+	./archive/zip/gostdlib-archive-zip-reader
 	./archive/zip/gostdlib-zipwriter
 	./archive/zip/gostdlib-zipwritercomp
 )
