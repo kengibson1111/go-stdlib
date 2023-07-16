@@ -10,13 +10,10 @@ import (
 )
 
 func main() {
-	// Create a buffer to write our archive to.
-	buf := new(bytes.Buffer)
+	// Create and add some files to the archive.
+	var buf bytes.Buffer
+	tw := tar.NewWriter(&buf)
 
-	// Create a new tar archive.
-	tw := tar.NewWriter(buf)
-
-	// Add some files to the archive.
 	var files = []struct {
 		Name, Body string
 	}{
@@ -24,43 +21,44 @@ func main() {
 		{"gopher.txt", "Gopher names:\nGeorge\nGeoffrey\nGonzo"},
 		{"todo.txt", "Get animal handling license."},
 	}
+
 	for _, file := range files {
 		hdr := &tar.Header{
 			Name: file.Name,
 			Mode: 0600,
 			Size: int64(len(file.Body)),
 		}
+
 		if err := tw.WriteHeader(hdr); err != nil {
-			log.Fatalln(err)
+			log.Fatal(err)
 		}
+
 		if _, err := tw.Write([]byte(file.Body)); err != nil {
-			log.Fatalln(err)
+			log.Fatal(err)
 		}
 	}
-	// Make sure to check the error on Close.
+
 	if err := tw.Close(); err != nil {
-		log.Fatalln(err)
+		log.Fatal(err)
 	}
 
-	// Open the tar archive for reading.
-	r := bytes.NewReader(buf.Bytes())
-	tr := tar.NewReader(r)
-
-	// Iterate through the files in the archive.
+	// Open and iterate through the files in the archive.
+	tr := tar.NewReader(&buf)
 	for {
 		hdr, err := tr.Next()
 		if err == io.EOF {
-			// end of tar archive
-			break
+			break // End of archive
 		}
+
 		if err != nil {
-			log.Fatalln(err)
+			log.Fatal(err)
 		}
+
 		fmt.Printf("Contents of %s:\n", hdr.Name)
 		if _, err := io.Copy(os.Stdout, tr); err != nil {
-			log.Fatalln(err)
+			log.Fatal(err)
 		}
+
 		fmt.Println()
 	}
-
 }
