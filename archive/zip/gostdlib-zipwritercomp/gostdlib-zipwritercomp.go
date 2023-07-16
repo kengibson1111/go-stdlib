@@ -2,8 +2,10 @@ package main
 
 import (
 	"archive/zip"
-	"os"
+	"compress/flate"
+	"io"
 	"log"
+	"os"
 )
 
 func zipit(target string) {
@@ -14,6 +16,11 @@ func zipit(target string) {
 	defer zipfile.Close()
 
 	w := zip.NewWriter(zipfile)
+
+	// Register a custom Deflate compressor.
+	w.RegisterCompressor(zip.Deflate, func(out io.Writer) (io.WriteCloser, error) {
+		return flate.NewWriter(out, flate.BestCompression)
+	})
 
 	// Add some files to the archive.
 	var files = []struct {

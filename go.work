@@ -4,4 +4,5 @@ use (
 	./archive/tar/gostdlib-basictar
 	./archive/zip/gostdlib-zipreader
 	./archive/zip/gostdlib-zipwriter
+	./archive/zip/gostdlib-zipwritercomp
 )
