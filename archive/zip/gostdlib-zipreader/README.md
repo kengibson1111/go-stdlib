@@ -1,3 +1,3 @@
 # archive/zip - reader
 
-This creates temp.zip and writes it to disk. An extension to this sample would be creating a zip from a directory structure on disk.
+This reads temp.zip, creates a temp directory, and writes the contents of each file in temp.zip to the temp directory. This example covers a potentially deep directory structure.

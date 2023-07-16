@@ -4,12 +4,6 @@ Code examples using [Go's standard library](https://pkg.go.dev/std).[^1] [Types]
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## archive/zip
-
-* zipreader - reads temp.zip, creates a temp directory, and writes the contents of
-  each file in temp.zip to the temp directory. Unlike zipwriter, this sample covers a
-  potentially deep directory structure.
-
 ## bufio
 
 * customscan - shows how to plug in a custom 32-bit integer scan function. Writing custom functions
