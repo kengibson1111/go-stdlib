@@ -10,4 +10,5 @@ use (
 	./bufio/gostdlib-bufio-emptyfinal
 	./bufio/gostdlib-bufio-linescan
 	./bufio/gostdlib-bufio-wordscan
+	./bufio/gostdlib-bufio-writer
 )

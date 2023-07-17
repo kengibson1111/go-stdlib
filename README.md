@@ -4,10 +4,6 @@ Code examples using [Go's standard library](https://pkg.go.dev/std).[^1] [Types]
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## bufio
-
-* writer - shows how to write to a stream.
-
 ## bytes
 
 * buffer - shows how to use a buffer in various ways (Write, as a stream, transferring to another
