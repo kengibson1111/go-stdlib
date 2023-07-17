@@ -8,22 +8,23 @@ import (
 )
 
 func main() {
-	// An artificial input source.
-	const input = "Now is the winter of our discontent,\nMade glorious summer by this sun of York.\n"
-	scanner := bufio.NewScanner(strings.NewReader(input))
+	scanner := bufio.NewScanner(strings.NewReader("gopher"))
+	var byteArray []byte
 
-	// Set the split function for the scanning operation.
-	scanner.Split(bufio.ScanWords)
-
-	// Count the words.
-	count := 0
 	for scanner.Scan() {
-		count++
+		byteArray = scanner.Bytes()
+		fmt.Println(len(byteArray) == 6)
 	}
 
+	for i := 0; i < len(byteArray); i++ {
+		fmt.Print(byteArray[i])
+		if i < len(byteArray)-1 {
+			fmt.Print(",")
+		}
+	}
+
+	fmt.Println()
 	if err := scanner.Err(); err != nil {
-		fmt.Fprintln(os.Stderr, "reading input:", err)
+		fmt.Fprintln(os.Stderr, "shouldn't see an error scanning a string")
 	}
-
-	fmt.Printf("%d\n", count)
 }
