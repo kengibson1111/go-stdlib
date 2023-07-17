@@ -7,4 +7,5 @@ use (
 	./archive/zip/gostdlib-archive-zip-writercomp
 	./bufio/gostdlib-bufio-customscan
 	./bufio/gostdlib-bufio-emptyfinal
+	./bufio/gostdlib-bufio-linescan
 )
