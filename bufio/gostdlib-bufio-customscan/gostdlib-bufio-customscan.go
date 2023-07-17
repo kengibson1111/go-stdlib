@@ -31,6 +31,6 @@ func main() {
 	}
 
 	if err := scanner.Err(); err != nil {
-		fmt.Printf("Invalid input: %s", err)
+		fmt.Printf("Invalid input: %s\n", err)
 	}
 }

@@ -5,4 +5,5 @@ use (
 	./archive/zip/gostdlib-archive-zip-reader
 	./archive/zip/gostdlib-archive-zip-writer
 	./archive/zip/gostdlib-archive-zip-writercomp
+	./bufio/gostdlib-bufio-customscan
 )
