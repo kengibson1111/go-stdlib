@@ -6,4 +6,5 @@ use (
 	./archive/zip/gostdlib-archive-zip-writer
 	./archive/zip/gostdlib-archive-zip-writercomp
 	./bufio/gostdlib-bufio-customscan
+	./bufio/gostdlib-bufio-emptyfinal
 )
