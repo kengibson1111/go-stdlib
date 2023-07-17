@@ -6,8 +6,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## bufio
 
-* wordscan - uses a default set of delimiters to scan words in a string.
-
 * writer - shows how to write to a stream.
 
 ## bytes
