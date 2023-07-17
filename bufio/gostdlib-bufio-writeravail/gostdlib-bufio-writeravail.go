@@ -4,13 +4,21 @@ import (
 	"bufio"
 	"fmt"
 	"os"
+	"strconv"
 )
 
 func main() {
 	w := bufio.NewWriter(os.Stdout)
 
-	fmt.Fprint(w, "Hello, ")
-	fmt.Fprint(w, "world!\n")
+	fmt.Println("writer buffer capacity =", w.Available())
+	for _, i := range []int64{1, 2, 3, 4} {
+		b := w.AvailableBuffer()
+		b = strconv.AppendInt(b, i, 10)
+		b = append(b, ' ')
+		w.Write(b)
+	}
 
-	w.Flush() // Don't forget to flush!
+	w.Flush()
+
+	fmt.Println()
 }

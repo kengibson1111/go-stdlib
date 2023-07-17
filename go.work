@@ -11,4 +11,5 @@ use (
 	./bufio/gostdlib-bufio-linescan
 	./bufio/gostdlib-bufio-wordscan
 	./bufio/gostdlib-bufio-writer
+	./bufio/gostdlib-bufio-writeravail
 )
