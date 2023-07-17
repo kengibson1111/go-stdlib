@@ -10,7 +10,7 @@ func main() {
 	w := bufio.NewWriter(os.Stdout)
 
 	fmt.Fprint(w, "Hello, ")
-	fmt.Fprint(w, "world!")
+	fmt.Fprint(w, "world!\n")
 
 	w.Flush() // Don't forget to flush!
 }
