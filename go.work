@@ -14,5 +14,6 @@ use (
 	./bufio/gostdlib-bufio-writeravail
 	./bytes/gostdlib-bytes-buffer
 	./bytes/gostdlib-bytes-bufferbytes
+	./bytes/gostdlib-bytes-buffercap
 	./bytes/gostdlib-bytes-bufferreader
 )
