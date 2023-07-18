@@ -10,9 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## bytes
 
-* buffer - shows how to use a buffer in various ways (Write, as a stream, transferring to another
-  stream)
-
 * bufferreader - shows how to turn a buffer into an io.Reader. Handy.
 
 * compare - basic comparison and equality.
