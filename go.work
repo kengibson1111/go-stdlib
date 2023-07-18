@@ -15,5 +15,6 @@ use (
 	./bytes/gostdlib-bytes-buffer
 	./bytes/gostdlib-bytes-bufferbytes
 	./bytes/gostdlib-bytes-buffercap
+	./bytes/gostdlib-bytes-buffergrow
 	./bytes/gostdlib-bytes-bufferreader
 )

@@ -6,8 +6,12 @@ import (
 )
 
 func main() {
-	buf1 := bytes.NewBuffer(make([]byte, 10))
-	buf2 := bytes.NewBuffer(make([]byte, 0, 10))
-	fmt.Println(buf1.Cap())
-	fmt.Println(buf2.Cap())
+	var b bytes.Buffer
+	b.Grow(64)
+
+	bb := b.Bytes()
+
+	b.Write([]byte("64 bytes or fewer"))
+
+	fmt.Printf("%q", bb[:b.Len()])
 }
