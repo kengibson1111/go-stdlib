@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## bytes
 
-* bufferreader - shows how to turn a buffer into an io.Reader. Handy.
-
 * compare - basic comparison and equality.
 
 * comparesearch - shows how to find a byte slice in a sorted set of byte slices.
