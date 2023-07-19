@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## bytes
 
-* compare - basic comparison and equality.
-
 * comparesearch - shows how to find a byte slice in a sorted set of byte slices.
 
 * trimprefix - prefix trimming and substitution.
