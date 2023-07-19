@@ -21,4 +21,5 @@ use (
 	./bytes/gostdlib-bytes-bufferread
 	./bytes/gostdlib-bytes-bufferreadbyte
 	./bytes/gostdlib-bytes-bufferreader
+	./bytes/gostdlib-bytes-compare
 )
