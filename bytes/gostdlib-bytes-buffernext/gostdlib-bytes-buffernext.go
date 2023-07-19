@@ -6,8 +6,12 @@ import (
 )
 
 func main() {
-	buf1 := bytes.NewBuffer(make([]byte, 10))
-	buf2 := bytes.NewBuffer(make([]byte, 0, 10))
-	fmt.Println(buf1.Cap())
-	fmt.Println(buf2.Cap())
+	var b bytes.Buffer
+	b.Grow(64)
+
+	b.Write([]byte("abcde"))
+
+	fmt.Printf("%d %s %d %d\n", b.Len(), string(b.Next(2)), b.Len(), b.Cap())
+	fmt.Printf("%d %s %d %d\n", b.Len(), string(b.Next(2)), b.Len(), b.Cap())
+	fmt.Printf("%d %s %d %d\n", b.Len(), string(b.Next(2)), b.Len(), b.Cap())
 }
