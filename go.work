@@ -19,5 +19,6 @@ use (
 	./bytes/gostdlib-bytes-bufferlen
 	./bytes/gostdlib-bytes-buffernext
 	./bytes/gostdlib-bytes-bufferread
+	./bytes/gostdlib-bytes-bufferreadbyte
 	./bytes/gostdlib-bytes-bufferreader
 )

@@ -11,13 +11,11 @@ func main() {
 
 	b.Write([]byte("abcde"))
 
-	rdbuf := make([]byte, 1)
-	n, err := b.Read(rdbuf)
+	c, err := b.ReadByte()
 	if err != nil {
 		panic(err)
 	}
 
-	fmt.Println(n)
+	fmt.Println(c)
 	fmt.Println(b.String())
-	fmt.Println(string(rdbuf))
 }
