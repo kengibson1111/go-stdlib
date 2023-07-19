@@ -3,11 +3,16 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"os"
 )
 
 func main() {
-	buf1 := bytes.NewBuffer(make([]byte, 10))
-	buf2 := bytes.NewBuffer(make([]byte, 0, 10))
-	fmt.Println(buf1.Cap())
-	fmt.Println(buf2.Cap())
+	var b bytes.Buffer
+	b.Grow(64)
+
+	b.Write([]byte("abcde"))
+	fmt.Printf("%d %d\n", b.Len(), b.Cap())
+
+	b.WriteTo(os.Stdout)
+	fmt.Printf("\n%d %d\n", b.Len(), b.Cap())
 }
