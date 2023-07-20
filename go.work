@@ -23,4 +23,5 @@ use (
 	./bytes/gostdlib-bytes-bufferreader
 	./bytes/gostdlib-bytes-compare
 	./bytes/gostdlib-bytes-comparesearch
+	./bytes/gostdlib-bytes-contains
 )
