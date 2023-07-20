@@ -25,4 +25,5 @@ use (
 	./bytes/gostdlib-bytes-comparesearch
 	./bytes/gostdlib-bytes-contains
 	./bytes/gostdlib-bytes-containsany
+	./bytes/gostdlib-bytes-containsrune
 )
