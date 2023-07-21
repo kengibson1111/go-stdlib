@@ -27,4 +27,5 @@ use (
 	./bytes/gostdlib-bytes-containsany
 	./bytes/gostdlib-bytes-containsrune
 	./bytes/gostdlib-bytes-count
+	./bytes/gostdlib-bytes-cut
 )
