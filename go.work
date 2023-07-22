@@ -28,4 +28,5 @@ use (
 	./bytes/gostdlib-bytes-containsrune
 	./bytes/gostdlib-bytes-count
 	./bytes/gostdlib-bytes-cut
+	./bytes/gostdlib-bytes-equal
 )
