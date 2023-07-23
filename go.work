@@ -29,4 +29,5 @@ use (
 	./bytes/gostdlib-bytes-count
 	./bytes/gostdlib-bytes-cut
 	./bytes/gostdlib-bytes-equal
+	./bytes/gostdlib-bytes-equalfold
 )
