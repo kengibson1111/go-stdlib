@@ -30,4 +30,5 @@ use (
 	./bytes/gostdlib-bytes-cut
 	./bytes/gostdlib-bytes-equal
 	./bytes/gostdlib-bytes-equalfold
+	./bytes/gostdlib-bytes-fields
 )
