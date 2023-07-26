@@ -32,4 +32,5 @@ use (
 	./bytes/gostdlib-bytes-equalfold
 	./bytes/gostdlib-bytes-fields
 	./bytes/gostdlib-bytes-fieldsfunc
+	./bytes/gostdlib-bytes-hasprefix
 )
