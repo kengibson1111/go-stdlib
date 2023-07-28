@@ -35,4 +35,5 @@ use (
 	./bytes/gostdlib-bytes-hasprefix
 	./bytes/gostdlib-bytes-hassuffix
 	./bytes/gostdlib-bytes-index
+	./bytes/gostdlib-bytes-indexany
 )
