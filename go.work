@@ -34,4 +34,5 @@ use (
 	./bytes/gostdlib-bytes-fieldsfunc
 	./bytes/gostdlib-bytes-hasprefix
 	./bytes/gostdlib-bytes-hassuffix
+	./bytes/gostdlib-bytes-index
 )
