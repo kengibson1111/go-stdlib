@@ -37,4 +37,5 @@ use (
 	./bytes/gostdlib-bytes-index
 	./bytes/gostdlib-bytes-indexany
 	./bytes/gostdlib-bytes-indexbyte
+	./bytes/gostdlib-bytes-indexrune
 )
