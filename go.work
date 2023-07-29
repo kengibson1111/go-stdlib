@@ -39,4 +39,5 @@ use (
 	./bytes/gostdlib-bytes-indexbyte
 	./bytes/gostdlib-bytes-indexfunc
 	./bytes/gostdlib-bytes-indexrune
+	./bytes/gostdlib-bytes-join
 )
