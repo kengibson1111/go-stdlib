@@ -41,4 +41,5 @@ use (
 	./bytes/gostdlib-bytes-indexrune
 	./bytes/gostdlib-bytes-join
 	./bytes/gostdlib-bytes-lastindex
+	./bytes/gostdlib-bytes-lastindexany
 )

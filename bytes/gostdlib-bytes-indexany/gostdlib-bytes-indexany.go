@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(bytes.IndexAny([]byte("chicken"), "aeiouy"))
+	fmt.Println(bytes.IndexAny([]byte("go 地鼠 地鼠"), "地大"))
 	fmt.Println(bytes.IndexAny([]byte("crwth"), "aeiouy"))
 }
