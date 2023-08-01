@@ -1,3 +1,3 @@
 # bufio - byte scan
 
-This uses the defalt byte scanner to scan a string.
+This uses the default byte scanner to scan a string.
