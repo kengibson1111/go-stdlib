@@ -9,11 +9,23 @@ import (
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
 
+	// default split function is ScanLines()
 	for scanner.Scan() {
-		fmt.Println(scanner.Text()) // Println will add back the final '\n'
-	}
+		if err := scanner.Err(); err != nil {
+			fmt.Fprintln(os.Stderr, "scanner.Scan():", err)
+		}
 
-	if err := scanner.Err(); err != nil {
-		fmt.Fprintln(os.Stderr, "reading standard input:", err)
+		text := scanner.Text()
+		if err := scanner.Err(); err != nil {
+			fmt.Fprintln(os.Stderr, "scanner.Text():", err)
+		}
+
+		fmt.Println("len =", len(text))
+		if len(text) == 0 {
+			// break out if an empty line
+			break
+		}
+
+		fmt.Println(text)
 	}
 }
