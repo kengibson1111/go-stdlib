@@ -19,6 +19,7 @@ func main() {
 		if err == nil && token != nil {
 			_, err = strconv.ParseInt(string(token), 10, 32)
 		}
+
 		return
 	}
 
