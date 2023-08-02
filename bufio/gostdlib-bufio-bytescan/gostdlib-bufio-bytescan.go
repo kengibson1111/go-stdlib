@@ -4,27 +4,35 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	"strings"
 )
 
 func main() {
-	scanner := bufio.NewScanner(strings.NewReader("gopher"))
-	var byteArray []byte
+	scanner := bufio.NewScanner(os.Stdin)
 
+	// default split function is ScanLines()
 	for scanner.Scan() {
-		byteArray = scanner.Bytes()
-		fmt.Println(len(byteArray) == 6)
-	}
-
-	for i := 0; i < len(byteArray); i++ {
-		fmt.Print(byteArray[i])
-		if i < len(byteArray)-1 {
-			fmt.Print(",")
+		if err := scanner.Err(); err != nil {
+			fmt.Fprintln(os.Stderr, "scanner.Scan():", err)
 		}
-	}
 
-	fmt.Println()
-	if err := scanner.Err(); err != nil {
-		fmt.Fprintln(os.Stderr, "shouldn't see an error scanning a string")
+		byteArray := scanner.Bytes()
+		if err := scanner.Err(); err != nil {
+			fmt.Fprintln(os.Stderr, "scanner.Bytes():", err)
+		}
+
+		fmt.Println("len =", len(byteArray))
+		if len(byteArray) == 0 {
+			// break out if an empty line
+			break
+		}
+
+		for i := 0; i < len(byteArray); i++ {
+			fmt.Print(byteArray[i])
+			if i < len(byteArray)-1 {
+				fmt.Print(",")
+			}
+		}
+
+		fmt.Println()
 	}
 }
