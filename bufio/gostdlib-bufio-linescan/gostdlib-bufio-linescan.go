@@ -28,4 +28,11 @@ func main() {
 
 		fmt.Println(text)
 	}
+
+	// notice how this block can be hit as a result of an error that propagated up from scanner.Scan().
+	// Ideally, scanner.Scan() would handle all errors gracefully and allow the first error check in the
+	// for loop to be used for any scanner.Scan() error regardless of the error source.
+	if err := scanner.Err(); err != nil {
+		fmt.Fprintln(os.Stderr, "Invalid input: ", err)
+	}
 }
