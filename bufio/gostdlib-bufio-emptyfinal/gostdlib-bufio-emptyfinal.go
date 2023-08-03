@@ -11,6 +11,10 @@ func main() {
 	// Comma-separated list; last entry is empty.
 	const input = "1,2,3,4,"
 	scanner := bufio.NewScanner(strings.NewReader(input))
+	if scanner == nil {
+		fmt.Fprintln(os.Stderr, "bufio.NewScanner(): nil scanner")
+		return
+	}
 
 	// Define a split function that separates on commas.
 	onComma := func(data []byte, atEOF bool) (advance int, token []byte, err error) {
@@ -26,12 +30,32 @@ func main() {
 	}
 
 	scanner.Split(onComma)
+	if err := scanner.Err(); err != nil {
+		fmt.Fprintln(os.Stderr, "scanner.Split():", err)
+		return
+	}
 
 	// Scan.
 	for scanner.Scan() {
-		fmt.Printf("%q ", scanner.Text())
+		if err := scanner.Err(); err != nil {
+			fmt.Fprintln(os.Stderr, "scanner.Scan():", err)
+			break
+		}
+
+		text := scanner.Text()
+		if err := scanner.Err(); err != nil {
+			fmt.Fprintln(os.Stderr, "scanner.Text():", err)
+			break
+		}
+
+		fmt.Printf("%q ", text)
 	}
 
+	fmt.Println()
+
+	// notice how this block can be hit as a result of an error that propagated up from scanner.Scan().
+	// Ideally, scanner.Scan() would handle all errors gracefully and allow the first error check in the
+	// for loop to be used for any scanner.Scan() error regardless of the error source.
 	if err := scanner.Err(); err != nil {
 		fmt.Fprintln(os.Stderr, "reading input:", err)
 	}
