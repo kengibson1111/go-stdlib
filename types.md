@@ -25,10 +25,9 @@ These are portable across hardware architectures.
 * byte - alias for uint8
 * rune - alias for int32
 
-* string - a read-only slice of bytes. Look at my notes in tour-of-go concerning slices. Since
-  it is read-only, there is no use for a capacity, but it is there technically. When you convert
-  from a byte array to string or string to byte array, a copy is made. When you make a substring
-  the substring can be another slice pointing to the same byte array.
+* string - a read-only slice of bytes. There are several examples and notes regarding slices
+  [here](https://github.com/kengibson1111/tour-of-go). When you make a substring
+  the substring can be another slice pointing to the same underlying byte array.
 
 ## Architecture-specific
 
