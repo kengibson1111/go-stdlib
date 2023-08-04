@@ -46,4 +46,5 @@ use (
 	./bytes/gostdlib-bytes-lastindexfunc
 	./bytes/gostdlib-bytes-readerlen
 	./bytes/gostdlib-bytes-repeat
+	./bytes/gostdlib-bytes-replace
 )
