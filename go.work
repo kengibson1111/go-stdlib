@@ -45,4 +45,5 @@ use (
 	./bytes/gostdlib-bytes-lastindexbyte
 	./bytes/gostdlib-bytes-lastindexfunc
 	./bytes/gostdlib-bytes-readerlen
+	./bytes/gostdlib-bytes-repeat
 )
