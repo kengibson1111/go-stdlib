@@ -47,4 +47,5 @@ use (
 	./bytes/gostdlib-bytes-readerlen
 	./bytes/gostdlib-bytes-repeat
 	./bytes/gostdlib-bytes-replace
+	./bytes/gostdlib-bytes-replaceall
 )
