@@ -8,6 +8,10 @@ import (
 
 func main() {
 	scanner := bufio.NewScanner(os.Stdin)
+	if scanner == nil {
+		fmt.Fprintln(os.Stderr, "bufio.NewScanner(): nil scanner")
+		return
+	}
 
 	// default split function is ScanLines()
 	for scanner.Scan() {
