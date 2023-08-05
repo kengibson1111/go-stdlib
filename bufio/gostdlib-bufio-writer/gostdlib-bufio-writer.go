@@ -7,10 +7,19 @@ import (
 )
 
 func main() {
-	w := bufio.NewWriter(os.Stdout)
+	writer := bufio.NewWriter(os.Stdout)
+	if writer == nil {
+		fmt.Fprintln(os.Stderr, "bufio.NewWriter(): nil writer")
+		return
+	}
 
-	fmt.Fprint(w, "Hello, ")
-	fmt.Fprint(w, "world!\n")
+	fmt.Println("writer buffer default size =", writer.Available())
 
-	w.Flush() // Don't forget to flush!
+	fmt.Fprint(writer, "Hello, ")
+	fmt.Fprint(writer, "world!\n")
+
+	err := writer.Flush() // Don't forget to flush!
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "writer.Flush():", err)
+	}
 }
