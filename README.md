@@ -1,6 +1,6 @@
 # go-stdlib ![go-stdlib](/images/google-go.png)
 
-Code examples using [Go's standard library](https://pkg.go.dev/std).[^1] It is good to know what Go offers out of the box before bulding addition modules. The directories in this repo match the directory structure in the standard library.
+Code examples using [Go's standard library](https://pkg.go.dev/std).[^1] It is good to know what Go offers out of the box before building addition modules. The directories in this repo match the directory structure in the standard library.
 
 This is a collection of various public examples. Each example in the standard library docs has a code window, so definitely use that first. Some of the examples in this repo expand or modify an example, and there is a README for each example that, at times, provides additional insight.
 
