@@ -13,6 +13,10 @@ func main() {
 	// Create and add some files to the archive.
 	var buf bytes.Buffer
 	tw := tar.NewWriter(&buf)
+	if tw == nil {
+		fmt.Fprintln(os.Stderr, "tar.NewWriter: nil writer")
+		return
+	}
 
 	var files = []struct {
 		Name, Body string
