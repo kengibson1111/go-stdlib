@@ -48,4 +48,5 @@ use (
 	./bytes/gostdlib-bytes-repeat
 	./bytes/gostdlib-bytes-replace
 	./bytes/gostdlib-bytes-replaceall
+	./bytes/gostdlib-bytes-runes
 )
