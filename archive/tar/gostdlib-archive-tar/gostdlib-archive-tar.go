@@ -3,7 +3,6 @@ package main
 import (
 	"archive/tar"
 	"bytes"
-	"fmt"
 	"io"
 	"log"
 	"os"
@@ -14,8 +13,7 @@ func main() {
 	var buf bytes.Buffer
 	tw := tar.NewWriter(&buf)
 	if tw == nil {
-		fmt.Fprintln(os.Stderr, "tar.NewWriter: nil writer")
-		return
+		log.Fatal("tar.NewWriter: nil writer")
 	}
 
 	var files = []struct {
@@ -34,35 +32,39 @@ func main() {
 		}
 
 		if err := tw.WriteHeader(hdr); err != nil {
-			log.Fatal(err)
+			log.Fatal("tw.WriteHeader: ", err)
 		}
 
 		if _, err := tw.Write([]byte(file.Body)); err != nil {
-			log.Fatal(err)
+			log.Fatal("tw.Write: ", err)
 		}
 	}
 
 	if err := tw.Close(); err != nil {
-		log.Fatal(err)
+		log.Fatal("tw.Close: ", err)
 	}
 
 	// Open and iterate through the files in the archive.
 	tr := tar.NewReader(&buf)
+	if tr == nil {
+		log.Fatal("tar.NewReader: nil reader")
+	}
+
 	for {
 		hdr, err := tr.Next()
 		if err == io.EOF {
-			break // End of archive
+			break // End of archive, gracefully handle error
 		}
 
 		if err != nil {
-			log.Fatal(err)
+			log.Fatal("tr.Next: ", err)
 		}
 
-		fmt.Printf("Contents of %s:\n", hdr.Name)
+		log.Printf("Contents of %s:\n", hdr.Name)
 		if _, err := io.Copy(os.Stdout, tr); err != nil {
-			log.Fatal(err)
+			log.Fatal("io.Copy: ", err)
 		}
 
-		fmt.Println()
+		log.Println()
 	}
 }
