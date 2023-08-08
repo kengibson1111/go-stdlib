@@ -8,10 +8,10 @@ import (
 	"os"
 )
 
-func zipit(target string) {
+func zipit(target string) error {
 	zipfile, err := os.Create(target)
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
 	defer zipfile.Close()
 
@@ -34,21 +34,29 @@ func zipit(target string) {
 	for _, file := range files {
 		f, err := w.Create(file.Name)
 		if err != nil {
-			log.Fatal(err)
+			w.Close() // ignore Close() error and return the Create() error
+			return err
 		}
+
 		_, err = f.Write([]byte(file.Body))
 		if err != nil {
-			log.Fatal(err)
+			w.Close() // ignore Close() error and return the Write() error
+			return err
 		}
 	}
 
-	// Make sure to check the error on Close.
+	// Check the error on Close.
 	err = w.Close()
 	if err != nil {
-		log.Fatal(err)
+		return err
 	}
+
+	return nil
 }
 
 func main() {
-	zipit("temp.zip")
+	err := zipit("temp.zip")
+	if err != nil {
+		log.Fatal(err)
+	}
 }
