@@ -49,4 +49,5 @@ use (
 	./bytes/gostdlib-bytes-replace
 	./bytes/gostdlib-bytes-replaceall
 	./bytes/gostdlib-bytes-runes
+	./bytes/gostdlib-bytes-split
 )
