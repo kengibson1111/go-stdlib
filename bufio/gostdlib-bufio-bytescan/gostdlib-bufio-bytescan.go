@@ -45,14 +45,10 @@ func main() {
 			break
 		}
 
+		log.Printf("hex = % x\n", byteArray)
 		for i := 0; i < len(byteArray); i++ {
 			log.Print(byteArray[i])
-			if i < len(byteArray)-1 {
-				log.Print(",")
-			}
 		}
-
-		log.Println()
 	}
 
 	// notice how this block can be hit as a result of an error that propagated up from scanner.Scan().
