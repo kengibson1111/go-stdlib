@@ -2,8 +2,13 @@ package main
 
 import (
 	"archive/zip"
+	"errors"
 	"log"
 	"os"
+)
+
+var (
+	errNilWriter = errors.New("zip.NewWriter: nil writer")
 )
 
 func zipit(target string) error {
@@ -14,6 +19,9 @@ func zipit(target string) error {
 	defer zipfile.Close()
 
 	w := zip.NewWriter(zipfile)
+	if w == nil {
+		return errNilWriter
+	}
 
 	// Add some files to the archive.
 	var files = []struct {

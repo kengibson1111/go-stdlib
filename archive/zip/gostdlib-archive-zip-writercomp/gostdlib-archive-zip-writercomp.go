@@ -3,9 +3,14 @@ package main
 import (
 	"archive/zip"
 	"compress/flate"
+	"errors"
 	"io"
 	"log"
 	"os"
+)
+
+var (
+	errNilWriter = errors.New("zip.NewWriter: nil writer")
 )
 
 func zipit(target string) error {
@@ -16,6 +21,9 @@ func zipit(target string) error {
 	defer zipfile.Close()
 
 	w := zip.NewWriter(zipfile)
+	if w == nil {
+		return errNilWriter
+	}
 
 	// Register a custom Deflate compressor.
 	w.RegisterCompressor(zip.Deflate, func(out io.Writer) (io.WriteCloser, error) {
