@@ -3,23 +3,23 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"log"
 	"os"
 )
 
 func main() {
 	writer := bufio.NewWriter(os.Stdout)
 	if writer == nil {
-		fmt.Fprintln(os.Stderr, "bufio.NewWriter(): nil writer")
-		return
+		log.Fatal("bufio.NewWriter(): nil writer")
 	}
 
-	fmt.Println("writer buffer default size =", writer.Available())
+	log.Println("writer buffer default size =", writer.Available())
 
 	fmt.Fprint(writer, "Hello, ")
 	fmt.Fprint(writer, "world!\n")
 
 	err := writer.Flush() // Don't forget to flush!
 	if err != nil {
-		fmt.Fprintln(os.Stderr, "writer.Flush():", err)
+		log.Fatal("writer.Flush():", err)
 	}
 }
