@@ -59,7 +59,7 @@ func main() {
 			break
 		}
 
-		log.Printf("%s\n", text)
+		log.Printf("%s", text)
 	}
 
 	// notice how this block can be hit as a result of an error that propagated up from scanner.Scan().
