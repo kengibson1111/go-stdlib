@@ -25,7 +25,7 @@ func main() {
 	// between the application log and the system error log.
 	//
 	// In this example, the default application log is os.Stdout which is fine for
-	// the example. In a real deploy, the application log target would need to be\
+	// the example. In a real deploy, the application log target would need to be
 	// configured.
 	for scanner.Scan() {
 		if err := scanner.Err(); err != nil {
