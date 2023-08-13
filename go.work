@@ -51,5 +51,6 @@ use (
 	./bytes/gostdlib-bytes-runes
 	./bytes/gostdlib-bytes-split
 	./bytes/gostdlib-bytes-splitafter
+	./bytes/gostdlib-bytes-splitaftern
 	./bytes/gostdlib-bytes-splitn
 )
