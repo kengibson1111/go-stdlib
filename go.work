@@ -53,4 +53,5 @@ use (
 	./bytes/gostdlib-bytes-splitafter
 	./bytes/gostdlib-bytes-splitaftern
 	./bytes/gostdlib-bytes-splitn
+	./bytes/gostdlib-bytes-tolower
 )
