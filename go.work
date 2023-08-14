@@ -56,4 +56,5 @@ use (
 	./bytes/gostdlib-bytes-tolower
 	./bytes/gostdlib-bytes-tolowerspecial
 	./bytes/gostdlib-bytes-toupper
+	./bytes/gostdlib-bytes-toupperspecial
 )
