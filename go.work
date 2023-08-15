@@ -57,4 +57,5 @@ use (
 	./bytes/gostdlib-bytes-tolowerspecial
 	./bytes/gostdlib-bytes-toupper
 	./bytes/gostdlib-bytes-toupperspecial
+	./bytes/gostdlib-bytes-tovalidutf8
 )
