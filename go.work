@@ -58,4 +58,5 @@ use (
 	./bytes/gostdlib-bytes-toupper
 	./bytes/gostdlib-bytes-toupperspecial
 	./bytes/gostdlib-bytes-tovalidutf8
+	./bytes/gostdlib-bytes-trim
 )
