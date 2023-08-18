@@ -60,4 +60,5 @@ use (
 	./bytes/gostdlib-bytes-tovalidutf8
 	./bytes/gostdlib-bytes-trim
 	./bytes/gostdlib-bytes-trimfunc
+	./bytes/gostdlib-bytes-trimleft
 )
