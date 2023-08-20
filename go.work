@@ -62,4 +62,5 @@ use (
 	./bytes/gostdlib-bytes-trimfunc
 	./bytes/gostdlib-bytes-trimleft
 	./bytes/gostdlib-bytes-trimleftfunc
+	./bytes/gostdlib-bytes-trimright
 )
