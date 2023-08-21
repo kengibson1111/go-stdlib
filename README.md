@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## bytes
 
-* trimprefix - prefix trimming and substitution.
-
 * trimsuffix - suffix trimming and substitution.
 
 ## compress/flate
