@@ -7,7 +7,9 @@ import (
 
 func main() {
 	var b = []byte("Goodbye,, world!")
+
 	b = bytes.TrimPrefix(b, []byte("Goodbye,"))
 	b = bytes.TrimPrefix(b, []byte("See ya,"))
-	fmt.Printf("Hello%s", b)
+
+	fmt.Printf("Hello%s\n", b)
 }
