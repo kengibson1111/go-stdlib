@@ -66,4 +66,5 @@ use (
 	./bytes/gostdlib-bytes-trimright
 	./bytes/gostdlib-bytes-trimrightfunc
 	./bytes/gostdlib-bytes-trimspace
+	./bytes/gostdlib-bytes-trimsuffix
 )
