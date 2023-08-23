@@ -68,4 +68,5 @@ use (
 	./bytes/gostdlib-bytes-trimspace
 	./bytes/gostdlib-bytes-trimsuffix
 	./compress/flate/gostdlib-compress-flate-reader
+	./compress/flate/gostdlib-compress-flate-writer
 )
