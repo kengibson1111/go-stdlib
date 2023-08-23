@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## compress/flate
 
-* freader - simple reader sample.
-
 * fwriter - simple writer sample.
 
 ## compress/gzip
