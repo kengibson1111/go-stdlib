@@ -12,5 +12,6 @@ func main() {
 	w := gzip.NewWriter(&b)
 	w.Write([]byte("hello, world\n"))
 	w.Close()
+
 	fmt.Println(b.Bytes())
 }
