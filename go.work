@@ -71,4 +71,5 @@ use (
 	./compress/flate/gostdlib-compress-flate-writer
 	./compress/gzip/gostdlib-compress-gzip-reader
 	./compress/gzip/gostdlib-compress-gzip-writer
+	./compress/lzw/gostdlib-compress-lzw-reader
 )
