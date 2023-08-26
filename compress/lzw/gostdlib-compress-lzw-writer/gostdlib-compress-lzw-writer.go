@@ -12,5 +12,6 @@ func main() {
 	w := lzw.NewWriter(&b, lzw.LSB, 8)
 	w.Write([]byte("hello, world\n"))
 	w.Close()
+
 	fmt.Println(b.Bytes())
 }
