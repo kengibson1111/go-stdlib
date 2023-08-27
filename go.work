@@ -73,4 +73,5 @@ use (
 	./compress/gzip/gostdlib-compress-gzip-writer
 	./compress/lzw/gostdlib-compress-lzw-reader
 	./compress/lzw/gostdlib-compress-lzw-writer
+	./compress/zlib/gostdlib-compress-zlib-reader
 )

@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## compress/zlib
 
-* zreader - simple reader sample.
-
 * zwriter - simple writer sample.
 
 ## container/heap
