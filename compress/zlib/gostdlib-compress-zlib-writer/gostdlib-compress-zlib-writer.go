@@ -12,5 +12,6 @@ func main() {
 	w := zlib.NewWriter(&b)
 	w.Write([]byte("hello, world\n"))
 	w.Close()
+
 	fmt.Println(b.Bytes())
 }
