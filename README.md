@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## container/heap
 
-* intheap - simple heap of integers. A heap is great for priority queues.
-
 * pqheap - heap for a custom type.
 
 ## container/list

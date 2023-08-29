@@ -75,4 +75,5 @@ use (
 	./compress/lzw/gostdlib-compress-lzw-writer
 	./compress/zlib/gostdlib-compress-zlib-reader
 	./compress/zlib/gostdlib-compress-zlib-writer
+	./container/heap/gostdlib-container-heap-int
 )
