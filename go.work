@@ -77,4 +77,5 @@ use (
 	./compress/zlib/gostdlib-compress-zlib-writer
 	./container/heap/gostdlib-container-heap-int
 	./container/heap/gostdlib-container-heap-pq
+	./container/list/gostdlib-container-list-basic
 )
