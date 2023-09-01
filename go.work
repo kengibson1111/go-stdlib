@@ -78,4 +78,5 @@ use (
 	./container/heap/gostdlib-container-heap-int
 	./container/heap/gostdlib-container-heap-pq
 	./container/list/gostdlib-container-list-basic
+	./container/ring/gostdlib-container-ring-do
 )
