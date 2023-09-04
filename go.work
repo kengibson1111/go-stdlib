@@ -81,4 +81,5 @@ use (
 	./container/ring/gostdlib-container-ring-do
 	./container/ring/gostdlib-container-ring-len
 	./container/ring/gostdlib-container-ring-link
+	./container/ring/gostdlib-container-ring-move
 )
