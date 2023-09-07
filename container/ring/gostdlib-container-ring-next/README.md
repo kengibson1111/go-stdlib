@@ -1,3 +1,3 @@
 # container/ring - next
 
-This example emphasizes the use of Next(). Next() should not move the main list pointer.
+This example emphasizes the use of Next(). Next() should move the main list pointer.
