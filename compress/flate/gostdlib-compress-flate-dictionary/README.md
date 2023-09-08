@@ -1,3 +1,3 @@
-# compress/flate - reader
+# compress/flate - dictionary
 
-This reads a compressed flate byte slice and outputs the decompressed content from the flate reader.
+This example shows how to use a preset dictionary to improve the compression ratio.
