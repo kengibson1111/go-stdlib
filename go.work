@@ -69,6 +69,7 @@ use (
 	./bytes/gostdlib-bytes-trimsuffix
 	./compress/flate/gostdlib-compress-flate-dictionary
 	./compress/flate/gostdlib-compress-flate-reader
+	./compress/flate/gostdlib-compress-flate-reset
 	./compress/flate/gostdlib-compress-flate-writer
 	./compress/gzip/gostdlib-compress-gzip-reader
 	./compress/gzip/gostdlib-compress-gzip-writer
