@@ -75,6 +75,7 @@ use (
 	./compress/gzip/gostdlib-compress-gzip-httpreader
 	./compress/gzip/gostdlib-compress-gzip-reader
 	./compress/gzip/gostdlib-compress-gzip-writer
+	./compress/gzip/gostdlib-compress-gzip-writerreader
 	./compress/lzw/gostdlib-compress-lzw-reader
 	./compress/lzw/gostdlib-compress-lzw-writer
 	./compress/zlib/gostdlib-compress-zlib-reader
