@@ -138,8 +138,8 @@ func main() {
 	// this is a simple case when processing completes after the deadline
 	// is reached. Notice main() completes before processingFunc() has
 	// a chance to do its last print. In the case of server processing,
-	// it could print somewhere because a server isn't meant to shut down
-	// like a short-lived main() example.
+	// processingFunc() could complete along with any logging because a
+	// server isn't meant to shut down like a short-lived main() example.
 	fmt.Println("\nprocessingCompletesAfterDeadline...")
 	processingCompletesAfterDeadline()
 }
