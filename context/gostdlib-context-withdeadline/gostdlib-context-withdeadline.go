@@ -8,7 +8,7 @@ import (
 
 // general-purpose function that will simulate a processing
 // delay and return an integer on the reply channel. The channel
-// is a "receive only" channel. The arrow is on the left side of
+// is a "send only" channel. The arrow is on the right side of
 // the chan keyword. The channel type can be anything, but for
 // this example the type is a simple integer.
 func processingFunc(delay int, replyChannel chan<- int) {
@@ -27,7 +27,8 @@ func deadlineAlwaysReached() {
 	// a blank struct type channel is an implementation of a notification
 	// pattern in Go. In other words, the actual content sent via the
 	// channel is not important. The important part is that the channel is
-	// activated even if the activation is done with zero bytes.
+	// activated even if the activation is done with zero bytes. Defer
+	// the close.
 	neverUsed := make(chan struct{})
 	defer close(neverUsed)
 
@@ -71,8 +72,9 @@ func processingCompletesBeforeDeadline() {
 	// context and its parent alive longer than necessary.
 	defer cancel()
 
-	// processing delay will result in not reaching the deadline.
-	// processingFunc is activated as a separate goroutine (thread).
+	// processing delay will result in not reaching the deadline which
+	// would be considered successful processing. processingFunc() is
+	// activated as a separate goroutine (thread).
 	go processingFunc(3, replyChannel)
 
 	// code blocks at the select until one of the cases activates.
@@ -105,8 +107,9 @@ func processingCompletesAfterDeadline() {
 	// context and its parent alive longer than necessary.
 	defer cancel()
 
-	// processing delay will result in reaching the deadline.
-	// processingFunc is activated as a separate goroutine (thread).
+	// processing delay will result in reaching the deadline which
+	// would be considered unsuccessful processing. processingFunc() is
+	// activated as a separate goroutine (thread).
 	go processingFunc(5, replyChannel)
 
 	// code blocks at the select until one of the cases activates.
