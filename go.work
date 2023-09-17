@@ -93,4 +93,5 @@ use (
 	./context/gostdlib-context-withcancel
 	./context/gostdlib-context-withdeadline
 	./context/gostdlib-context-withtimeout
+	./context/gostdlib-context-withvalue
 )
