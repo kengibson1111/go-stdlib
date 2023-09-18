@@ -10,13 +10,12 @@ import (
 )
 
 func main() {
-	key := []byte("example key 1234")
+	// Load your secret key from a safe place and reuse it across multiple
+	// NewCipher calls. (Obviously don't use this example key for anything
+	// real.) If you want to convert a passphrase to a key, use a suitable
+	// package like bcrypt or scrypt.
+	key, _ := hex.DecodeString("6368616e676520746869732070617373")
 	plaintext := []byte("exampleplaintext")
-
-	fmt.Printf("Block size: %v\n", aes.BlockSize)
-
-	// should be 32-bytes because the plain text is 16 runes.
-	fmt.Printf("Before: %s\n", plaintext)
 
 	// CBC mode works on blocks so plaintexts may need to be padded to the
 	// next whole block. For an example of such padding, see
@@ -46,8 +45,5 @@ func main() {
 	// (i.e. by using crypto/hmac) as well as being encrypted in order to
 	// be secure.
 
-	fmt.Printf("Decoded: %s\n", ciphertext)
-
-	encodedString := hex.EncodeToString(ciphertext)
-	fmt.Printf("Encoded: %s\n", encodedString)
+	fmt.Printf("%x\n", ciphertext)
 }
