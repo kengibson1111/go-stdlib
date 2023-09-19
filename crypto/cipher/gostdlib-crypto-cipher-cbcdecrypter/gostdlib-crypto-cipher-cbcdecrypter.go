@@ -8,13 +8,12 @@ import (
 )
 
 func main() {
-	key := []byte("example key 1234")
-	encodedtext := "f363f3ccdcb12bb883abf484ba77d9cd7d32b5baecb3d4b1b3e0e4beffdb3ded"
-	ciphertext, _ := hex.DecodeString(encodedtext)
-
-	fmt.Printf("Block size: %v\n", aes.BlockSize)
-	fmt.Printf("Encoded: %s\n", encodedtext)
-	fmt.Printf("Decoded: %s\n", ciphertext)
+	// Load your secret key from a safe place and reuse it across multiple
+	// NewCipher calls. (Obviously don't use this example key for anything
+	// real.) If you want to convert a passphrase to a key, use a suitable
+	// package like bcrypt or scrypt.
+	key, _ := hex.DecodeString("6368616e676520746869732070617373")
+	ciphertext, _ := hex.DecodeString("73c86d43a9d700a253a96c85b0f6b03ac9792e0e757f869cca306bd3cba1c62b")
 
 	block, err := aes.NewCipher(key)
 	if err != nil {
@@ -26,6 +25,7 @@ func main() {
 	if len(ciphertext) < aes.BlockSize {
 		panic("ciphertext too short")
 	}
+
 	iv := ciphertext[:aes.BlockSize]
 	ciphertext = ciphertext[aes.BlockSize:]
 
@@ -47,5 +47,5 @@ func main() {
 	// using crypto/hmac) before being decrypted in order to avoid creating
 	// a padding oracle.
 
-	fmt.Printf("After: %s\n", ciphertext)
+	fmt.Printf("%s\n", ciphertext)
 }

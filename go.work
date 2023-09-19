@@ -94,5 +94,6 @@ use (
 	./context/gostdlib-context-withdeadline
 	./context/gostdlib-context-withtimeout
 	./context/gostdlib-context-withvalue
+	./crypto/cipher/gostdlib-crypto-cipher-cbcdecrypter
 	./crypto/cipher/gostdlib-crypto-cipher-cbcencrypter
 )
