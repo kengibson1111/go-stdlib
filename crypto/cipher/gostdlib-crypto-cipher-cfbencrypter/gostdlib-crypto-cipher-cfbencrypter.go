@@ -5,18 +5,17 @@ import (
 	"crypto/cipher"
 	"crypto/rand"
 	"encoding/hex"
-	"io"
 	"fmt"
+	"io"
 )
 
 func main() {
-	key := []byte("example key 1234")
+	// Load your secret key from a safe place and reuse it across multiple
+	// NewCipher calls. (Obviously don't use this example key for anything
+	// real.) If you want to convert a passphrase to a key, use a suitable
+	// package like bcrypt or scrypt.
+	key, _ := hex.DecodeString("6368616e676520746869732070617373")
 	plaintext := []byte("some plaintext")
-
-	fmt.Printf("Block size: %v\n", aes.BlockSize)
-
-	// should be 32-bytes because the plain text is 16 runes.
-	fmt.Printf("Before: %s\n", plaintext)
 
 	block, err := aes.NewCipher(key)
 	if err != nil {
@@ -34,12 +33,8 @@ func main() {
 	stream := cipher.NewCFBEncrypter(block, iv)
 	stream.XORKeyStream(ciphertext[aes.BlockSize:], plaintext)
 
-	fmt.Printf("Decoded: %s\n", ciphertext)
-
-	encodedString := hex.EncodeToString(ciphertext)
-	fmt.Printf("Encoded: %s\n", encodedString)
-
 	// It's important to remember that ciphertexts must be authenticated
 	// (i.e. by using crypto/hmac) as well as being encrypted in order to
 	// be secure.
+	fmt.Printf("%x\n", ciphertext)
 }

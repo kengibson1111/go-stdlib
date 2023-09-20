@@ -17,10 +17,6 @@ Samples:
   has the IV for the rest of the ciphertext. This example does not cover the use of HMAC in order to
   authenticate before decrypting. The AES encryption algorithm is used.
 
-* cfbencrypter - example using CFB in order to encrypt. The IV is a random value in the first ciphertext
-  block. This example does not cover the use of HMAC after encryption for authentication purposes. The AES
-  encryption algorithm is used.
-
 * ctr - example using CTR in order to encrypt and decrypt. The IV is a random value in the first ciphertext
   block. This example does not cover the use of HMAC after encryption for authentication purposes. The AES
   encryption algorithm is used. A key distinction for CTR seems to be the ability to be used for both

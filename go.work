@@ -96,4 +96,5 @@ use (
 	./context/gostdlib-context-withvalue
 	./crypto/cipher/gostdlib-crypto-cipher-cbcdecrypter
 	./crypto/cipher/gostdlib-crypto-cipher-cbcencrypter
+	./crypto/cipher/gostdlib-crypto-cipher-cfbencrypter
 )
