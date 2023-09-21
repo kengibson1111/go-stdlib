@@ -12,11 +12,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 Samples:
 
-* cfbdecrypter - example using CFB to order to decrypt encrypted CFB data. From the output, notice the difference
-  between what is hex-encoded, hex-decoded, and unencrypted. In this case, the first block of ciphertext
-  has the IV for the rest of the ciphertext. This example does not cover the use of HMAC in order to
-  authenticate before decrypting. The AES encryption algorithm is used.
-
 * ctr - example using CTR in order to encrypt and decrypt. The IV is a random value in the first ciphertext
   block. This example does not cover the use of HMAC after encryption for authentication purposes. The AES
   encryption algorithm is used. A key distinction for CTR seems to be the ability to be used for both

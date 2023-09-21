@@ -8,13 +8,12 @@ import (
 )
 
 func main() {
-	key := []byte("example key 1234")
-	encodedtext := "22277966616d9bc47177bd02603d08c9a67d5380d0fe8cf3b44438dff7b9"
-	ciphertext, _ := hex.DecodeString(encodedtext)
-
-	fmt.Printf("Block size: %v\n", aes.BlockSize)
-	fmt.Printf("Encoded: %s\n", encodedtext)
-	fmt.Printf("Decoded: %s\n", ciphertext)
+	// Load your secret key from a safe place and reuse it across multiple
+	// NewCipher calls. (Obviously don't use this example key for anything
+	// real.) If you want to convert a passphrase to a key, use a suitable
+	// package like bcrypt or scrypt.
+	key, _ := hex.DecodeString("6368616e676520746869732070617373")
+	ciphertext, _ := hex.DecodeString("7dd015f06bec7f1b8f6559dad89f4131da62261786845100056b353194ad")
 
 	block, err := aes.NewCipher(key)
 	if err != nil {
@@ -26,6 +25,7 @@ func main() {
 	if len(ciphertext) < aes.BlockSize {
 		panic("ciphertext too short")
 	}
+
 	iv := ciphertext[:aes.BlockSize]
 	ciphertext = ciphertext[aes.BlockSize:]
 
@@ -33,5 +33,5 @@ func main() {
 
 	// XORKeyStream can work in-place if the two arguments are the same.
 	stream.XORKeyStream(ciphertext, ciphertext)
-	fmt.Printf("After: %s", ciphertext)
+	fmt.Printf("%s\n", ciphertext)
 }
