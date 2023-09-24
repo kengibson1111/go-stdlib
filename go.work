@@ -98,6 +98,7 @@ use (
 	./crypto/cipher/gostdlib-crypto-cipher-cbcencrypter
 	./crypto/cipher/gostdlib-crypto-cipher-cfbdecrypter
 	./crypto/cipher/gostdlib-crypto-cipher-cfbencrypter
+	./crypto/cipher/gostdlib-crypto-cipher-ctr
 	./crypto/cipher/gostdlib-crypto-cipher-gcmdecrypter
 	./crypto/cipher/gostdlib-crypto-cipher-gcmencrypter
 )
