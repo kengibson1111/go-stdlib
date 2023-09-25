@@ -101,4 +101,5 @@ use (
 	./crypto/cipher/gostdlib-crypto-cipher-ctr
 	./crypto/cipher/gostdlib-crypto-cipher-gcmdecrypter
 	./crypto/cipher/gostdlib-crypto-cipher-gcmencrypter
+	./crypto/cipher/gostdlib-crypto-cipher-ofb
 )
