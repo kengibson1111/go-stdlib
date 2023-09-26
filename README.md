@@ -16,10 +16,6 @@ Samples:
   not cover the use of HMAC after encryption for authentication purposes. The AES encryption algorithm is used.
   Pretty cool to show off, but not realistic because of lack of authentication.
 
-* streamreader - this shows how to get an encrypted stream and decrypt while writing using OFB. This example does
-  not cover the use of HMAC after encryption for authentication purposes. The AES encryption algorithm is used.
-  Pretty cool to show off, but not realistic because of lack of authentication.
-
 ## crypto/des
 
 * cbcdecrypter - example using CBC in order to decrypt encrypted CBC data. From the output, notice the difference
