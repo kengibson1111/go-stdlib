@@ -103,4 +103,5 @@ use (
 	./crypto/cipher/gostdlib-crypto-cipher-gcmencrypter
 	./crypto/cipher/gostdlib-crypto-cipher-ofb
 	./crypto/cipher/gostdlib-crypto-cipher-streamreader
+	./crypto/cipher/gostdlib-crypto-cipher-streamwriter
 )

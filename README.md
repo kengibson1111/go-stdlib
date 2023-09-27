@@ -8,14 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## crypto/cipher
-
-Samples:
-
-* streamwriter - this shows how to get a plaintext stream and encrypt while writing using OFB. This example does
-  not cover the use of HMAC after encryption for authentication purposes. The AES encryption algorithm is used.
-  Pretty cool to show off, but not realistic because of lack of authentication.
-
 ## crypto/des
 
 * cbcdecrypter - example using CBC in order to decrypt encrypted CBC data. From the output, notice the difference
