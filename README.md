@@ -17,11 +17,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
   IV somewhere else. This example does not cover the use of HMAC in order to authenticate before
   decrypting. Triple DES encryption algorithm is used.
 
-* cbcencrypter - example using CBC in order to encrypt. The IV is a random value in the first ciphertext
-  block. That doesn't have to always be the case, but it is common. So if you want to create a custom
-  encryption/decryption strategy, go against the norm. Put the IV somewhere else. This example does not
-  cover the use of HMAC after encryption for authentication purposes. Triple DES encryption algorithm is used.
-
 ## crypto/hmac
 
 This builds upon the hash algorithm samples. Encryption/decryption without authentication allows a

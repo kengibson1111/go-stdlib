@@ -1,8 +1,8 @@
 package main
 
 import (
-	"crypto/des"
 	"crypto/cipher"
+	"crypto/des"
 	"crypto/rand"
 	"encoding/hex"
 	"fmt"
@@ -52,8 +52,6 @@ func main() {
 	// It's important to remember that ciphertexts must be authenticated
 	// (i.e. by using crypto/hmac) as well as being encrypted in order to
 	// be secure.
-
-	fmt.Printf("Decoded: %s\n", ciphertext)
 
 	encodedString := hex.EncodeToString(ciphertext)
 	fmt.Printf("Encoded: %s\n", encodedString)
