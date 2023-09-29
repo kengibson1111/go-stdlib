@@ -1,8 +1,8 @@
 package main
 
 import (
-	"crypto/des"
 	"crypto/cipher"
+	"crypto/des"
 	"encoding/hex"
 	"fmt"
 )
@@ -21,7 +21,6 @@ func main() {
 
 	fmt.Printf("Block size: %v\n", des.BlockSize)
 	fmt.Printf("Encoded: %s\n", encodedtext)
-	fmt.Printf("Decoded: %s\n", ciphertext)
 
 	block, err := des.NewTripleDESCipher(tripleDESKey)
 	if err != nil {
