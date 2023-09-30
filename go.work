@@ -106,4 +106,5 @@ use (
 	./crypto/cipher/gostdlib-crypto-cipher-streamwriter
 	./crypto/des/gostdlib-crypto-des-cbcdecrypter
 	./crypto/des/gostdlib-crypto-des-cbcencrypter
+	./crypto/ecdsa/gostdlib-crypto-ecdsa
 )
