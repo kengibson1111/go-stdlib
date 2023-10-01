@@ -108,4 +108,5 @@ use (
 	./crypto/des/gostdlib-crypto-des-cbcencrypter
 	./crypto/ecdsa/gostdlib-crypto-ecdsa
 	./crypto/ed25519/gostdlib-crypto-ed25519
+	./crypto/hmac/gostdlib-crypto-hmac
 )
