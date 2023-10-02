@@ -109,4 +109,5 @@ use (
 	./crypto/ecdsa/gostdlib-crypto-ecdsa
 	./crypto/ed25519/gostdlib-crypto-ed25519
 	./crypto/hmac/gostdlib-crypto-hmac
+	./crypto/md5/gostdlib-crypto-md5-new
 )

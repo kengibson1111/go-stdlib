@@ -8,10 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## crypto/md5
-
-This shows 2 ways to create the same checksum using a md5 hash.
-
 ## crypto/rand
 
 * basic - shows how to fill a byte array with secure random values. Great for initialization vector (IV)
