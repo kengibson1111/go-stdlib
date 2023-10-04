@@ -10,9 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## crypto/rand
 
-* basic - shows how to fill a byte array with secure random values. Great for initialization vector (IV)
-creation.
-
 * uuid - shows how to build a version 4 UUID.
 
 ## crypto/rsa

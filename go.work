@@ -111,4 +111,5 @@ use (
 	./crypto/hmac/gostdlib-crypto-hmac
 	./crypto/md5/gostdlib-crypto-md5-file
 	./crypto/md5/gostdlib-crypto-md5-new
+	./crypto/rand/gostdlib-crypto-rand-basic
 )
