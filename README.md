@@ -8,10 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## crypto/rand
-
-* uuid - shows how to build a version 4 UUID.
-
 ## crypto/rsa
 
 This is pretty cool because it combines functionality from other crypto packages to implement
