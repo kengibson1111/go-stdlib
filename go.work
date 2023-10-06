@@ -113,4 +113,5 @@ use (
 	./crypto/md5/gostdlib-crypto-md5-new
 	./crypto/rand/gostdlib-crypto-rand-basic
 	./crypto/rand/gostdlib-crypto-rand-uuid
+	./crypto/rsa/gostdlib-crypto-rsa-conversation
 )

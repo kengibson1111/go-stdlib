@@ -13,7 +13,7 @@ func main() {
 	// set up the public/private key pairs for the conversation.
 	party1PrivateKey, err := rsa.GenerateKey(rand.Reader, 2048)
 	if err != nil {
-		fmt.Println(err.Error)
+		fmt.Println(err.Error())
 		os.Exit(1)
 	}
 
@@ -21,7 +21,7 @@ func main() {
 
 	party2PrivateKey, err := rsa.GenerateKey(rand.Reader, 2048)
 	if err != nil {
-		fmt.Println(err.Error)
+		fmt.Println(err.Error())
 		os.Exit(1)
 	}
 
@@ -46,12 +46,12 @@ func main() {
 
 	// Also notice that somehow party1 has to let party2 know what the
 	// hash algorithm is going to be.
-	message := []byte("if you vote for me, all of your dreams will come true")  
-	label := []byte("")  
+	message := []byte("if you vote for me, all of your dreams will come true")
+	label := []byte("")
 	hash := sha512.New()
 
 	ciphertext, err := rsa.EncryptOAEP(hash, rand.Reader, party2PublicKey, message, label)
-	if err != nil {  
+	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
 	}
@@ -67,12 +67,12 @@ func main() {
 	opts.SaltLength = rsa.PSSSaltLengthAuto // for a basic sample
 
 	newhash := crypto.SHA512
-	sigHash := newhash.New()  
-	sigHash.Write(message)  
+	sigHash := newhash.New()
+	sigHash.Write(message)
 	sum := sigHash.Sum(nil)
 
 	signature, err := rsa.SignPSS(rand.Reader, party1PrivateKey, newhash, sum, &opts)
-	if err != nil {  
+	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
 	}
@@ -95,7 +95,7 @@ func main() {
 	// decryption by party2 first. Party2's private key is used. And because
 	// party1 and party2 agreed on the hash algorithm and label, it's all cool.
 	plainText, err := rsa.DecryptOAEP(hash, rand.Reader, party2PrivateKey, ciphertext, label)
-	if err != nil {  
+	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)
 	}
@@ -106,8 +106,8 @@ func main() {
 	// but the fun is not over yet. Party2 has to verify that the message really came
 	// from party1. That is the signature verification using party1's public key.
 	err = rsa.VerifyPSS(party1PublicKey, newhash, sum, signature, &opts)
-	if err != nil {  
-		fmt.Println("Who are f*** are you?! Signature is bogus!!")
+	if err != nil {
+		fmt.Println("Signature is bogus!!")
 		os.Exit(1)
 	} else {
 		fmt.Println("signature is good")
