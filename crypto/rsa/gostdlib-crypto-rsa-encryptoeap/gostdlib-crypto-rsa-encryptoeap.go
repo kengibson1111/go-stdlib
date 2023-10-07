@@ -54,7 +54,7 @@ func main() {
 
 	// Since encryption is a randomized function, ciphertext will be
 	// different each time.
-	fmt.Printf("Decoded: %s\n", ciphertext)
+	//fmt.Printf("Decoded: %s\n", ciphertext)
 
 	encodedString := hex.EncodeToString(ciphertext)
 	fmt.Printf("Encoded: %s\n", encodedString)

@@ -10,9 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## crypto/rsa
 
-* encryptoeap - this shows how to use the public key of an rsa.PrivateKey in order to encrypt.
-  A signature is not included.
-
 * decryptoeap - this shows how to use an rsa.PrivateKey in order to decrypt. A signature is
   not included.
 
