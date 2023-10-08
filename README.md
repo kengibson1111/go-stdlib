@@ -8,11 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## crypto/rsa
-
-* decryptoeap - this shows how to use an rsa.PrivateKey in order to decrypt. A signature is
-  not included.
-
 ## crypto/sha1
 
 This shows 2 ways to create the same checksum using a sha1 hash.

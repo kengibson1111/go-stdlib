@@ -42,7 +42,7 @@ func main() {
 	label := []byte("orders")
 
 	fmt.Printf("Encoded: %s\n", encodedtext)
-	fmt.Printf("Decoded: %s\n", ciphertext)
+	//fmt.Printf("Decoded: %s\n", ciphertext)
 
 	// crypto/rand.Reader is a good source of entropy for blinding the RSA
 	// operation.

@@ -114,5 +114,6 @@ use (
 	./crypto/rand/gostdlib-crypto-rand-basic
 	./crypto/rand/gostdlib-crypto-rand-uuid
 	./crypto/rsa/gostdlib-crypto-rsa-conversation
-	./crypto/rsa/gostdlib-crypto-rsa-encryptoeap
+	./crypto/rsa/gostdlib-crypto-rsa-decryptoaep
+	./crypto/rsa/gostdlib-crypto-rsa-encryptoaep
 )
