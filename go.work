@@ -116,5 +116,6 @@ use (
 	./crypto/rsa/gostdlib-crypto-rsa-conversation
 	./crypto/rsa/gostdlib-crypto-rsa-decryptoaep
 	./crypto/rsa/gostdlib-crypto-rsa-encryptoaep
+	./crypto/sha256/gostdlib-crypto-sha256-file
 	./crypto/sha256/gostdlib-crypto-sha256-new
 )
