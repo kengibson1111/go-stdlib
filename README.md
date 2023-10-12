@@ -8,11 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## crypto/sha512
-
-This shows 2 ways to create the same checksum using a sha512 hash. Also covers the use of sha384,
-sha512/224, and sha512/256.
-
 ## crypto/tls
 A little prework required for the server and client.
 
