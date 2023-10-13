@@ -118,5 +118,6 @@ use (
 	./crypto/rsa/gostdlib-crypto-rsa-encryptoaep
 	./crypto/sha256/gostdlib-crypto-sha256-file
 	./crypto/sha256/gostdlib-crypto-sha256-new
+	./crypto/sha512/gostdlib-crypto-sha512-file
 	./crypto/sha512/gostdlib-crypto-sha512-new
 )
