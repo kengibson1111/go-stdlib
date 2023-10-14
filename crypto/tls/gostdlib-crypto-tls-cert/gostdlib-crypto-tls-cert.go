@@ -9,7 +9,6 @@ import (
 	"crypto/x509/pkix"
 	"encoding/pem"
 	"flag"
-	"fmt"
 	"log"
 	"math/big"
 	"net"
@@ -20,7 +19,7 @@ import (
 
 var (
 	host       = flag.String("host", "127.0.0.1", "Comma-separated hostnames and IPs to generate a certificate for")
-	validFrom  = flag.String("start-date", "Apr 6 00:00:00 2016", "Creation date formatted as Jan 1 15:04:05 2011")
+	validFrom  = flag.String("start-date", "Oct 14 00:00:00 2023", "Creation date formatted as Jan 1 15:04:05 2011")
 	validFor   = flag.Duration("duration", 365*24*time.Hour, "Duration that certificate is valid for")
 	isCA       = flag.Bool("ca", true, "whether this cert should be its own Certificate Authority")
 	rsaBits    = flag.Int("rsa-bits", 2048, "Size of RSA key to generate. Ignored if --ecdsa-curve is set")
@@ -31,8 +30,10 @@ func publicKey(priv interface{}) interface{} {
 	switch k := priv.(type) {
 	case *rsa.PrivateKey:
 		return &k.PublicKey
+
 	case *ecdsa.PrivateKey:
 		return &k.PublicKey
+
 	default:
 		return nil
 	}
@@ -42,13 +43,15 @@ func pemBlockForKey(priv interface{}) *pem.Block {
 	switch k := priv.(type) {
 	case *rsa.PrivateKey:
 		return &pem.Block{Type: "RSA PRIVATE KEY", Bytes: x509.MarshalPKCS1PrivateKey(k)}
+
 	case *ecdsa.PrivateKey:
 		b, err := x509.MarshalECPrivateKey(k)
 		if err != nil {
-			fmt.Fprintf(os.Stderr, "Unable to marshal ECDSA private key: %v", err)
-			os.Exit(2)
+			log.Fatalf("Unable to marshal ECDSA private key: %v", err)
 		}
+
 		return &pem.Block{Type: "EC PRIVATE KEY", Bytes: b}
+
 	default:
 		return nil
 	}
@@ -57,29 +60,30 @@ func pemBlockForKey(priv interface{}) *pem.Block {
 func main() {
 	flag.Parse()
 
-	if len(*host) == 0 {
-		log.Fatalf("Missing required --host parameter")
-	}
-
 	var priv interface{}
 	var err error
 	switch *ecdsaCurve {
 	case "":
 		priv, err = rsa.GenerateKey(rand.Reader, *rsaBits)
+
 	case "P224":
 		priv, err = ecdsa.GenerateKey(elliptic.P224(), rand.Reader)
+
 	case "P256":
 		priv, err = ecdsa.GenerateKey(elliptic.P256(), rand.Reader)
+
 	case "P384":
 		priv, err = ecdsa.GenerateKey(elliptic.P384(), rand.Reader)
+
 	case "P521":
 		priv, err = ecdsa.GenerateKey(elliptic.P521(), rand.Reader)
+
 	default:
-		fmt.Fprintf(os.Stderr, "Unrecognized elliptic curve: %q", *ecdsaCurve)
-		os.Exit(1)
+		log.Fatalf("Unrecognized elliptic curve: %q\n", *ecdsaCurve)
 	}
+
 	if err != nil {
-		log.Fatalf("failed to generate private key: %s", err)
+		log.Fatalf("failed to generate private key: %s\n", err)
 	}
 
 	var notBefore time.Time
@@ -88,8 +92,7 @@ func main() {
 	} else {
 		notBefore, err = time.Parse("Jan 2 15:04:05 2006", *validFrom)
 		if err != nil {
-			fmt.Fprintf(os.Stderr, "Failed to parse creation date: %s\n", err)
-			os.Exit(1)
+			log.Fatalf("Failed to parse creation date: %s\n", err)
 		}
 	}
 
@@ -98,7 +101,7 @@ func main() {
 	serialNumberLimit := new(big.Int).Lsh(big.NewInt(1), 128)
 	serialNumber, err := rand.Int(rand.Reader, serialNumberLimit)
 	if err != nil {
-		log.Fatalf("failed to generate serial number: %s", err)
+		log.Fatalf("failed to generate serial number: %s\n", err)
 	}
 
 	template := x509.Certificate{
@@ -130,23 +133,24 @@ func main() {
 
 	derBytes, err := x509.CreateCertificate(rand.Reader, &template, &template, publicKey(priv), priv)
 	if err != nil {
-		log.Fatalf("Failed to create certificate: %s", err)
+		log.Fatalf("Failed to create certificate: %s\n", err)
 	}
 
 	certOut, err := os.Create("server.pem")
 	if err != nil {
-		log.Fatalf("failed to open server.pem for writing: %s", err)
+		log.Fatalf("failed to open server.pem for writing: %s\n", err)
 	}
+
 	pem.Encode(certOut, &pem.Block{Type: "CERTIFICATE", Bytes: derBytes})
 	certOut.Close()
-	log.Print("written server.pem\n")
+	log.Println("written server.pem")
 
 	keyOut, err := os.OpenFile("server.key", os.O_WRONLY|os.O_CREATE|os.O_TRUNC, 0600)
 	if err != nil {
-		log.Print("failed to open server.key for writing:", err)
-		return
+		log.Fatalf("failed to open server.key for writing: %s\n", err)
 	}
+
 	pem.Encode(keyOut, pemBlockForKey(priv))
 	keyOut.Close()
-	log.Print("written server.key\n")
+	log.Println("written server.key")
 }

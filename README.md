@@ -11,10 +11,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 ## crypto/tls
 A little prework required for the server and client.
 
-* tlscert - generates a cert and private key for localhost. Straight from golang's public open source.
-  I just filled in the blanks and changed isCA to true. Maybe look at the crypto/rsa and crypto/x509
-  samples first.
-
 Move server.key and server.pem into the same directory where you will run tlsserver. Take the contents
 of the cert and copy it into the rootPEM value in tlsclient. Now you have a client that recognizes
 a cert specific to tlsserver. The cert and key are only good for localhost so don't try to use
