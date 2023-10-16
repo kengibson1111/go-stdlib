@@ -121,4 +121,5 @@ use (
 	./crypto/sha512/gostdlib-crypto-sha512-file
 	./crypto/sha512/gostdlib-crypto-sha512-new
 	./crypto/tls/gostdlib-crypto-tls-cert
+	./crypto/tls/gostdlib-crypto-tls-server
 )

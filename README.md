@@ -16,9 +16,6 @@ of the cert and copy it into the rootPEM value in tlsclient. Now you have a clie
 a cert specific to tlsserver. The cert and key are only good for localhost so don't try to use
 it externally. It's a demo, man.
 
-* tlsserver - simple example of a TLS server. It requires a generated server.key and server.pem.
-  This came from a public gist with few mods.
-
 * tlsclient - simple example of a TLS client. It requires the contents of the server.pem. This
   came from a public gist with a couple of mods to recognize the cert.
 
