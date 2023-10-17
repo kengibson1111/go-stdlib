@@ -8,17 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## crypto/tls
-A little prework required for the server and client.
-
-Move server.key and server.pem into the same directory where you will run tlsserver. Take the contents
-of the cert and copy it into the rootPEM value in tlsclient. Now you have a client that recognizes
-a cert specific to tlsserver. The cert and key are only good for localhost so don't try to use
-it externally. It's a demo, man.
-
-* tlsclient - simple example of a TLS client. It requires the contents of the server.pem. This
-  came from a public gist with a couple of mods to recognize the cert.
-
 ## crypto/x509
 
 * verify - basic example showing how to verify a cert against a root cert chain. It also uses
