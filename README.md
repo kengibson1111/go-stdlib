@@ -8,11 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## crypto/x509
-
-* verify - basic example showing how to verify a cert against a root cert chain. It also uses
-  encoding/pem. This sample will panic because the cert is not valid.
-
 ## encoding/base32
 
 * decode - shows how to decode a base32-encoded value to it's original string value.
