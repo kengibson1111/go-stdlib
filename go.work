@@ -124,5 +124,6 @@ use (
 	./crypto/tls/gostdlib-crypto-tls-client
 	./crypto/tls/gostdlib-crypto-tls-dial
 	./crypto/tls/gostdlib-crypto-tls-server
+	./crypto/x509/gostdlib-crypto-x509-pkix
 	./crypto/x509/gostdlib-crypto-x509-verify
 )
