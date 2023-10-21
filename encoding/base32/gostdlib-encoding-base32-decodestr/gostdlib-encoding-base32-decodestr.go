@@ -7,10 +7,12 @@ import (
 
 func main() {
 	str := "ONXW2ZJAMRQXIYJAO5UXI2BAAAQGC3TEEDX3XPY="
+
 	data, err := base32.StdEncoding.DecodeString(str)
 	if err != nil {
 		fmt.Println("error:", err)
 		return
 	}
+
 	fmt.Printf("%q\n", data)
 }

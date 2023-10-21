@@ -126,4 +126,6 @@ use (
 	./crypto/tls/gostdlib-crypto-tls-server
 	./crypto/x509/gostdlib-crypto-x509-pkix
 	./crypto/x509/gostdlib-crypto-x509-verify
+	./encoding/base32/gostdlib-encoding-base32-decode
+	./encoding/base32/gostdlib-encoding-base32-decodestr
 )
