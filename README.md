@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## encoding/base32
 
-* encode - shows how to encode a string value to base32.
-
 * newencoder - this streams a string to a base32 value.
 
 ## encoding/base64
