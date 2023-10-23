@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/base32"
+	"fmt"
 	"os"
 )
 
@@ -13,4 +14,5 @@ func main() {
 	// If you comment out the following line, the last partial block "r"
 	// won't be encoded.
 	encoder.Close()
+	fmt.Println()
 }

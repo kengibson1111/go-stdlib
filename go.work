@@ -130,4 +130,5 @@ use (
 	./encoding/base32/gostdlib-encoding-base32-decodestr
 	./encoding/base32/gostdlib-encoding-base32-encode
 	./encoding/base32/gostdlib-encoding-base32-encodestr
+	./encoding/base32/gostdlib-encoding-base32-newencoder
 )
