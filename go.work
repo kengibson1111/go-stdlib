@@ -131,4 +131,6 @@ use (
 	./encoding/base32/gostdlib-encoding-base32-encode
 	./encoding/base32/gostdlib-encoding-base32-encodestr
 	./encoding/base32/gostdlib-encoding-base32-newencoder
+	./encoding/base64/gostdlib-encoding-base64-decode
+	./encoding/base64/gostdlib-encoding-base64-decodestr
 )
