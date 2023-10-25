@@ -12,8 +12,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 * package - basic encode/decode sample.
 
-* encode - shows how to encode a string value to base64.
-
 * newencoder - this streams a string to a base64 value.
 
 ## encoding/binary
