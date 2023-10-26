@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## encoding/base64
 
-* package - basic encode/decode sample.
-
 * newencoder - this streams a string to a base64 value.
 
 ## encoding/binary

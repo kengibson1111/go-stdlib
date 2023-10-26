@@ -135,4 +135,5 @@ use (
 	./encoding/base64/gostdlib-encoding-base64-decodestr
 	./encoding/base64/gostdlib-encoding-base64-encode
 	./encoding/base64/gostdlib-encoding-base64-encodestr
+	./encoding/base64/gostdlib-encoding-base64-package
 )
