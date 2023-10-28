@@ -10,9 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## encoding/binary
 
-* binaryread - shows how to read binary bytes into a float64. That was just for the sample.
-  Binary encoding can be used for any type.
-
 * binarywrite - shows how to write a float64 into binary bytes. Reverse of the previous sample.
 
 * binarywritemulti - like the previous example, but shows how to mix various types in a
