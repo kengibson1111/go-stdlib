@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## encoding/binary
 
-* binarywrite - shows how to write a float64 into binary bytes. Reverse of the previous sample.
-
 * binarywritemulti - like the previous example, but shows how to mix various types in a
   single write stream. Printing out the binary bytes actually is a legible string in the sample.
 
