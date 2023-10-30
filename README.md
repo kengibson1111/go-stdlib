@@ -8,11 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## encoding/binary
-
-* binarywritemulti - like the previous example, but shows how to mix various types in a
-  single write stream. Printing out the binary bytes actually is a legible string in the sample.
-
 ## encoding/csv
 
 * csvread - basic comma-delimited reading.
