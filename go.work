@@ -137,6 +137,7 @@ use (
 	./encoding/base64/gostdlib-encoding-base64-encodestr
 	./encoding/base64/gostdlib-encoding-base64-newencoder
 	./encoding/base64/gostdlib-encoding-base64-package
+	./encoding/binary/gostdlib-encoding-binary-byteorderget
 	./encoding/binary/gostdlib-encoding-binary-read
 	./encoding/binary/gostdlib-encoding-binary-write
 	./encoding/binary/gostdlib-encoding-binary-writemulti
