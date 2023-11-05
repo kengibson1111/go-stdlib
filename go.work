@@ -141,6 +141,7 @@ use (
 	./encoding/binary/gostdlib-encoding-binary-byteorderput
 	./encoding/binary/gostdlib-encoding-binary-read
 	./encoding/binary/gostdlib-encoding-binary-readmulti
+	./encoding/binary/gostdlib-encoding-binary-uvarint
 	./encoding/binary/gostdlib-encoding-binary-varint
 	./encoding/binary/gostdlib-encoding-binary-write
 	./encoding/binary/gostdlib-encoding-binary-writemulti
