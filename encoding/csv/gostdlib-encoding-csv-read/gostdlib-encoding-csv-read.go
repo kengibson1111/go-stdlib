@@ -21,6 +21,7 @@ Ken,Thompson,ken
 		if err == io.EOF {
 			break
 		}
+
 		if err != nil {
 			log.Fatal(err)
 		}

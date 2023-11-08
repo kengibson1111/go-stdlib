@@ -147,4 +147,5 @@ use (
 	./encoding/binary/gostdlib-encoding-binary-varintput
 	./encoding/binary/gostdlib-encoding-binary-write
 	./encoding/binary/gostdlib-encoding-binary-writemulti
+	./encoding/csv/gostdlib-encoding-csv-read
 )
