@@ -20,5 +20,5 @@ Ken,Thompson,ken
 		log.Fatal(err)
 	}
 
-	fmt.Print(records)
+	fmt.Println(records)
 }

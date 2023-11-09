@@ -148,4 +148,5 @@ use (
 	./encoding/binary/gostdlib-encoding-binary-write
 	./encoding/binary/gostdlib-encoding-binary-writemulti
 	./encoding/csv/gostdlib-encoding-csv-read
+	./encoding/csv/gostdlib-encoding-csv-readall
 )

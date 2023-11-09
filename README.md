@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## encoding/csv
 
-* csvreadall - like the previous sample only it will read all rows at once.
-
 * csvreadopt - this shows how to set parse and comment options.
 
 * csvwrite - basic writing into comma-delimited rows.
