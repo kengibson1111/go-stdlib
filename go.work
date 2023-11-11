@@ -150,4 +150,5 @@ use (
 	./encoding/csv/gostdlib-encoding-csv-read
 	./encoding/csv/gostdlib-encoding-csv-readall
 	./encoding/csv/gostdlib-encoding-csv-readopt
+	./encoding/csv/gostdlib-encoding-csv-write
 )

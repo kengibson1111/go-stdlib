@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## encoding/csv
 
-* csvwrite - basic writing into comma-delimited rows.
-
 * csvwriteall - like the previous sample only it will write all rows at once.
 
 ## encoding/gob
