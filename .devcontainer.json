@@ -1,5 +1,8 @@
 {
 	"image": "kengibson1111/godev",
+	"runArgs": [
+		"--network=bridge"
+	],
 	"containerEnv": {
 		"GIT_SSH_COMMAND": "ssh -i ~/.ssh/id_rsa_go-stdlib"
 	},
