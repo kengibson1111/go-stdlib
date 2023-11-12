@@ -1,6 +1,7 @@
 {
 	"image": "kengibson1111/godev",
 	"runArgs": [
+		"--rm",
 		"--network=bridge"
 	],
 	"containerEnv": {
