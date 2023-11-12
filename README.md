@@ -8,10 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## encoding/csv
-
-* csvwriteall - like the previous sample only it will write all rows at once.
-
 ## encoding/gob
 
 * basic - shows how to use basic functionality. In this sample, you have to imagine one type
