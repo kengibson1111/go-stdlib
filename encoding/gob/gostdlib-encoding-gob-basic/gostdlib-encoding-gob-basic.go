@@ -32,6 +32,7 @@ func main() {
 	if err != nil {
 		log.Fatal("encode error:", err)
 	}
+
 	err = enc.Encode(P{1782, 1841, 1922, "Treehouse"})
 	if err != nil {
 		log.Fatal("encode error:", err)
@@ -43,11 +44,12 @@ func main() {
 	if err != nil {
 		log.Fatal("decode error 1:", err)
 	}
+
 	fmt.Printf("%q: {%d, %d}\n", q.Name, *q.X, *q.Y)
 	err = dec.Decode(&q)
 	if err != nil {
 		log.Fatal("decode error 2:", err)
 	}
-	fmt.Printf("%q: {%d, %d}\n", q.Name, *q.X, *q.Y)
 
+	fmt.Printf("%q: {%d, %d}\n", q.Name, *q.X, *q.Y)
 }
