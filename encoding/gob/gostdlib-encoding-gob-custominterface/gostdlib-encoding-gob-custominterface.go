@@ -69,5 +69,6 @@ func interfaceDecode(dec *gob.Decoder) Pythagoras {
 	if err != nil {
 		log.Fatal("decode:", err)
 	}
+
 	return p
 }

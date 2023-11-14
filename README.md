@@ -13,11 +13,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 * custommarshal - shows how to implement gob marshaling for a custom type - necessary because
   internal field types may not have an exported scope.
 
-* custominterface - really cool. The custom type would be registered in the encoder and decoder
-  gob processes. The type implements a method on a custom interface. The interface is available
-  in the encoder and decoder processes. The encoder encodes through the interface. The decoder
-  decodes through the interface and calls the interface's method.
-
 ## encoding/json
 
 * decoder - basic JSON decoding
