@@ -154,4 +154,5 @@ use (
 	./encoding/csv/gostdlib-encoding-csv-writeall
 	./encoding/gob/gostdlib-encoding-gob-basic
 	./encoding/gob/gostdlib-encoding-gob-custominterface
+	./encoding/gob/gostdlib-encoding-gob-custommarshal
 )

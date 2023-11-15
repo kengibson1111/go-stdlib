@@ -50,6 +50,6 @@ func main() {
 	if err != nil {
 		log.Fatal("decode:", err)
 	}
-	fmt.Println(v)
 
+	fmt.Println(v)
 }
