@@ -156,4 +156,5 @@ use (
 	./encoding/gob/gostdlib-encoding-gob-custominterface
 	./encoding/gob/gostdlib-encoding-gob-custommarshal
 	./encoding/hex/gostdlib-encoding-hex-decode
+	./encoding/hex/gostdlib-encoding-hex-decodestr
 )
