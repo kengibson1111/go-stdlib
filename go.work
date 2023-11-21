@@ -158,6 +158,7 @@ use (
 	./encoding/hex/gostdlib-encoding-hex-decode
 	./encoding/hex/gostdlib-encoding-hex-decodestr
 	./encoding/hex/gostdlib-encoding-hex-dump
+	./encoding/hex/gostdlib-encoding-hex-dumper
 	./encoding/hex/gostdlib-encoding-hex-encode
 	./encoding/hex/gostdlib-encoding-hex-encodestr
 )
