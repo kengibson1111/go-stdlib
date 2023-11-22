@@ -161,4 +161,5 @@ use (
 	./encoding/hex/gostdlib-encoding-hex-dumper
 	./encoding/hex/gostdlib-encoding-hex-encode
 	./encoding/hex/gostdlib-encoding-hex-encodestr
+	./encoding/json/gostdlib-encoding-json-decoder
 )

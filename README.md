@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## encoding/json
 
-* decoder - basic JSON decoding
-
 * decoderstream - like the previous example but using the Decoder stream functionality.
 
 * decodertoken - like the previous example but reading individual tokens from the stream.

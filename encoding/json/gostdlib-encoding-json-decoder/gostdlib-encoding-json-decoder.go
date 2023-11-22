@@ -19,7 +19,9 @@ func main() {
 	type Message struct {
 		Name, Text string
 	}
+
 	dec := json.NewDecoder(strings.NewReader(jsonStream))
+
 	for {
 		var m Message
 		if err := dec.Decode(&m); err == io.EOF {
@@ -27,6 +29,7 @@ func main() {
 		} else if err != nil {
 			log.Fatal(err)
 		}
+
 		fmt.Printf("%s: %s\n", m.Name, m.Text)
 	}
 }
