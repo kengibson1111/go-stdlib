@@ -20,6 +20,7 @@ func main() {
 	type Message struct {
 		Name, Text string
 	}
+
 	dec := json.NewDecoder(strings.NewReader(jsonStream))
 
 	// read open bracket
@@ -27,12 +28,12 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	fmt.Printf("%T: %v\n", t, t)
 
 	var m Message
 	// while the array contains values
 	for dec.More() {
-
 		// decode an array value (Message)
 		err := dec.Decode(&m)
 		if err != nil {
@@ -47,6 +48,6 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("%T: %v\n", t, t)
 
+	fmt.Printf("%T: %v\n", t, t)
 }
