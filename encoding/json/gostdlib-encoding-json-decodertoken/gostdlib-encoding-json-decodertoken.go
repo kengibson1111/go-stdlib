@@ -18,13 +18,16 @@ func main() {
 		if err == io.EOF {
 			break
 		}
+
 		if err != nil {
 			log.Fatal(err)
 		}
+
 		fmt.Printf("%T: %v", t, t)
 		if dec.More() {
 			fmt.Printf(" (more)")
 		}
+
 		fmt.Printf("\n")
 	}
 }
