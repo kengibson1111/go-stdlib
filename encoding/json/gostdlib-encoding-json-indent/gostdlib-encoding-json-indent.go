@@ -3,6 +3,7 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"fmt"
 	"log"
 	"os"
 )
@@ -12,6 +13,7 @@ func main() {
 		Name   string
 		Number int
 	}
+
 	roads := []Road{
 		{"Diamond Fork", 29},
 		{"Sheep Creek", 51},
@@ -23,6 +25,8 @@ func main() {
 	}
 
 	var out bytes.Buffer
-	json.Indent(&out, b, "", "\t") // 3rd param is a prefix, but not sure how it applies
+	json.Indent(&out, b, "", "\t") // 3rd param is a prefix that starts each newline that has indentation.
 	out.WriteTo(os.Stdout)
+
+	fmt.Println()
 }

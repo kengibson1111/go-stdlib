@@ -164,4 +164,5 @@ use (
 	./encoding/json/gostdlib-encoding-json-decoder
 	./encoding/json/gostdlib-encoding-json-decoderstream
 	./encoding/json/gostdlib-encoding-json-decodertoken
+	./encoding/json/gostdlib-encoding-json-indent
 )

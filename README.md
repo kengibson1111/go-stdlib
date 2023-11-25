@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## encoding/json
 
-* indent - shows marshaling and indenting as two separate steps.
-
 * marshal - shows basic marshaling.
 
 * marshalindent - shows marshaling and indenting as one step.
