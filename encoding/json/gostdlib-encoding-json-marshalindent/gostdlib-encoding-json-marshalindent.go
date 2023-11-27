@@ -12,14 +12,18 @@ func main() {
 		Name   string
 		Colors []string
 	}
+
 	group := ColorGroup{
 		ID:     1,
 		Name:   "Reds",
 		Colors: []string{"Crimson", "Red", "Ruby", "Maroon"},
 	}
+
 	b, err := json.MarshalIndent(group, "", "\t")
 	if err != nil {
 		fmt.Println("error:", err)
 	}
+
 	os.Stdout.Write(b)
+	fmt.Println()
 }

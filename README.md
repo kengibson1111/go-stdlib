@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## encoding/json
 
-* marshalindent - shows marshaling and indenting as one step.
-
 * rawmessage - this is really cool. Shows how to delay parsing until a lower-level type
   is identified. Then parsing continues.
 
