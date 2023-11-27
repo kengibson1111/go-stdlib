@@ -19,7 +19,7 @@ func main() {
 		Colors: []string{"Crimson", "Red", "Ruby", "Maroon"},
 	}
 
-	b, err := json.MarshalIndent(group, "", "\t")
+	b, err := json.MarshalIndent(group, "", "\t") // 2nd param is a prefix that starts each newline that has indentation.
 	if err != nil {
 		fmt.Println("error:", err)
 	}
