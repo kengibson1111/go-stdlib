@@ -10,9 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## encoding/json
 
-* rawmessage - this is really cool. Shows how to delay parsing until a lower-level type
-  is identified. Then parsing continues.
-
 * unmarshal - shows basic unmarshaling.
 
 * unmarshalforward - shows how the JSON encoder is very tolerant. In this case, a component
