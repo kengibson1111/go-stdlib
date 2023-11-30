@@ -170,4 +170,5 @@ use (
 	./encoding/json/gostdlib-encoding-json-marshalindent2
 	./encoding/json/gostdlib-encoding-json-rawmessage
 	./encoding/json/gostdlib-encoding-json-rawmessagemarshal
+	./encoding/json/gostdlib-encoding-json-unmarshal
 )

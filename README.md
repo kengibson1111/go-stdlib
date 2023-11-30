@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## encoding/json
 
-* unmarshal - shows basic unmarshaling.
-
 * unmarshalforward - shows how the JSON encoder is very tolerant. In this case, a component
   was built and deployed with an event type definition. Over time, the event type
   definition evolves, but the component owner has decided to continue using an older type
