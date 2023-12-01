@@ -171,4 +171,5 @@ use (
 	./encoding/json/gostdlib-encoding-json-rawmessage
 	./encoding/json/gostdlib-encoding-json-rawmessagemarshal
 	./encoding/json/gostdlib-encoding-json-unmarshal
+	./encoding/json/gostdlib-encoding-json-valid
 )
