@@ -8,13 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## encoding/json
-
-* unmarshalbackward - also shows JSON encoder tolerance. In this case, components are still
-  publishing version 1 events. But there are subscribers with version 2 and version 3 event
-  type definitions. No error on the unmarshal, and the subscriber component's owner can decide
-  if/when to return an application error for previous versions of events.
-
 ## encoding/xml
 
 * encoder - this shows how to define xml translation in a golang type definition. That information
