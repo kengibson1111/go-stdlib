@@ -178,4 +178,5 @@ use (
 	./encoding/json/gostdlib-encoding-json-unmarshalforward
 	./encoding/json/gostdlib-encoding-json-valid
 	./encoding/pem/gostdlib-encoding-pem-decode
+	./encoding/pem/gostdlib-encoding-pem-encode
 )
