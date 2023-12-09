@@ -33,4 +33,5 @@ func main() {
 		fmt.Printf("error: %v\n", err)
 	}
 
+	fmt.Println()
 }

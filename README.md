@@ -10,9 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## encoding/xml
 
-* encoder - this shows how to define xml translation in a golang type definition. That information
-  is used by an Encoder to output XML to a stream.
-
 * marshalindent - MarshalIndent works like Marshal, but prettifies the output byte slice.
 
 * unmarshal - like the previous 2 samples with type definition, but reading XML instead of
