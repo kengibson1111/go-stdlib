@@ -10,6 +10,7 @@ func main() {
 	type Address struct {
 		City, State string
 	}
+
 	type Person struct {
 		XMLName   xml.Name `xml:"person"`
 		Id        int      `xml:"id,attr"`
@@ -26,10 +27,11 @@ func main() {
 	v.Comment = " Need more details. "
 	v.Address = Address{"Hanga Roa", "Easter Island"}
 
-	output, err := xml.MarshalIndent(v, "  ", "    ")
+	output, err := xml.MarshalIndent(v, "", "    ")
 	if err != nil {
 		fmt.Printf("error: %v\n", err)
 	}
 
 	os.Stdout.Write(output)
+	fmt.Println()
 }

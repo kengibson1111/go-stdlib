@@ -180,4 +180,5 @@ use (
 	./encoding/pem/gostdlib-encoding-pem-decode
 	./encoding/pem/gostdlib-encoding-pem-encode
 	./encoding/xml/gostdlib-encoding-xml-encoder
+	./encoding/xml/gostdlib-encoding-xml-marshalindent
 )

@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## encoding/xml
 
-* marshalindent - MarshalIndent works like Marshal, but prettifies the output byte slice.
-
 * unmarshal - like the previous 2 samples with type definition, but reading XML instead of
   writing.
 
@@ -32,7 +30,7 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 * errorf - this uses fmt.Errorf to create a formatted error.
 
-##flag
+## flag
 
 * basic - this shows how to pass command-line args utilizing the flag package. It shows how to
   define a flag through a pointer, how to bind a variable to a flag definition instead of
