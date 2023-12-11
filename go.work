@@ -181,4 +181,5 @@ use (
 	./encoding/pem/gostdlib-encoding-pem-encode
 	./encoding/xml/gostdlib-encoding-xml-encoder
 	./encoding/xml/gostdlib-encoding-xml-marshalindent
+	./encoding/xml/gostdlib-encoding-xml-soapdecode
 )
