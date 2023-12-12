@@ -10,9 +10,11 @@ func main() {
 		Where string `xml:"where,attr"`
 		Addr  string
 	}
+
 	type Address struct {
 		City, State string
 	}
+
 	type Result struct {
 		XMLName xml.Name `xml:"Person"`
 		Name    string   `xml:"FullName"`
@@ -21,6 +23,7 @@ func main() {
 		Groups  []string `xml:"Group>Value"`
 		Address
 	}
+
 	v := Result{Name: "none", Phone: "none"}
 
 	data := `
@@ -46,6 +49,7 @@ func main() {
 		fmt.Printf("error: %v", err)
 		return
 	}
+
 	fmt.Printf("XMLName: %#v\n", v.XMLName)
 	fmt.Printf("Name: %q\n", v.Name)
 	fmt.Printf("Phone: %q\n", v.Phone)
