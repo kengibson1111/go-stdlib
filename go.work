@@ -182,6 +182,7 @@ use (
 	./encoding/xml/gostdlib-encoding-xml-encoder
 	./encoding/xml/gostdlib-encoding-xml-marshalcustom
 	./encoding/xml/gostdlib-encoding-xml-marshalindent
+	./encoding/xml/gostdlib-encoding-xml-marshaltext
 	./encoding/xml/gostdlib-encoding-xml-soapdecode
 	./encoding/xml/gostdlib-encoding-xml-unmarshal
 )
