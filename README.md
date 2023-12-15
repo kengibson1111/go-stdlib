@@ -10,9 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## errors
 
-* basic - basic example of a custom implementation of the error interface. tour-of-go covers
-  interface implementations (including error) in more detail.
-
 * newerror - the only sample which actually imports the errors package. Still not sure
   how useful this is compared to the basic sample.
 
