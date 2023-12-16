@@ -10,9 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## errors
 
-* newerror - the only sample which actually imports the errors package. Still not sure
-  how useful this is compared to the basic sample.
-
 * errorf - this uses fmt.Errorf to create a formatted error.
 
 ## flag

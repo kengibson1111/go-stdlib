@@ -1,4 +1,4 @@
-go 1.20
+go 1.21.5
 
 use (
 	./archive/tar/gostdlib-archive-tar
@@ -186,4 +186,5 @@ use (
 	./encoding/xml/gostdlib-encoding-xml-soapdecode
 	./encoding/xml/gostdlib-encoding-xml-unmarshal
 	./errors/gostdlib-errors-basic
+	./errors/gostdlib-errors-new
 )
