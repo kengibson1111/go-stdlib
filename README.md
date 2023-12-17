@@ -8,10 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## errors
-
-* errorf - this uses fmt.Errorf to create a formatted error.
-
 ## flag
 
 * basic - this shows how to pass command-line args utilizing the flag package. It shows how to
