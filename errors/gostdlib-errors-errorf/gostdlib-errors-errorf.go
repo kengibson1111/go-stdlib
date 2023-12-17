@@ -11,4 +11,6 @@ func main() {
 	if err != nil {
 		fmt.Print(err)
 	}
+
+	fmt.Println()
 }
