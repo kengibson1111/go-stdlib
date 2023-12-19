@@ -188,5 +188,6 @@ use (
 	./errors/gostdlib-errors-as
 	./errors/gostdlib-errors-basic
 	./errors/gostdlib-errors-errorf
+	./errors/gostdlib-errors-is
 	./errors/gostdlib-errors-new
 )
