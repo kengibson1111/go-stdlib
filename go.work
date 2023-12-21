@@ -191,4 +191,5 @@ use (
 	./errors/gostdlib-errors-is
 	./errors/gostdlib-errors-join
 	./errors/gostdlib-errors-new
+	./errors/gostdlib-errors-unwrap
 )
