@@ -8,12 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## flag
-
-* basic - this shows how to pass command-line args utilizing the flag package. It shows how to
-  define a flag through a pointer, how to bind a variable to a flag definition instead of
-  the pointer option, and how to bind a variable to multiple flag entries. Pretty cool.
-
 ## fmt
 
 Formatted I/O

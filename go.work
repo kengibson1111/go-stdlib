@@ -192,4 +192,5 @@ use (
 	./errors/gostdlib-errors-join
 	./errors/gostdlib-errors-new
 	./errors/gostdlib-errors-unwrap
+	./flag/gostdlib-flag-basic
 )
