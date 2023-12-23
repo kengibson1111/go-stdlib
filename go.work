@@ -193,4 +193,7 @@ use (
 	./errors/gostdlib-errors-new
 	./errors/gostdlib-errors-unwrap
 	./flag/gostdlib-flag-basic
+	./flag/gostdlib-flag-package
+	./flag/gostdlib-flag-package2
+	./flag/gostdlib-flag-package3
 )
