@@ -194,6 +194,7 @@ use (
 	./errors/gostdlib-errors-unwrap
 	./flag/gostdlib-flag-basic
 	./flag/gostdlib-flag-boolfunc
+	./flag/gostdlib-flag-func
 	./flag/gostdlib-flag-package
 	./flag/gostdlib-flag-package2
 	./flag/gostdlib-flag-package3
