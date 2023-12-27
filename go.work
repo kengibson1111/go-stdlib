@@ -199,4 +199,5 @@ use (
 	./flag/gostdlib-flag-package2
 	./flag/gostdlib-flag-package3
 	./flag/gostdlib-flag-textvar
+	./flag/gostdlib-flag-value
 )
