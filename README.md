@@ -12,10 +12,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 Formatted I/O
 
-* printstrings - several samples showing formatting verbs for strings.
-
-* printbytes - same as printstrings only for a byte array.
-
 * rawbytes - more printing but starting with a raw string. Not sure why I would want to use raw strings
   if I have a UTF-8 editor.
 
@@ -29,17 +25,6 @@ Formatted I/O
   The sample code uses a for range loop. Notice the byte position.
 
 * runesutf8pkg - same results as runes but the code uses the unicode/utf8 package.
-
-* printstructs - a couple of different struct types. %T, %v, %+v seem to be the most effective printing
-  verbs for structs.
-
-* printbool - pretty boring :). just demonstrating %t.
-
-* printints - shows several formatting verbs for integers.
-
-* printfloats - shows several formatting verbs for floats.
-
-* printptr - just demonstrates %p.
 
 ## html
 
