@@ -203,6 +203,7 @@ use (
 	./fmt/gostdlib-fmt-printbool
 	./fmt/gostdlib-fmt-printbytes
 	./fmt/gostdlib-fmt-printfloats
+	./fmt/gostdlib-fmt-printformats
 	./fmt/gostdlib-fmt-printints
 	./fmt/gostdlib-fmt-printptr
 	./fmt/gostdlib-fmt-printrawbytes
