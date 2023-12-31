@@ -202,6 +202,7 @@ use (
 	./flag/gostdlib-flag-value
 	./fmt/gostdlib-fmt-printbool
 	./fmt/gostdlib-fmt-printbytes
+	./fmt/gostdlib-fmt-printers
 	./fmt/gostdlib-fmt-printfloats
 	./fmt/gostdlib-fmt-printformats
 	./fmt/gostdlib-fmt-printints
