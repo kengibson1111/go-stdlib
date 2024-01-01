@@ -200,6 +200,7 @@ use (
 	./flag/gostdlib-flag-package3
 	./flag/gostdlib-flag-textvar
 	./flag/gostdlib-flag-value
+	./fmt/gostdlib-fmt-errorf
 	./fmt/gostdlib-fmt-printbool
 	./fmt/gostdlib-fmt-printbytes
 	./fmt/gostdlib-fmt-printers
