@@ -1,3 +1,3 @@
-# fmt - fprint
+# fmt - fprintf
 
-This is demonstrating Fprint functions.
+This is demonstrating the Fprintf function.
