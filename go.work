@@ -204,6 +204,7 @@ use (
 	./fmt/gostdlib-fmt-fprint
 	./fmt/gostdlib-fmt-fprintf
 	./fmt/gostdlib-fmt-fprintln
+	./fmt/gostdlib-fmt-fscanf
 	./fmt/gostdlib-fmt-printbool
 	./fmt/gostdlib-fmt-printbytes
 	./fmt/gostdlib-fmt-printers
