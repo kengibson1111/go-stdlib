@@ -1,3 +1,3 @@
 # fmt - print
 
-This is demonstrating Print functions.
+This is demonstrating Print function.
