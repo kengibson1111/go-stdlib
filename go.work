@@ -215,6 +215,7 @@ use (
 	./fmt/gostdlib-fmt-printfloats
 	./fmt/gostdlib-fmt-printformats
 	./fmt/gostdlib-fmt-printints
+	./fmt/gostdlib-fmt-println
 	./fmt/gostdlib-fmt-printptr
 	./fmt/gostdlib-fmt-printrawbytes
 	./fmt/gostdlib-fmt-printrunes
