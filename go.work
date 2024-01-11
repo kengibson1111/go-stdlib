@@ -222,4 +222,5 @@ use (
 	./fmt/gostdlib-fmt-printrunesutf8
 	./fmt/gostdlib-fmt-printstrings
 	./fmt/gostdlib-fmt-printstructs
+	./fmt/gostdlib-fmt-sprint
 )
