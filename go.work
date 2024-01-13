@@ -224,4 +224,5 @@ use (
 	./fmt/gostdlib-fmt-printstructs
 	./fmt/gostdlib-fmt-sprint
 	./fmt/gostdlib-fmt-sprintf
+	./fmt/gostdlib-fmt-sprintln
 )
