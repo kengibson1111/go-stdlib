@@ -225,4 +225,5 @@ use (
 	./fmt/gostdlib-fmt-sprint
 	./fmt/gostdlib-fmt-sprintf
 	./fmt/gostdlib-fmt-sprintln
+	./fmt/gostdlib-fmt-sscanf
 )
