@@ -59,6 +59,6 @@ func main() {
 	if err := format.Node(&buf, fset, f); err != nil {
 		panic(err)
 	}
-	fmt.Printf("%s", buf.String())
 
+	fmt.Printf("%s", buf.String())
 }
