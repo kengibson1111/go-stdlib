@@ -227,4 +227,5 @@ use (
 	./fmt/gostdlib-fmt-sprintln
 	./fmt/gostdlib-fmt-sscanf
 	./fmt/gostdlib-fmt-stringer
+	./go/ast/gostdlib-go-ast-commentmap
 )
