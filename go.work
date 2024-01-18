@@ -229,4 +229,5 @@ use (
 	./fmt/gostdlib-fmt-stringer
 	./go/ast/gostdlib-go-ast-commentmap
 	./go/ast/gostdlib-go-ast-inspect
+	./go/ast/gostdlib-go-ast-print
 )
