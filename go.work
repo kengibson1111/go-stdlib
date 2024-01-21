@@ -231,5 +231,6 @@ use (
 	./go/ast/gostdlib-go-ast-inspect
 	./go/ast/gostdlib-go-ast-print
 	./go/constant/gostdlib-go-constant-binaryop
+	./go/constant/gostdlib-go-constant-compare
 	./go/constant/gostdlib-go-constant-complexnumbers
 )
