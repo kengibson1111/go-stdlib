@@ -233,4 +233,5 @@ use (
 	./go/constant/gostdlib-go-constant-binaryop
 	./go/constant/gostdlib-go-constant-compare
 	./go/constant/gostdlib-go-constant-complexnumbers
+	./go/constant/gostdlib-go-constant-sign
 )
