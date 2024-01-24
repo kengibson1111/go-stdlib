@@ -235,4 +235,5 @@ use (
 	./go/constant/gostdlib-go-constant-complexnumbers
 	./go/constant/gostdlib-go-constant-sign
 	./go/constant/gostdlib-go-constant-unaryop
+	./go/constant/gostdlib-go-constant-val
 )
