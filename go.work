@@ -238,4 +238,5 @@ use (
 	./go/constant/gostdlib-go-constant-val
 	./go/doc/gostdlib-go-doc-newfromfiles
 	./go/format/gostdlib-go-format-node
+	./go/parser/gostdlib-go-parser-parsefile
 )
