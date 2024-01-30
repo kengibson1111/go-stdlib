@@ -241,4 +241,5 @@ use (
 	./go/parser/gostdlib-go-parser-parsefile
 	./go/printer/gostdlib-go-printer-fprint
 	./go/scanner/gostdlib-go-scanner-scan
+	./go/token/gostdlib-go-token-position
 )
