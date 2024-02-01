@@ -243,4 +243,5 @@ use (
 	./go/scanner/gostdlib-go-scanner-scan
 	./go/token/gostdlib-go-token-position
 	./go/types/gostdlib-go-types-info
+	./go/types/gostdlib-go-types-methodset
 )
