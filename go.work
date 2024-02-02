@@ -244,4 +244,5 @@ use (
 	./go/token/gostdlib-go-token-position
 	./go/types/gostdlib-go-types-info
 	./go/types/gostdlib-go-types-methodset
+	./go/types/gostdlib-go-types-scope
 )
