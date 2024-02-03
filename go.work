@@ -245,4 +245,5 @@ use (
 	./go/types/gostdlib-go-types-info
 	./go/types/gostdlib-go-types-methodset
 	./go/types/gostdlib-go-types-scope
+	./hash/crc32/gostdlib-hash-crc32-maketable
 )
