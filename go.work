@@ -247,4 +247,5 @@ use (
 	./go/types/gostdlib-go-types-scope
 	./hash/crc32/gostdlib-hash-crc32-maketable
 	./hash/maphash/gostdlib-hash-maphash-package
+	./html/gostdlib-html-escapestring
 )
