@@ -8,12 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## html
-
-* escapestring - special escaping for only <, >, &, ', and ".
-
-* unescapestring - special unescaping for only <, >, &, ', and ".
-
 ## html/template
 
 * basic - shows basic template functionality.
