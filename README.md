@@ -20,10 +20,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
   considering dynamic execution functionality. This is the same as the text/template block
   sample.
 
-* autoescape - this shows some of the safety features of html/template vs. text/template.
-  HTML escaping happens by default. So it looks like it combines functionality from the
-  default html package with text/template.
-
 * escape - this shows HTML, JS, and URL escaping.
 
 ## log
