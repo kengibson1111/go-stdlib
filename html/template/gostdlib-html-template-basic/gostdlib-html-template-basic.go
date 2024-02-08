@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"html/template"
 	"log"
 	"os"
@@ -24,6 +25,7 @@ func main() {
 			log.Fatal(err)
 		}
 	}
+
 	t, err := template.New("webpage").Parse(tpl)
 	check(err)
 
@@ -52,4 +54,5 @@ func main() {
 	err = t.Execute(os.Stdout, noItems)
 	check(err)
 
+	fmt.Println()
 }

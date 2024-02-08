@@ -10,8 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## html/template
 
-* basic - shows basic template functionality.
-
 * block - this is showing how to customize a template block. block is shorthand for defining a
   template and executing it in place. That is what allows the template block to be redefined.
   In this sample, overlay is redefining the master template block. Notice how the master template
