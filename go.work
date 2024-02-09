@@ -251,4 +251,5 @@ use (
 	./html/gostdlib-html-unescapestring
 	./html/template/gostdlib-html-template-autoescape
 	./html/template/gostdlib-html-template-basic
+	./html/template/gostdlib-html-template-block
 )
