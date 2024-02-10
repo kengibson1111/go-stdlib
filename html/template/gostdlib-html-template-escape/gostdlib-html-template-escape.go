@@ -21,5 +21,4 @@ func main() {
 	fmt.Println(template.JSEscaper(v...))
 
 	fmt.Println(template.URLQueryEscaper(v...))
-
 }
