@@ -253,5 +253,6 @@ use (
 	./html/template/gostdlib-html-template-basic
 	./html/template/gostdlib-html-template-block
 	./html/template/gostdlib-html-template-escape
+	./image/gostdlib-image-decodeconfig
 	./image/gostdlib-image-histogram
 )
