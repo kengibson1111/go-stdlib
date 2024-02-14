@@ -256,4 +256,5 @@ use (
 	./image/draw/gostdlib-image-draw-floydsteinberg
 	./image/gostdlib-image-decodeconfig
 	./image/gostdlib-image-histogram
+	./image/png/gostdlib-image-png-decode
 )
