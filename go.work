@@ -257,4 +257,5 @@ use (
 	./image/gostdlib-image-decodeconfig
 	./image/gostdlib-image-histogram
 	./image/png/gostdlib-image-png-decode
+	./image/png/gostdlib-image-png-encode
 )
