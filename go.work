@@ -258,4 +258,5 @@ use (
 	./image/gostdlib-image-histogram
 	./image/png/gostdlib-image-png-decode
 	./image/png/gostdlib-image-png-encode
+	./index/suffixarray/gostdlib-index-suffixarray-lookup
 )
