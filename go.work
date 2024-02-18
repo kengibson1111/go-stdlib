@@ -260,4 +260,5 @@ use (
 	./image/png/gostdlib-image-png-encode
 	./index/suffixarray/gostdlib-index-suffixarray-lookup
 	./io/gostdlib-io-copy
+	./io/gostdlib-io-copybuffer
 )
