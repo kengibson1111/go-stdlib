@@ -262,4 +262,5 @@ use (
 	./io/gostdlib-io-copy
 	./io/gostdlib-io-copybuffer
 	./io/gostdlib-io-copyn
+	./io/gostdlib-io-limitreader
 )
