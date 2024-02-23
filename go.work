@@ -265,4 +265,5 @@ use (
 	./io/gostdlib-io-limitreader
 	./io/gostdlib-io-multireader
 	./io/gostdlib-io-multiwriter
+	./io/gostdlib-io-pipe
 )
