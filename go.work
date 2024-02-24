@@ -266,4 +266,5 @@ use (
 	./io/gostdlib-io-multireader
 	./io/gostdlib-io-multiwriter
 	./io/gostdlib-io-pipe
+	./io/gostdlib-io-readall
 )
