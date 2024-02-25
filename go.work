@@ -267,4 +267,5 @@ use (
 	./io/gostdlib-io-multiwriter
 	./io/gostdlib-io-pipe
 	./io/gostdlib-io-readall
+	./io/gostdlib-io-readatleast
 )
