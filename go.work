@@ -268,4 +268,5 @@ use (
 	./io/gostdlib-io-pipe
 	./io/gostdlib-io-readall
 	./io/gostdlib-io-readatleast
+	./io/gostdlib-io-readfull
 )
