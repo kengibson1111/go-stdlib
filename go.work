@@ -270,4 +270,5 @@ use (
 	./io/gostdlib-io-readatleast
 	./io/gostdlib-io-readfull
 	./io/gostdlib-io-sectionreader
+	./io/gostdlib-io-sectionreaderread
 )
