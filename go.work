@@ -273,4 +273,5 @@ use (
 	./io/gostdlib-io-sectionreaderread
 	./io/gostdlib-io-sectionreaderreadat
 	./io/gostdlib-io-sectionreaderseek
+	./io/gostdlib-io-sectionreadersize
 )
