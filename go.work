@@ -272,4 +272,5 @@ use (
 	./io/gostdlib-io-sectionreader
 	./io/gostdlib-io-sectionreaderread
 	./io/gostdlib-io-sectionreaderreadat
+	./io/gostdlib-io-sectionreaderseek
 )
