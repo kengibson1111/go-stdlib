@@ -275,4 +275,5 @@ use (
 	./io/gostdlib-io-sectionreaderseek
 	./io/gostdlib-io-sectionreadersize
 	./io/gostdlib-io-teereader
+	./io/gostdlib-io-writestring
 )
