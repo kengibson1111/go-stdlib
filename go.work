@@ -277,4 +277,5 @@ use (
 	./io/gostdlib-io-sectionreadersize
 	./io/gostdlib-io-teereader
 	./io/gostdlib-io-writestring
+	./log/gostdlib-log-logger
 )
