@@ -278,4 +278,5 @@ use (
 	./io/gostdlib-io-teereader
 	./io/gostdlib-io-writestring
 	./log/gostdlib-log-logger
+	./log/gostdlib-log-loggeroutput
 )
