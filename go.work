@@ -279,4 +279,5 @@ use (
 	./io/gostdlib-io-writestring
 	./log/gostdlib-log-logger
 	./log/gostdlib-log-loggeroutput
+	./log/slog/gostdlib-log-slog-wrapping
 )
