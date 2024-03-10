@@ -281,5 +281,6 @@ use (
 	./log/gostdlib-log-loggeroutput
 	./log/slog/gostdlib-log-slog-group
 	./log/slog/gostdlib-log-slog-handler
+	./log/slog/gostdlib-log-slog-handleroptions
 	./log/slog/gostdlib-log-slog-wrapping
 )
