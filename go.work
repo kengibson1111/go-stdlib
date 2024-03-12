@@ -283,5 +283,6 @@ use (
 	./log/slog/gostdlib-log-slog-handler
 	./log/slog/gostdlib-log-slog-handleroptions
 	./log/slog/gostdlib-log-slog-logvaluergroup
+	./log/slog/gostdlib-log-slog-logvaluerredact
 	./log/slog/gostdlib-log-slog-wrapping
 )
