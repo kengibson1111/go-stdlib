@@ -285,4 +285,5 @@ use (
 	./log/slog/gostdlib-log-slog-logvaluergroup
 	./log/slog/gostdlib-log-slog-logvaluerredact
 	./log/slog/gostdlib-log-slog-wrapping
+	./maps/gostdlib-maps-clone
 )
