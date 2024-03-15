@@ -287,4 +287,5 @@ use (
 	./log/slog/gostdlib-log-slog-wrapping
 	./maps/gostdlib-maps-clone
 	./maps/gostdlib-maps-copy
+	./maps/gostdlib-maps-deletefunc
 )
