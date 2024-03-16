@@ -288,4 +288,5 @@ use (
 	./maps/gostdlib-maps-clone
 	./maps/gostdlib-maps-copy
 	./maps/gostdlib-maps-deletefunc
+	./maps/gostdlib-maps-equal
 )
