@@ -291,4 +291,5 @@ use (
 	./maps/gostdlib-maps-equal
 	./maps/gostdlib-maps-equalfunc
 	./math/gostdlib-math-abs
+	./math/gostdlib-math-acos
 )
