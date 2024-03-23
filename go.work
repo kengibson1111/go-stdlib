@@ -294,4 +294,5 @@ use (
 	./math/gostdlib-math-acos
 	./math/gostdlib-math-asin
 	./math/gostdlib-math-atan
+	./math/gostdlib-math-cbrt
 )
