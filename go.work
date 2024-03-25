@@ -296,4 +296,5 @@ use (
 	./math/gostdlib-math-atan
 	./math/gostdlib-math-cbrt
 	./math/gostdlib-math-ceil
+	./math/gostdlib-math-copysign
 )
