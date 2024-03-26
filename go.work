@@ -297,4 +297,5 @@ use (
 	./math/gostdlib-math-cbrt
 	./math/gostdlib-math-ceil
 	./math/gostdlib-math-copysign
+	./math/gostdlib-math-cos
 )
