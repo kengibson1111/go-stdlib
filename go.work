@@ -298,4 +298,5 @@ use (
 	./math/gostdlib-math-ceil
 	./math/gostdlib-math-copysign
 	./math/gostdlib-math-cos
+	./math/gostdlib-math-dim
 )
