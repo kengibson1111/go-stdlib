@@ -299,4 +299,5 @@ use (
 	./math/gostdlib-math-copysign
 	./math/gostdlib-math-cos
 	./math/gostdlib-math-dim
+	./math/gostdlib-math-exp
 )
