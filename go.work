@@ -302,4 +302,5 @@ use (
 	./math/gostdlib-math-exp
 	./math/gostdlib-math-floor
 	./math/gostdlib-math-log
+	./math/gostdlib-math-mod
 )
