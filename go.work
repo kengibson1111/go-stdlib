@@ -305,4 +305,5 @@ use (
 	./math/gostdlib-math-mod
 	./math/gostdlib-math-pow
 	./math/gostdlib-math-remainder
+	./math/gostdlib-math-round
 )
