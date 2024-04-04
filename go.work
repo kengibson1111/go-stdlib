@@ -306,4 +306,5 @@ use (
 	./math/gostdlib-math-pow
 	./math/gostdlib-math-remainder
 	./math/gostdlib-math-round
+	./math/gostdlib-math-sin
 )
