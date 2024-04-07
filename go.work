@@ -309,4 +309,5 @@ use (
 	./math/gostdlib-math-sin
 	./math/gostdlib-math-sqrt
 	./math/gostdlib-math-tan
+	./math/gostdlib-math-trunc
 )
