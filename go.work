@@ -290,6 +290,7 @@ use (
 	./maps/gostdlib-maps-deletefunc
 	./maps/gostdlib-maps-equal
 	./maps/gostdlib-maps-equalfunc
+	./math/big/gostdlib-math-big-econvergence
 	./math/gostdlib-math-abs
 	./math/gostdlib-math-acos
 	./math/gostdlib-math-asin
