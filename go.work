@@ -292,6 +292,7 @@ use (
 	./maps/gostdlib-maps-equalfunc
 	./math/big/gostdlib-math-big-econvergence
 	./math/big/gostdlib-math-big-fibonacci
+	./math/big/gostdlib-math-big-floatadd
 	./math/big/gostdlib-math-big-floatshift
 	./math/big/gostdlib-math-big-sqrt2
 	./math/gostdlib-math-abs
