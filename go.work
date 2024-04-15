@@ -295,6 +295,7 @@ use (
 	./math/big/gostdlib-math-big-floatadd
 	./math/big/gostdlib-math-big-floatcmp
 	./math/big/gostdlib-math-big-floatscan
+	./math/big/gostdlib-math-big-floatsetstring
 	./math/big/gostdlib-math-big-floatshift
 	./math/big/gostdlib-math-big-sqrt2
 	./math/gostdlib-math-abs
