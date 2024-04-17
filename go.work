@@ -298,6 +298,7 @@ use (
 	./math/big/gostdlib-math-big-floatsetstring
 	./math/big/gostdlib-math-big-floatshift
 	./math/big/gostdlib-math-big-intscan
+	./math/big/gostdlib-math-big-intsetstring
 	./math/big/gostdlib-math-big-sqrt2
 	./math/gostdlib-math-abs
 	./math/gostdlib-math-acos

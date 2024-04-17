@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	i := new(big.Int)
-	i.SetString("644", 8) // octal
-	fmt.Println(i)
+	f := new(big.Float)
+	f.SetString("3.14159")
+	fmt.Println(f)
 }
