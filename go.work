@@ -301,6 +301,7 @@ use (
 	./math/big/gostdlib-math-big-intsetstring
 	./math/big/gostdlib-math-big-ratscan
 	./math/big/gostdlib-math-big-ratsetstring
+	./math/big/gostdlib-math-big-roundingmode
 	./math/big/gostdlib-math-big-sqrt2
 	./math/gostdlib-math-abs
 	./math/gostdlib-math-acos
