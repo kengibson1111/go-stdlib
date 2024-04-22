@@ -304,6 +304,7 @@ use (
 	./math/big/gostdlib-math-big-roundingmode
 	./math/big/gostdlib-math-big-sqrt2
 	./math/bits/gostdlib-math-bits-add
+	./math/bits/gostdlib-math-bits-div
 	./math/gostdlib-math-abs
 	./math/gostdlib-math-acos
 	./math/gostdlib-math-asin
