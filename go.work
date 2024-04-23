@@ -305,6 +305,7 @@ use (
 	./math/big/gostdlib-math-big-sqrt2
 	./math/bits/gostdlib-math-bits-add
 	./math/bits/gostdlib-math-bits-div
+	./math/bits/gostdlib-math-bits-leadingzeros
 	./math/gostdlib-math-abs
 	./math/gostdlib-math-acos
 	./math/gostdlib-math-asin
