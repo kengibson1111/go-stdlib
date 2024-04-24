@@ -306,6 +306,7 @@ use (
 	./math/bits/gostdlib-math-bits-add
 	./math/bits/gostdlib-math-bits-div
 	./math/bits/gostdlib-math-bits-leadingzeros
+	./math/bits/gostdlib-math-bits-len
 	./math/gostdlib-math-abs
 	./math/gostdlib-math-acos
 	./math/gostdlib-math-asin
