@@ -308,6 +308,7 @@ use (
 	./math/bits/gostdlib-math-bits-leadingzeros
 	./math/bits/gostdlib-math-bits-len
 	./math/bits/gostdlib-math-bits-mul
+	./math/bits/gostdlib-math-bits-onescount
 	./math/gostdlib-math-abs
 	./math/gostdlib-math-acos
 	./math/gostdlib-math-asin
