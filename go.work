@@ -311,6 +311,7 @@ use (
 	./math/bits/gostdlib-math-bits-onescount
 	./math/bits/gostdlib-math-bits-reverse
 	./math/bits/gostdlib-math-bits-reversebytes
+	./math/bits/gostdlib-math-bits-rotateleft
 	./math/gostdlib-math-abs
 	./math/gostdlib-math-acos
 	./math/gostdlib-math-asin
