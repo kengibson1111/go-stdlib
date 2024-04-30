@@ -312,6 +312,7 @@ use (
 	./math/bits/gostdlib-math-bits-reverse
 	./math/bits/gostdlib-math-bits-reversebytes
 	./math/bits/gostdlib-math-bits-rotateleft
+	./math/bits/gostdlib-math-bits-sub
 	./math/gostdlib-math-abs
 	./math/gostdlib-math-acos
 	./math/gostdlib-math-asin
