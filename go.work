@@ -315,6 +315,7 @@ use (
 	./math/bits/gostdlib-math-bits-sub
 	./math/bits/gostdlib-math-bits-trailingzeros
 	./math/cmplx/gostdlib-math-cmplx-abs
+	./math/cmplx/gostdlib-math-cmplx-exp
 	./math/gostdlib-math-abs
 	./math/gostdlib-math-acos
 	./math/gostdlib-math-asin
