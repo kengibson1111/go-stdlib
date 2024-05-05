@@ -337,4 +337,5 @@ use (
 	./math/gostdlib-math-sqrt
 	./math/gostdlib-math-tan
 	./math/gostdlib-math-trunc
+	./math/rand/gostdlib-math-rand-package
 )
