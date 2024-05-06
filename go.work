@@ -338,4 +338,5 @@ use (
 	./math/gostdlib-math-tan
 	./math/gostdlib-math-trunc
 	./math/rand/gostdlib-math-rand-package
+	./math/rand/gostdlib-math-rand-package2
 )
