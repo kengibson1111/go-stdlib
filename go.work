@@ -341,4 +341,5 @@ use (
 	./math/rand/gostdlib-math-rand-package
 	./math/rand/gostdlib-math-rand-package2
 	./math/rand/gostdlib-math-rand-perm
+	./math/rand/gostdlib-math-rand-shuffle
 )
