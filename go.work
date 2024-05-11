@@ -343,4 +343,5 @@ use (
 	./math/rand/gostdlib-math-rand-perm
 	./math/rand/gostdlib-math-rand-shuffle
 	./math/rand/gostdlib-math-rand-shuffleunison
+	./mime/gostdlib-mime-formatmediatype
 )
