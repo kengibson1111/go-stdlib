@@ -345,4 +345,5 @@ use (
 	./math/rand/gostdlib-math-rand-shuffleunison
 	./mime/gostdlib-mime-formatmediatype
 	./mime/gostdlib-mime-parsemediatype
+	./mime/gostdlib-mime-worddecoderdecode
 )
