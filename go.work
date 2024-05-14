@@ -346,4 +346,5 @@ use (
 	./mime/gostdlib-mime-formatmediatype
 	./mime/gostdlib-mime-parsemediatype
 	./mime/gostdlib-mime-worddecoderdecode
+	./mime/gostdlib-mime-worddecoderdecodeheader
 )
