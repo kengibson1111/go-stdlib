@@ -348,4 +348,5 @@ use (
 	./mime/gostdlib-mime-worddecoderdecode
 	./mime/gostdlib-mime-worddecoderdecodeheader
 	./mime/gostdlib-mime-worddecoderencode
+	./mime/multipart/gostdlib-mime-multipart-newreader
 )
