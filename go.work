@@ -350,4 +350,5 @@ use (
 	./mime/gostdlib-mime-worddecoderencode
 	./mime/multipart/gostdlib-mime-multipart-newreader
 	./mime/quotedprintable/gostdlib-mime-quotedprintable-newreader
+	./mime/quotedprintable/gostdlib-mime-quotedprintable-newwriter
 )
