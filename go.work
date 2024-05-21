@@ -353,4 +353,5 @@ use (
 	./mime/quotedprintable/gostdlib-mime-quotedprintable-newwriter
 	./net/gostdlib-net-cidrmask
 	./net/gostdlib-net-dialer
+	./net/gostdlib-net-dialerunix
 )
