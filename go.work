@@ -354,4 +354,5 @@ use (
 	./net/gostdlib-net-cidrmask
 	./net/gostdlib-net-dialer
 	./net/gostdlib-net-dialerunix
+	./net/gostdlib-net-ip
 )
