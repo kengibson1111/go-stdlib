@@ -357,4 +357,5 @@ use (
 	./net/gostdlib-net-ip
 	./net/gostdlib-net-ipdefaultmask
 	./net/gostdlib-net-ipequal
+	./net/gostdlib-net-isglobalunicast
 )
