@@ -358,4 +358,5 @@ use (
 	./net/gostdlib-net-ipdefaultmask
 	./net/gostdlib-net-ipequal
 	./net/gostdlib-net-isglobalunicast
+	./net/gostdlib-net-isinterfacelocalmulticast
 )
