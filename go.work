@@ -359,4 +359,5 @@ use (
 	./net/gostdlib-net-ipequal
 	./net/gostdlib-net-isglobalunicast
 	./net/gostdlib-net-isinterfacelocalmulticast
+	./net/gostdlib-net-islinklocalmulticast
 )
