@@ -360,4 +360,5 @@ use (
 	./net/gostdlib-net-isglobalunicast
 	./net/gostdlib-net-isinterfacelocalmulticast
 	./net/gostdlib-net-islinklocalmulticast
+	./net/gostdlib-net-islinklocalunicast
 )
