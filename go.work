@@ -362,4 +362,5 @@ use (
 	./net/gostdlib-net-islinklocalmulticast
 	./net/gostdlib-net-islinklocalunicast
 	./net/gostdlib-net-isloopback
+	./net/gostdlib-net-ismulticast
 )
