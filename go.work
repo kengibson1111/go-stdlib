@@ -363,4 +363,5 @@ use (
 	./net/gostdlib-net-islinklocalunicast
 	./net/gostdlib-net-isloopback
 	./net/gostdlib-net-ismulticast
+	./net/gostdlib-net-isprivate
 )
