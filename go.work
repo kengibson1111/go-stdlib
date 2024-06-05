@@ -365,4 +365,5 @@ use (
 	./net/gostdlib-net-ismulticast
 	./net/gostdlib-net-isprivate
 	./net/gostdlib-net-isunspecified
+	./net/gostdlib-net-mask
 )
