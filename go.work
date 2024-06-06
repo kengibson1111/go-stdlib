@@ -366,4 +366,5 @@ use (
 	./net/gostdlib-net-isprivate
 	./net/gostdlib-net-isunspecified
 	./net/gostdlib-net-mask
+	./net/gostdlib-net-string
 )
