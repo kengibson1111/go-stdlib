@@ -370,6 +370,7 @@ use (
 	./net/gostdlib-net-listener
 	./net/gostdlib-net-mask
 	./net/gostdlib-net-parsecidr
+	./net/gostdlib-net-parseip
 	./net/gostdlib-net-string
 	./net/gostdlib-net-to16
 )
