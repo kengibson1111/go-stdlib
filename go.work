@@ -373,4 +373,5 @@ use (
 	./net/gostdlib-net-parseip
 	./net/gostdlib-net-string
 	./net/gostdlib-net-to16
+	./net/gostdlib-net-udpconnwriteto
 )
