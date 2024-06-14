@@ -12,9 +12,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 HTTP client and server functions.
 
-* simplehttpserver - this listens on 8080 and echos the URL without the leading forward slash. Straight
-  from golang.org's wiki.
-
 * simplehttpsserver - this listens on 443 and echos the URL without the leading forward slash. It uses
   TLS, so you will need to generate server.pem and server.key files using the crypto/tls/tlscert sample.
   Drop those 2 files in the same directory where you run simplehttpsserver. You can hit the server
