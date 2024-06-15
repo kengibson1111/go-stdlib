@@ -19,7 +19,7 @@ import (
 
 var (
 	host       = flag.String("host", "127.0.0.1", "Comma-separated hostnames and IPs to generate a certificate for")
-	validFrom  = flag.String("start-date", "Oct 14 00:00:00 2023", "Creation date formatted as Jan 1 15:04:05 2011")
+	validFrom  = flag.String("start-date", "Jun 15 00:00:00 2024", "Creation date formatted as Jan 1 15:04:05 2011")
 	validFor   = flag.Duration("duration", 365*24*time.Hour, "Duration that certificate is valid for")
 	isCA       = flag.Bool("ca", true, "whether this cert should be its own Certificate Authority")
 	rsaBits    = flag.Int("rsa-bits", 2048, "Size of RSA key to generate. Ignored if --ecdsa-curve is set")

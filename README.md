@@ -12,16 +12,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 HTTP client and server functions.
 
-* simplehttpsserver - this listens on 443 and echos the URL without the leading forward slash. It uses
-  TLS, so you will need to generate server.pem and server.key files using the crypto/tls/tlscert sample.
-  Drop those 2 files in the same directory where you run simplehttpsserver. You can hit the server
-  using simplehttpsclient.
-
-* simplehttpsclient - this establishes a TLS handshake and does an HTTP GET on 127.0.0.1:443 - the
-  port where simplehttpsserver is running. Use the crypto/tls/tlscert sample to build server.pem
-  and server.key files. Rename those to client.pem and client.key respectively. Copy the server.pem
-  from simplehttpsserver.
-
 * servemux - this builds on simplehttpsserver. It uses TLS, so you will need to generate server.pem and
   server.key files using the crypto/tls/tlscert sample. Drop those 2 files in the same directory where you
   run servemux. You can hit the server using servemuxclient. This is demonstrating the ability to
