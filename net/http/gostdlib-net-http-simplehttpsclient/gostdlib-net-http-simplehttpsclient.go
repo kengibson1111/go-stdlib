@@ -4,9 +4,10 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
+	"os"
 )
 
 func main() {
@@ -18,10 +19,11 @@ func main() {
 	}
 
 	// Load CA cert
-	caCert, err := ioutil.ReadFile("server.pem")
+	caCert, err := os.ReadFile("server.pem")
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	caCertPool := x509.NewCertPool()
 	caCertPool.AppendCertsFromPEM(caCert)
 
@@ -30,14 +32,19 @@ func main() {
 		Certificates: []tls.Certificate{cert},
 		RootCAs:      caCertPool,
 	}
-	tlsConfig.BuildNameToCertificate()
+
 	transport := &http.Transport{TLSClientConfig: tlsConfig}
 	client := &http.Client{Transport: transport}
 
-	resp, err := client.Get("https://127.0.0.1:443/hello")
+	resp, err := client.Get("https://127.0.0.1:8443/hello")
 	if err != nil {
-		fmt.Println(err)
+		log.Fatal(err)
 	}
-	contents, err := ioutil.ReadAll(resp.Body)
+
+	contents, err := io.ReadAll(resp.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	fmt.Printf("%s\n", string(contents))
 }

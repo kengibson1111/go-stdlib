@@ -374,5 +374,7 @@ use (
 	./net/gostdlib-net-string
 	./net/gostdlib-net-to16
 	./net/gostdlib-net-udpconnwriteto
+	./net/http/gostdlib-net-http-simplehttpsclient
 	./net/http/gostdlib-net-http-simplehttpserver
+	./net/http/gostdlib-net-http-simplehttpsserver
 )
