@@ -2,7 +2,7 @@
 	"image": "kengibson1111/godev",
 	"runArgs": [
 		"--rm",
-		"--network=bridge"
+		"--network=kglabs-net"
 	],
 	"containerEnv": {
 		"GIT_SSH_COMMAND": "ssh -i ~/.ssh/id_rsa_go-stdlib"

@@ -36,7 +36,7 @@ func main() {
 	transport := &http.Transport{TLSClientConfig: tlsConfig}
 	client := &http.Client{Transport: transport}
 
-	resp, err := client.Get("https://127.0.0.1:8443/hello")
+	resp, err := client.Get("https://testserver:8443/hello")
 	if err != nil {
 		log.Fatal(err)
 	}
