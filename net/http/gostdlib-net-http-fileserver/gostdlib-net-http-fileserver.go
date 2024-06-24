@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	// Simple static webserver:
-	log.Fatal(http.ListenAndServe(":8180", http.FileServer(http.Dir("/usr/share/doc"))))
+	http.Handle("/", http.FileServer(http.Dir("/usr/share/doc")))
+	log.Fatal(http.ListenAndServe(":8180", nil))
 }

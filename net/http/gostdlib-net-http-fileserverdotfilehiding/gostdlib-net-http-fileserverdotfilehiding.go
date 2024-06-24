@@ -64,7 +64,7 @@ func (fsys dotFileHidingFileSystem) Open(name string) (http.File, error) {
 }
 
 func main() {
-	fsys := dotFileHidingFileSystem{http.Dir(".")}
+	fsys := dotFileHidingFileSystem{http.Dir("/var/local/myprojects")}
 	http.Handle("/", http.FileServer(fsys))
 	log.Fatal(http.ListenAndServe(":8180", nil))
 }
