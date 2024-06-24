@@ -1,14 +1,14 @@
-# net/http - simplehttpsclient
+# net/http - servemuxclient
 
-This establishes a TLS handshake and does an HTTP GET on testserver:8443 - the port where `gostdlib-net-http-simplehttpsserver` is running within a Docker container named `testserver` connected to the same local Docker network. Use the `crypto/tls/gostdlib-crypto-tls-cert` sample to build `server.pem` and `server.key` files.
+This establishes a TLS handshake and does an HTTP GET on testserver:8443 - the port where `gostdlib-net-http-servemux` is running within a Docker container named `testserver` connected to the same local Docker network. Use the `crypto/tls/gostdlib-crypto-tls-cert` sample to build `server.pem` and `server.key` files.
 
-In my local environment, I run everything in Docker containers and I have a local Docker network so that containers can communicate. After a `go install` in `crypto/tls/gostdlib-crypto-tls-cert`, the executable is available within a container on the container's PATH. In the `gostdlib-net-http-simplehttpsclient` directory, the command is:
+In my local environment, I run everything in Docker containers and I have a local Docker network so that containers can communicate. After a `go install` in `crypto/tls/gostdlib-crypto-tls-cert`, the executable is available within a container on the container's PATH. In the `gostdlib-net-http-servemuxclient` directory, the command is:
 
 ```bash
 gostdlib-crypto-tls-cert
 ```
 
-This generates `server.pem` and `server.key` files. Rename `server.pem` and `server.key` to `client.pem` and `client.key` respectively. Copy the `server.pem` from `gostdlib-net-http-simplehttpsserver`.
+This generates `server.pem` and `server.key` files. Rename `server.pem` and `server.key` to `client.pem` and `client.key` respectively. Copy the `server.pem` from `gostdlib-net-http-servemux`. This shows how 4 different URLs are handled by `gostdlib-net-http-servemux`. 
 
 ## why is this important?
 

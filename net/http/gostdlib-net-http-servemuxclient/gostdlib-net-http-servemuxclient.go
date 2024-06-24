@@ -4,9 +4,10 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"log"
 	"net/http"
+	"os"
 )
 
 func main() {
@@ -18,10 +19,11 @@ func main() {
 	}
 
 	// Load CA cert
-	caCert, err := ioutil.ReadFile("server.pem")
+	caCert, err := os.ReadFile("server.pem")
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	caCertPool := x509.NewCertPool()
 	caCertPool.AppendCertsFromPEM(caCert)
 
@@ -30,38 +32,58 @@ func main() {
 		Certificates: []tls.Certificate{cert},
 		RootCAs:      caCertPool,
 	}
-	tlsConfig.BuildNameToCertificate()
+
 	transport := &http.Transport{TLSClientConfig: tlsConfig}
 	client := &http.Client{Transport: transport}
 
 	// try the home path.
-	resp, err := client.Get("https://127.0.0.1:443/")
+	resp, err := client.Get("https://testserver:8443/")
 	if err != nil {
-		fmt.Println(err)
+		log.Fatal(err)
 	}
-	contents, err := ioutil.ReadAll(resp.Body)
+
+	contents, err := io.ReadAll(resp.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	fmt.Printf("%s\n", string(contents))
 
 	// try an invalid path
-	resp, err = client.Get("https://127.0.0.1:443/hello")
+	resp, err = client.Get("https://testserver:8443/hello")
 	if err != nil {
-		fmt.Println(err)
+		log.Fatal(err)
 	}
-	contents, err = ioutil.ReadAll(resp.Body)
+
+	contents, err = io.ReadAll(resp.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	fmt.Printf("%s\n", string(contents))
 
 	// try valid paths
-	resp, err = client.Get("https://127.0.0.1:443/api/v1/someapi")
+	resp, err = client.Get("https://testserver:8443/api/v1/someapi")
 	if err != nil {
-		fmt.Println(err)
+		log.Fatal(err)
 	}
-	contents, err = ioutil.ReadAll(resp.Body)
+
+	contents, err = io.ReadAll(resp.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	fmt.Printf("%s\n", string(contents))
 
-	resp, err = client.Get("https://127.0.0.1:443/api/v1/someapi2")
+	resp, err = client.Get("https://testserver:8443/api/v1/someapi2")
 	if err != nil {
-		fmt.Println(err)
+		log.Fatal(err)
 	}
-	contents, err = ioutil.ReadAll(resp.Body)
+
+	contents, err = io.ReadAll(resp.Body)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	fmt.Printf("%s\n", string(contents))
 }

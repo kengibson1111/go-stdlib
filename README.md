@@ -8,28 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## net/http
-
-HTTP client and server functions.
-
-* servemux - this builds on simplehttpsserver. It uses TLS, so you will need to generate server.pem and
-  server.key files using the crypto/tls/tlscert sample. Drop those 2 files in the same directory where you
-  run servemux. You can hit the server using servemuxclient. This is demonstrating the ability to
-  assign handlers to URL patterns. Patterns are matched from the most specific to least specific. And
-  the advantage over just a function is the abillity to define a complex type that implements the
-  Handler interface. In the sample code, the Handler implementation is an empty struct. But
-  it doesn't have to be. Very cool.
-
-* servemuxclient - this establishes a TLS handshake and does an HTTP GET on 127.0.0.1:443 - the
-  port where servemux is running. Use the crypto/tls/tlscert sample to build server.pem
-  and server.key files. Rename those to client.pem and client.key respectively. Copy the server.pem
-  from servemux. This shows how 4 different URLs are handled by servemux. What I like about this
-  is how you can use self-signed certs and self-generated keys to control internal micro-service
-  communication. To the external world, self-signed certs are evil. But if YOU know where the keys
-  and certs are coming from, you can figure out a way to generate keys and certs every 5-10 days.
-  And while the external API consumer hates that, internally micro-services are protected through
-  a consistent, reliable cert and key rotation strategy. Cool.
-
 ## reflect
 
 * makefunc - straight from golang.org's documentation. Still trying to wrap my head around this, but

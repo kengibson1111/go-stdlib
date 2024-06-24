@@ -3,7 +3,6 @@ package main
 import (
 	"crypto/tls"
 	"crypto/x509"
-	"fmt"
 	"io"
 	"log"
 	"net/http"
@@ -46,5 +45,5 @@ func main() {
 		log.Fatal(err)
 	}
 
-	fmt.Printf("%s\n", string(contents))
+	log.Printf("%s\n", string(contents))
 }
