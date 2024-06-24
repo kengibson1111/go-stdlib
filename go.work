@@ -376,6 +376,7 @@ use (
 	./net/gostdlib-net-udpconnwriteto
 	./net/http/gostdlib-net-http-fileserver
 	./net/http/gostdlib-net-http-fileserverdotfilehiding
+	./net/http/gostdlib-net-http-fileserverstripprefix
 	./net/http/gostdlib-net-http-simplehttpsclient
 	./net/http/gostdlib-net-http-simplehttpserver
 	./net/http/gostdlib-net-http-simplehttpsserver
