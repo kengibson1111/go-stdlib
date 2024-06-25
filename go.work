@@ -1,4 +1,4 @@
-go 1.21.5
+go 1.22.4
 
 use (
 	./archive/tar/gostdlib-archive-tar
@@ -377,6 +377,7 @@ use (
 	./net/http/gostdlib-net-http-fileserver
 	./net/http/gostdlib-net-http-fileserverdotfilehiding
 	./net/http/gostdlib-net-http-fileserverstripprefix
+	./net/http/gostdlib-net-http-get
 	./net/http/gostdlib-net-http-servemux
 	./net/http/gostdlib-net-http-servemuxclient
 	./net/http/gostdlib-net-http-simplehttpsclient
