@@ -378,6 +378,7 @@ use (
 	./net/http/gostdlib-net-http-fileserverdotfilehiding
 	./net/http/gostdlib-net-http-fileserverstripprefix
 	./net/http/gostdlib-net-http-get
+	./net/http/gostdlib-net-http-handle
 	./net/http/gostdlib-net-http-servemux
 	./net/http/gostdlib-net-http-servemuxclient
 	./net/http/gostdlib-net-http-simplehttpsclient
