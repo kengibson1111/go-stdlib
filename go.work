@@ -381,6 +381,7 @@ use (
 	./net/http/gostdlib-net-http-handle
 	./net/http/gostdlib-net-http-handlefunc
 	./net/http/gostdlib-net-http-hijacker
+	./net/http/gostdlib-net-http-listenandserve
 	./net/http/gostdlib-net-http-servemux
 	./net/http/gostdlib-net-http-servemuxclient
 	./net/http/gostdlib-net-http-simplehttpsclient
