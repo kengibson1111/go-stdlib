@@ -383,6 +383,7 @@ use (
 	./net/http/gostdlib-net-http-hijacker
 	./net/http/gostdlib-net-http-listenandserve
 	./net/http/gostdlib-net-http-listenandservetls
+	./net/http/gostdlib-net-http-notfoundhandler
 	./net/http/gostdlib-net-http-servemux
 	./net/http/gostdlib-net-http-servemuxclient
 	./net/http/gostdlib-net-http-simplehttpsclient
