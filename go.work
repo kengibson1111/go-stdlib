@@ -387,6 +387,7 @@ use (
 	./net/http/gostdlib-net-http-responsewritertrailers
 	./net/http/gostdlib-net-http-servemux
 	./net/http/gostdlib-net-http-servemuxclient
+	./net/http/gostdlib-net-http-shutdown
 	./net/http/gostdlib-net-http-simplehttpsclient
 	./net/http/gostdlib-net-http-simplehttpserver
 	./net/http/gostdlib-net-http-simplehttpsserver
