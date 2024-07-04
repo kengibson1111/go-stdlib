@@ -391,4 +391,5 @@ use (
 	./net/http/gostdlib-net-http-simplehttpsclient
 	./net/http/gostdlib-net-http-simplehttpserver
 	./net/http/gostdlib-net-http-simplehttpsserver
+	./net/http/httptest/gostdlib-net-http-httptest-newtlsserver
 )
