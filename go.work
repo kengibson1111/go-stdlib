@@ -374,6 +374,7 @@ use (
 	./net/gostdlib-net-string
 	./net/gostdlib-net-to16
 	./net/gostdlib-net-udpconnwriteto
+	./net/http/cookiejar/gostdlib-net-http-cookiejar-new
 	./net/http/gostdlib-net-http-fileserver
 	./net/http/gostdlib-net-http-fileserverdotfilehiding
 	./net/http/gostdlib-net-http-fileserverstripprefix
