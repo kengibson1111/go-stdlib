@@ -397,4 +397,5 @@ use (
 	./net/http/httptest/gostdlib-net-http-httptest-newserver
 	./net/http/httptest/gostdlib-net-http-httptest-newtlsserver
 	./net/http/httptrace/gostdlib-net-http-httptrace-clienttrace
+	./net/http/httputil/gostdlib-net-http-httputil-dumprequest
 )
