@@ -399,4 +399,5 @@ use (
 	./net/http/httptrace/gostdlib-net-http-httptrace-clienttrace
 	./net/http/httputil/gostdlib-net-http-httputil-dumprequest
 	./net/http/httputil/gostdlib-net-http-httputil-dumprequestout
+	./net/http/httputil/gostdlib-net-http-httputil-dumpresponse
 )
