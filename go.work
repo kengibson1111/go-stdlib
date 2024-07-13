@@ -400,4 +400,5 @@ use (
 	./net/http/httputil/gostdlib-net-http-httputil-dumprequest
 	./net/http/httputil/gostdlib-net-http-httputil-dumprequestout
 	./net/http/httputil/gostdlib-net-http-httputil-dumpresponse
+	./net/http/httputil/gostdlib-net-http-httputil-reverseproxy
 )
