@@ -402,4 +402,5 @@ use (
 	./net/http/httputil/gostdlib-net-http-httputil-dumpresponse
 	./net/http/httputil/gostdlib-net-http-httputil-reverseproxy
 	./net/mail/gostdlib-net-mail-parseaddress
+	./net/mail/gostdlib-net-mail-parseaddresslist
 )
