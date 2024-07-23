@@ -409,5 +409,6 @@ use (
 	./net/url/gostdlib-net-url-pathunescape
 	./net/url/gostdlib-net-url-queryescape
 	./net/url/gostdlib-net-url-queryunescape
+	./net/url/gostdlib-net-url-roundtrip
 	./net/url/gostdlib-net-url-url
 )
