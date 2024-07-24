@@ -404,6 +404,7 @@ use (
 	./net/mail/gostdlib-net-mail-parseaddress
 	./net/mail/gostdlib-net-mail-parseaddresslist
 	./net/mail/gostdlib-net-mail-readmessage
+	./net/url/gostdlib-net-url-escapedfragment
 	./net/url/gostdlib-net-url-parsequery
 	./net/url/gostdlib-net-url-pathescape
 	./net/url/gostdlib-net-url-pathunescape
