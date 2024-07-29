@@ -409,6 +409,7 @@ use (
 	./net/url/gostdlib-net-url-hostname
 	./net/url/gostdlib-net-url-isabs
 	./net/url/gostdlib-net-url-marshalbinary
+	./net/url/gostdlib-net-url-parse
 	./net/url/gostdlib-net-url-parsequery
 	./net/url/gostdlib-net-url-pathescape
 	./net/url/gostdlib-net-url-pathunescape
