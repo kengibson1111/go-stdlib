@@ -413,6 +413,7 @@ use (
 	./net/url/gostdlib-net-url-parsequery
 	./net/url/gostdlib-net-url-pathescape
 	./net/url/gostdlib-net-url-pathunescape
+	./net/url/gostdlib-net-url-port
 	./net/url/gostdlib-net-url-queryescape
 	./net/url/gostdlib-net-url-queryunescape
 	./net/url/gostdlib-net-url-roundtrip
