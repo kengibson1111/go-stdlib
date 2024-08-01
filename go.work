@@ -417,6 +417,7 @@ use (
 	./net/url/gostdlib-net-url-query
 	./net/url/gostdlib-net-url-queryescape
 	./net/url/gostdlib-net-url-queryunescape
+	./net/url/gostdlib-net-url-redacted
 	./net/url/gostdlib-net-url-roundtrip
 	./net/url/gostdlib-net-url-url
 )
