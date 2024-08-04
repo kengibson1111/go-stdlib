@@ -421,5 +421,6 @@ use (
 	./net/url/gostdlib-net-url-requesturi
 	./net/url/gostdlib-net-url-resolvereference
 	./net/url/gostdlib-net-url-roundtrip
+	./net/url/gostdlib-net-url-string
 	./net/url/gostdlib-net-url-url
 )
