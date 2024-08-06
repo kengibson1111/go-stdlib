@@ -424,4 +424,5 @@ use (
 	./net/url/gostdlib-net-url-string
 	./net/url/gostdlib-net-url-unmarshalbinary
 	./net/url/gostdlib-net-url-url
+	./net/url/gostdlib-net-url-values
 )
