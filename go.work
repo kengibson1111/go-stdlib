@@ -427,4 +427,5 @@ use (
 	./net/url/gostdlib-net-url-values
 	./net/url/gostdlib-net-url-valuesadd
 	./net/url/gostdlib-net-url-valuesdel
+	./net/url/gostdlib-net-url-valuesencode
 )
