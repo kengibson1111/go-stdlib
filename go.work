@@ -429,4 +429,5 @@ use (
 	./net/url/gostdlib-net-url-valuesdel
 	./net/url/gostdlib-net-url-valuesencode
 	./net/url/gostdlib-net-url-valuesget
+	./net/url/gostdlib-net-url-valueshas
 )
