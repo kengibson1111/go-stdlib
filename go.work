@@ -432,4 +432,5 @@ use (
 	./net/url/gostdlib-net-url-valueshas
 	./net/url/gostdlib-net-url-valuesset
 	./os/gostdlib-os-chmod
+	./os/gostdlib-os-chtimes
 )
