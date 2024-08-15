@@ -433,4 +433,5 @@ use (
 	./net/url/gostdlib-net-url-valuesset
 	./os/gostdlib-os-chmod
 	./os/gostdlib-os-chtimes
+	./os/gostdlib-os-createtemp
 )
