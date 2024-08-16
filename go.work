@@ -434,4 +434,5 @@ use (
 	./os/gostdlib-os-chmod
 	./os/gostdlib-os-chtimes
 	./os/gostdlib-os-createtemp
+	./os/gostdlib-os-createtempsuffix
 )
