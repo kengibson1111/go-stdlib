@@ -435,4 +435,5 @@ use (
 	./os/gostdlib-os-chtimes
 	./os/gostdlib-os-createtemp
 	./os/gostdlib-os-createtempsuffix
+	./os/gostdlib-os-expand
 )
