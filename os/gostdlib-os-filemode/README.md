@@ -1,3 +1,3 @@
 # os - filemode
 
-This shows how to use File.Mode.
+This shows how to use FileInfo.Mode.
