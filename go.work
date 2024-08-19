@@ -437,4 +437,5 @@ use (
 	./os/gostdlib-os-createtempsuffix
 	./os/gostdlib-os-expand
 	./os/gostdlib-os-expandenv
+	./os/gostdlib-os-filemode
 )
