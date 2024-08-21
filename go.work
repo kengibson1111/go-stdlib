@@ -439,4 +439,5 @@ use (
 	./os/gostdlib-os-expandenv
 	./os/gostdlib-os-filemode
 	./os/gostdlib-os-getenv
+	./os/gostdlib-os-lookupenv
 )
