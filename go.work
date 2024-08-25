@@ -442,4 +442,5 @@ use (
 	./os/gostdlib-os-lookupenv
 	./os/gostdlib-os-mkdir
 	./os/gostdlib-os-mkdirall
+	./os/gostdlib-os-mkdirtemp
 )
