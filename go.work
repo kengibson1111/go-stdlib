@@ -443,4 +443,5 @@ use (
 	./os/gostdlib-os-mkdir
 	./os/gostdlib-os-mkdirall
 	./os/gostdlib-os-mkdirtemp
+	./os/gostdlib-os-mkdirtempsuffix
 )
