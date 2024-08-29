@@ -446,4 +446,5 @@ use (
 	./os/gostdlib-os-mkdirtempsuffix
 	./os/gostdlib-os-openfile
 	./os/gostdlib-os-openfileappend
+	./os/gostdlib-os-readdir
 )
