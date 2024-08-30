@@ -447,4 +447,5 @@ use (
 	./os/gostdlib-os-openfile
 	./os/gostdlib-os-openfileappend
 	./os/gostdlib-os-readdir
+	./os/gostdlib-os-readfile
 )
