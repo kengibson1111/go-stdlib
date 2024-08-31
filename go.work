@@ -448,4 +448,5 @@ use (
 	./os/gostdlib-os-openfileappend
 	./os/gostdlib-os-readdir
 	./os/gostdlib-os-readfile
+	./os/gostdlib-os-readlink
 )
