@@ -449,4 +449,5 @@ use (
 	./os/gostdlib-os-readdir
 	./os/gostdlib-os-readfile
 	./os/gostdlib-os-readlink
+	./os/gostdlib-os-unsetenv
 )
