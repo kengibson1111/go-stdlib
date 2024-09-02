@@ -450,4 +450,5 @@ use (
 	./os/gostdlib-os-readfile
 	./os/gostdlib-os-readlink
 	./os/gostdlib-os-unsetenv
+	./os/gostdlib-os-usercachedir
 )
