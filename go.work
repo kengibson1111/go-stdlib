@@ -451,4 +451,5 @@ use (
 	./os/gostdlib-os-readlink
 	./os/gostdlib-os-unsetenv
 	./os/gostdlib-os-usercachedir
+	./os/gostdlib-os-userconfigdir
 )
