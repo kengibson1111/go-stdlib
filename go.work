@@ -431,6 +431,7 @@ use (
 	./net/url/gostdlib-net-url-valuesget
 	./net/url/gostdlib-net-url-valueshas
 	./net/url/gostdlib-net-url-valuesset
+	./os/exec/gostdlib-os-exec-cmdcombinedoutput
 	./os/gostdlib-os-chmod
 	./os/gostdlib-os-chtimes
 	./os/gostdlib-os-createtemp
