@@ -435,6 +435,7 @@ use (
 	./os/exec/gostdlib-os-exec-cmdenviron
 	./os/exec/gostdlib-os-exec-cmdoutput
 	./os/exec/gostdlib-os-exec-cmdrun
+	./os/exec/gostdlib-os-exec-cmdstart
 	./os/gostdlib-os-chmod
 	./os/gostdlib-os-chtimes
 	./os/gostdlib-os-createtemp
