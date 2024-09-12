@@ -438,6 +438,7 @@ use (
 	./os/exec/gostdlib-os-exec-cmdstart
 	./os/exec/gostdlib-os-exec-cmdstderrpipe
 	./os/exec/gostdlib-os-exec-cmdstdinpipe
+	./os/exec/gostdlib-os-exec-cmdstdoutpipe
 	./os/gostdlib-os-chmod
 	./os/gostdlib-os-chtimes
 	./os/gostdlib-os-createtemp
