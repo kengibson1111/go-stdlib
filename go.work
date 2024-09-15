@@ -441,6 +441,7 @@ use (
 	./os/exec/gostdlib-os-exec-cmdstdoutpipe
 	./os/exec/gostdlib-os-exec-command
 	./os/exec/gostdlib-os-exec-commandcontext
+	./os/exec/gostdlib-os-exec-lookpath
 	./os/gostdlib-os-chmod
 	./os/gostdlib-os-chtimes
 	./os/gostdlib-os-createtemp
