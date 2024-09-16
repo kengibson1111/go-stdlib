@@ -464,4 +464,5 @@ use (
 	./os/gostdlib-os-usercachedir
 	./os/gostdlib-os-userconfigdir
 	./os/gostdlib-os-writefile
+	./os/signal/gostdlib-os-signal-notify
 )
