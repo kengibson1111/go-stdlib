@@ -466,4 +466,5 @@ use (
 	./os/gostdlib-os-writefile
 	./os/signal/gostdlib-os-signal-notify
 	./os/signal/gostdlib-os-signal-notifyallsignals
+	./os/signal/gostdlib-os-signal-notifycontext
 )
