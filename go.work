@@ -467,4 +467,5 @@ use (
 	./os/signal/gostdlib-os-signal-notify
 	./os/signal/gostdlib-os-signal-notifyallsignals
 	./os/signal/gostdlib-os-signal-notifycontext
+	./path/gostdlib-path-base
 )
