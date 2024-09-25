@@ -469,4 +469,5 @@ use (
 	./os/signal/gostdlib-os-signal-notifycontext
 	./path/gostdlib-path-base
 	./path/gostdlib-path-clean
+	./path/gostdlib-path-dir
 )
