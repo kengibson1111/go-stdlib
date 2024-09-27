@@ -471,4 +471,5 @@ use (
 	./path/gostdlib-path-clean
 	./path/gostdlib-path-dir
 	./path/gostdlib-path-ext
+	./path/gostdlib-path-isabs
 )
