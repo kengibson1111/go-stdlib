@@ -473,4 +473,5 @@ use (
 	./path/gostdlib-path-ext
 	./path/gostdlib-path-isabs
 	./path/gostdlib-path-join
+	./path/gostdlib-path-match
 )
