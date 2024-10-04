@@ -470,6 +470,7 @@ use (
 	./path/filepath/gostdlib-path-filepath-base
 	./path/filepath/gostdlib-path-filepath-dir
 	./path/filepath/gostdlib-path-filepath-ext
+	./path/filepath/gostdlib-path-filepath-isabs
 	./path/gostdlib-path-base
 	./path/gostdlib-path-clean
 	./path/gostdlib-path-dir
