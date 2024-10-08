@@ -474,6 +474,7 @@ use (
 	./path/filepath/gostdlib-path-filepath-join
 	./path/filepath/gostdlib-path-filepath-match
 	./path/filepath/gostdlib-path-filepath-rel
+	./path/filepath/gostdlib-path-filepath-split
 	./path/gostdlib-path-base
 	./path/gostdlib-path-clean
 	./path/gostdlib-path-dir
