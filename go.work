@@ -485,4 +485,5 @@ use (
 	./path/gostdlib-path-join
 	./path/gostdlib-path-match
 	./path/gostdlib-path-split
+	./reflect/gostdlib-reflect-makefunc
 )
