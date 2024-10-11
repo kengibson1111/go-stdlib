@@ -10,10 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## reflect
 
-* makefunc - straight from golang.org's documentation. Still trying to wrap my head around this, but
-  I think this may help with dynamically creating a function and binding to a runtime. Maybe not,
-  but an interesting sample.
-
 * structtag - from golang's docs. It looks like golang provides an easy way to parse JSON-like tags and
   values within a string. Very nice. You can reflect an internal type that is a struct with one string.
   The string value is intended to be like JSON tags and values. Get the one field value through
