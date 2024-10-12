@@ -486,4 +486,5 @@ use (
 	./path/gostdlib-path-match
 	./path/gostdlib-path-split
 	./reflect/gostdlib-reflect-makefunc
+	./reflect/gostdlib-reflect-structtag
 )

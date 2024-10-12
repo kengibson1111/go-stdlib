@@ -10,12 +10,6 @@ Before diving into this repo, it may help to start with the [Tour of Go](https:/
 
 ## reflect
 
-* structtag - from golang's docs. It looks like golang provides an easy way to parse JSON-like tags and
-  values within a string. Very nice. You can reflect an internal type that is a struct with one string.
-  The string value is intended to be like JSON tags and values. Get the one field value through
-  reflection. Then get the tags. Maybe a way to extend this example is to look up tag names
-  dynamically and grab values.
-
 * typeof - from golang's docs. This shows the use of TypeOf in order to check whether or not an
   interface implementation really implements an interface. Pretty simple.
 
