@@ -8,11 +8,6 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## reflect
-
-* typeof - from golang's docs. This shows the use of TypeOf in order to check whether or not an
-  interface implementation really implements an interface. Pretty simple.
-
 ## testing
 
 * benchparallel - this doesn't output anything at this point, but I thought it was interesting
