@@ -489,5 +489,6 @@ use (
 	./reflect/gostdlib-reflect-makefunc
 	./reflect/gostdlib-reflect-structof
 	./reflect/gostdlib-reflect-structtag
+	./reflect/gostdlib-reflect-structtaglookup
 	./reflect/gostdlib-reflect-typeof
 )
