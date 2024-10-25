@@ -491,4 +491,5 @@ use (
 	./reflect/gostdlib-reflect-structtag
 	./reflect/gostdlib-reflect-structtaglookup
 	./reflect/gostdlib-reflect-typeof
+	./reflect/gostdlib-reflect-valuefieldbyindex
 )
