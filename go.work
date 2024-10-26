@@ -492,4 +492,5 @@ use (
 	./reflect/gostdlib-reflect-structtaglookup
 	./reflect/gostdlib-reflect-typeof
 	./reflect/gostdlib-reflect-valuefieldbyindex
+	./reflect/gostdlib-reflect-valuefieldbyname
 )
