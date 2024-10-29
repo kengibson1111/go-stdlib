@@ -494,5 +494,6 @@ use (
 	./reflect/gostdlib-reflect-valuefieldbyindex
 	./reflect/gostdlib-reflect-valuefieldbyname
 	./regexp/gostdlib-regexp-match
+	./regexp/gostdlib-regexp-matchstring
 	./regexp/gostdlib-regexp-package
 )
