@@ -497,4 +497,5 @@ use (
 	./regexp/gostdlib-regexp-matchstring
 	./regexp/gostdlib-regexp-package
 	./regexp/gostdlib-regexp-quotemeta
+	./regexp/gostdlib-regexp-regexpexpand
 )
