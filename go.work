@@ -498,4 +498,5 @@ use (
 	./regexp/gostdlib-regexp-package
 	./regexp/gostdlib-regexp-quotemeta
 	./regexp/gostdlib-regexp-regexpexpand
+	./regexp/gostdlib-regexp-regexpexpandstring
 )
