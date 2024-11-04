@@ -500,4 +500,5 @@ use (
 	./regexp/gostdlib-regexp-regexpexpand
 	./regexp/gostdlib-regexp-regexpexpandstring
 	./regexp/gostdlib-regexp-regexpfind
+	./regexp/gostdlib-regexp-regexpfindall
 )
