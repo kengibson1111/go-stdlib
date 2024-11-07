@@ -503,4 +503,5 @@ use (
 	./regexp/gostdlib-regexp-regexpfindall
 	./regexp/gostdlib-regexp-regexpfindallindex
 	./regexp/gostdlib-regexp-regexpfindallstring
+	./regexp/gostdlib-regexp-regexpfindallstringsubmatch
 )
