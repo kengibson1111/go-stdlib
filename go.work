@@ -507,4 +507,5 @@ use (
 	./regexp/gostdlib-regexp-regexpfindallstringsubmatchindex
 	./regexp/gostdlib-regexp-regexpfindallsubmatch
 	./regexp/gostdlib-regexp-regexpfindallsubmatchindex
+	./regexp/gostdlib-regexp-regexpfindindex
 )
