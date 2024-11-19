@@ -515,4 +515,5 @@ use (
 	./regexp/gostdlib-regexp-regexpfindsubmatchindex
 	./regexp/gostdlib-regexp-regexplongest
 	./regexp/gostdlib-regexp-regexpmatch
+	./regexp/gostdlib-regexp-regexpmatchstring
 )
