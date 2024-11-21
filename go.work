@@ -517,4 +517,5 @@ use (
 	./regexp/gostdlib-regexp-regexpmatch
 	./regexp/gostdlib-regexp-regexpmatchstring
 	./regexp/gostdlib-regexp-regexpnumsubexp
+	./regexp/gostdlib-regexp-regexpreplaceall
 )
