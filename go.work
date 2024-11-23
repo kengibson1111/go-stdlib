@@ -519,4 +519,5 @@ use (
 	./regexp/gostdlib-regexp-regexpnumsubexp
 	./regexp/gostdlib-regexp-regexpreplaceall
 	./regexp/gostdlib-regexp-regexpreplaceallliteralstring
+	./regexp/gostdlib-regexp-regexpreplaceallstring
 )
