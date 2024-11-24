@@ -520,4 +520,5 @@ use (
 	./regexp/gostdlib-regexp-regexpreplaceall
 	./regexp/gostdlib-regexp-regexpreplaceallliteralstring
 	./regexp/gostdlib-regexp-regexpreplaceallstring
+	./regexp/gostdlib-regexp-regexpreplaceallstringfunc
 )
