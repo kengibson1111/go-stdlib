@@ -521,4 +521,5 @@ use (
 	./regexp/gostdlib-regexp-regexpreplaceallliteralstring
 	./regexp/gostdlib-regexp-regexpreplaceallstring
 	./regexp/gostdlib-regexp-regexpreplaceallstringfunc
+	./regexp/gostdlib-regexp-regexpsplit
 )
