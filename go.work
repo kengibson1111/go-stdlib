@@ -523,4 +523,5 @@ use (
 	./regexp/gostdlib-regexp-regexpreplaceallstringfunc
 	./regexp/gostdlib-regexp-regexpsplit
 	./regexp/gostdlib-regexp-regexpsubexpindex
+	./regexp/gostdlib-regexp-regexpsubexpnames
 )
