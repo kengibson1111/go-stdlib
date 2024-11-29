@@ -524,5 +524,6 @@ use (
 	./regexp/gostdlib-regexp-regexpsplit
 	./regexp/gostdlib-regexp-regexpsubexpindex
 	./regexp/gostdlib-regexp-regexpsubexpnames
+	./runtime/debug/gostdlib-runtime-debug-setcrashoutput
 	./runtime/gostdlib-runtime-frames
 )
