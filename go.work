@@ -1,4 +1,4 @@
-go 1.22.4
+go 1.22.9
 
 use (
 	./archive/tar/gostdlib-archive-tar
@@ -526,4 +526,5 @@ use (
 	./regexp/gostdlib-regexp-regexpsubexpnames
 	./runtime/debug/gostdlib-runtime-debug-setcrashoutput
 	./runtime/gostdlib-runtime-frames
+	./runtime/metrics/gostdlib-runtime-metrics-readingallmetrics
 )
