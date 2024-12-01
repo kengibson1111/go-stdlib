@@ -527,4 +527,5 @@ use (
 	./runtime/debug/gostdlib-runtime-debug-setcrashoutput
 	./runtime/gostdlib-runtime-frames
 	./runtime/metrics/gostdlib-runtime-metrics-readingallmetrics
+	./runtime/metrics/gostdlib-runtime-metrics-readingonemetric
 )
