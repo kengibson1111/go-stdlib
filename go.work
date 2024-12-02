@@ -529,4 +529,9 @@ use (
 	./runtime/metrics/gostdlib-runtime-metrics-readingallmetrics
 	./runtime/metrics/gostdlib-runtime-metrics-readingonemetric
 	./runtime/pprof/gostdlib-runtime-pprof-havlak1
+	./runtime/pprof/gostdlib-runtime-pprof-havlak2
+	./runtime/pprof/gostdlib-runtime-pprof-havlak3
+	./runtime/pprof/gostdlib-runtime-pprof-havlak4
+	./runtime/pprof/gostdlib-runtime-pprof-havlak5
+	./runtime/pprof/gostdlib-runtime-pprof-havlak6
 )
