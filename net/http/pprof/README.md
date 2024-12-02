@@ -1,6 +1,10 @@
 # net/http/pprof
 
-No code examples of this package, but here are tool examples.
+No code examples of this package, but here are tool examples assuming an HTTP server running on port 6060 that has the following import statement:
+
+```
+import _ "net/http/pprof"
+```
 
 Use the pprof tool to look at the heap profile:
 
