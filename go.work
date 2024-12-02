@@ -528,4 +528,5 @@ use (
 	./runtime/gostdlib-runtime-frames
 	./runtime/metrics/gostdlib-runtime-metrics-readingallmetrics
 	./runtime/metrics/gostdlib-runtime-metrics-readingonemetric
+	./runtime/pprof/gostdlib-runtime-pprof-havlak1
 )
