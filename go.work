@@ -534,4 +534,5 @@ use (
 	./runtime/pprof/gostdlib-runtime-pprof-havlak4
 	./runtime/pprof/gostdlib-runtime-pprof-havlak5
 	./runtime/pprof/gostdlib-runtime-pprof-havlak6
+	./runtime/trace/gostdlib-runtime-trace-package
 )

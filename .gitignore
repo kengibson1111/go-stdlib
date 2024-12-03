@@ -1,6 +1,7 @@
 *.key
 *.pem
 *.prof
+*.out
 
 .vscode
 testdir
