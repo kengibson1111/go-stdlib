@@ -536,4 +536,5 @@ use (
 	./runtime/pprof/gostdlib-runtime-pprof-havlak6
 	./runtime/trace/gostdlib-runtime-trace-package
 	./slices/gostdlib-slices-binarysearch
+	./slices/gostdlib-slices-binarysearchfunc
 )
