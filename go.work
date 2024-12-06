@@ -537,4 +537,5 @@ use (
 	./runtime/trace/gostdlib-runtime-trace-package
 	./slices/gostdlib-slices-binarysearch
 	./slices/gostdlib-slices-binarysearchfunc
+	./slices/gostdlib-slices-chunk
 )
