@@ -539,4 +539,5 @@ use (
 	./slices/gostdlib-slices-binarysearchfunc
 	./slices/gostdlib-slices-chunk
 	./slices/gostdlib-slices-clip
+	./slices/gostdlib-slices-clone
 )
