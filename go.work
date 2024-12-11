@@ -542,4 +542,5 @@ use (
 	./slices/gostdlib-slices-clone
 	./slices/gostdlib-slices-compact
 	./slices/gostdlib-slices-compactfunc
+	./slices/gostdlib-slices-compare
 )
