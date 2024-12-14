@@ -545,4 +545,5 @@ use (
 	./slices/gostdlib-slices-compare
 	./slices/gostdlib-slices-comparefunc
 	./slices/gostdlib-slices-concat
+	./slices/gostdlib-slices-contains
 )
