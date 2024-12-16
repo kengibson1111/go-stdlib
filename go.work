@@ -547,4 +547,5 @@ use (
 	./slices/gostdlib-slices-concat
 	./slices/gostdlib-slices-contains
 	./slices/gostdlib-slices-containsfunc
+	./slices/gostdlib-slices-delete
 )
