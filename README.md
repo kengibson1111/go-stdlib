@@ -8,52 +8,25 @@ This is a collection of various public examples. Each example in the standard li
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
 
-## testing
+## .netrc
 
-* benchparallel - this doesn't output anything at this point, but I thought it was interesting
-  because of the text/template work I was doing at the time. Benchmark functions are meant to be run
-  as part of a test suite usually with the "go test -cpu" command. golang's baseline text/template
-  functionality is very powerful, and I saw this as a value extension to any templates created and
-  executed. I will most likely revisit this.
+All leaf directories are `package main` binaries. To download and install a binary, `go install` requires a $HOME/.netrc with an entry for github.com authentication:
 
-## text/scanner
+`machine github.com login <github username> password <github personal access token>`
 
-This shows how to use scanner to parse text tokens.
+To install a binary in $GOPATH/bin, navigate to a leaf directory in the repo. Each leaf directory has a brief README. Use `go install`.
 
-## text/tabwriter
+For example, if you wanted to install `log/gostdlib-log-logger`:
 
-This shows how to use tabwriter to format text in neat columns.
+```bash
+$ go install github.com/kengibson1111/go-stdlib/log/gostdlib-log-logger@latest
+```
 
-## text/template
+## work in progress
 
-pre-cursor to html/template examples. Everything in html/template builds upon text/template.
+* There are still a few directories to convert to module format.
 
-* template - shows basic template functionality.
-
-* block - this is showing how to customize a template block. block is shorthand for defining a
-  template and executing it in place. That is what allows the template block to be redefined.
-  In this sample, overlay is redefining the master template block. Notice how the master template
-  instance assign the join function pointer and not the overlay. But the overlay template
-  redefinition of the master template block uses join. Starting to get interesting when
-  considering dynamic execution functionality.
-
-* func - like the previous sample, this assigns a function pointer. I like this sample because
-  it also shows how to use a pipe ("|") feeding the return value of one function into another
-  like a Unix pipe.
-
-* glob - this sample shows how to load all templates into a template instance based on a global
-  pattern. Then if templates call other templates, they're all available in the same template
-  instance. golang has some serious dynamic execution muscle.
-
-* helpers - this builds on the previous sample using ParseGlob to load helper templates. Then
-  it dynamically loads two more templates to the helpers and executes each of the new templates.
-  Although this sample doesn't show it, imagine if your helpers are calling functions like
-  in the block and func samples. Hmmmmm.
-
-* share - this shows how to define a set of base helpers and share them. In this sample, T0
-  and T1 are defined and we know that T1 will be calling T2, but T2 is not defined yet. Then
-  the helpers are cloned twice - each with its own definition of T2. Kind of sounds like a
-  dynamic way to define 2 implementations of the same interface. Powerful.
+* With Go upgrades, I will do my best to keep examples current, enhance examples with command-line arguments, and add examples when relevant.
 
 ***
 
