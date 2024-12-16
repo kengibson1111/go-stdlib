@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-container-heap-pq
+module github.com/kengibson1111/go-stdlib/container/heap/gostdlib-container-heap-pq
 
-go 1.20
+go 1.22.9

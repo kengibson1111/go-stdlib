@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-math-bits-onescount
+module github.com/kengibson1111/go-stdlib/math/bits/gostdlib-math-bits-onescount
 
-go 1.21.5
+go 1.22.9

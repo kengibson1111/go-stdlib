@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-encoding-base64-package
+module github.com/kengibson1111/go-stdlib/encoding/base64/gostdlib-encoding-base64-package
 
-go 1.20
+go 1.22.9

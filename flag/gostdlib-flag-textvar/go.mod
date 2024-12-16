@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-flag-textvar
+module github.com/kengibson1111/go-stdlib/flag/gostdlib-flag-textvar
 
-go 1.21.5
+go 1.22.9

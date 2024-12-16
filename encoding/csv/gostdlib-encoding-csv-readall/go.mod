@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-encoding-csv-readall
+module github.com/kengibson1111/go-stdlib/encoding/csv/gostdlib-encoding-csv-readall
 
-go 1.20
+go 1.22.9

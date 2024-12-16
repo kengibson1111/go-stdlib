@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-net-url-valuesget
+module github.com/kengibson1111/go-stdlib/net/url/gostdlib-net-url-valuesget
 
-go 1.22.4
+go 1.22.9

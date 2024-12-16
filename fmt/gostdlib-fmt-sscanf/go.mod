@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-fmt-sscanf
+module github.com/kengibson1111/go-stdlib/fmt/gostdlib-fmt-sscanf
 
-go 1.21.5
+go 1.22.9

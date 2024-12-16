@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-go-printer-fprint
+module github.com/kengibson1111/go-stdlib/go/printer/gostdlib-go-printer-fprint
 
-go 1.21.5
+go 1.22.9

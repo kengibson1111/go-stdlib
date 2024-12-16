@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-go-token-position
+module github.com/kengibson1111/go-stdlib/go/token/gostdlib-go-token-position
 
-go 1.21.5
+go 1.22.9

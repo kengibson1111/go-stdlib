@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-context-withtimeout
+module github.com/kengibson1111/go-stdlib/context/gostdlib-context-withtimeout
 
-go 1.20
+go 1.22.9

@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-context-withdeadline
+module github.com/kengibson1111/go-stdlib/context/gostdlib-context-withdeadline
 
-go 1.20
+go 1.22.9

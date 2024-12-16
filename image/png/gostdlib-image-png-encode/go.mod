@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-image-png-encode
+module github.com/kengibson1111/go-stdlib/image/png/gostdlib-image-png-encode
 
-go 1.21.5
+go 1.22.9

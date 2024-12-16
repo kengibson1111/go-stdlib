@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-regexp-matchstring
+module github.com/kengibson1111/go-stdlib/regexp/gostdlib-regexp-matchstring
 
-go 1.22.4
+go 1.22.9

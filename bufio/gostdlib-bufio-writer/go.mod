@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-bufio-writer
+module github.com/kengibson1111/go-stdlib/bufio/gostdlib-bufio-writer
 
-go 1.20
+go 1.22.9

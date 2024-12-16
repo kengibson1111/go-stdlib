@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-io-readall
+module github.com/kengibson1111/go-stdlib/io/gostdlib-io-readall
 
-go 1.21.5
+go 1.22.9

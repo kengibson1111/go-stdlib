@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-html-template-escape
+module github.com/kengibson1111/go-stdlib/html/template/gostdlib-html-template-escape
 
-go 1.21.5
+go 1.22.9

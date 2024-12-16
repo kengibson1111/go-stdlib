@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-bytes-runes
+module github.com/kengibson1111/go-stdlib/bytes/gostdlib-bytes-runes
 
-go 1.20
+go 1.22.9

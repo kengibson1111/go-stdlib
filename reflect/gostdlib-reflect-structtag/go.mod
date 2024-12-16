@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-reflect-structtag
+module github.com/kengibson1111/go-stdlib/reflect/gostdlib-reflect-structtag
 
-go 1.22.4
+go 1.22.9

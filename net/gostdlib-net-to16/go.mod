@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-net-to16
+module github.com/kengibson1111/go-stdlib/net/gostdlib-net-to16
 
-go 1.21.5
+go 1.22.9

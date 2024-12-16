@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-encoding-json-rawmessagemarshal
+module github.com/kengibson1111/go-stdlib/encoding/json/gostdlib-encoding-json-rawmessagemarshal
 
-go 1.20
+go 1.22.9

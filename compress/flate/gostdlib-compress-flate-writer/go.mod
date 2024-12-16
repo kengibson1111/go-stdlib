@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-compress-flate-writer
+module github.com/kengibson1111/go-stdlib/compress/flate/gostdlib-compress-flate-writer
 
-go 1.20
+go 1.22.9

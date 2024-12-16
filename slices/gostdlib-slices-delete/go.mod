@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-slices-delete
+module github.com/kengibson1111/go-stdlib/slices/gostdlib-slices-delete
 
 go 1.22.9

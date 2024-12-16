@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-math-big-ratscan
+module github.com/kengibson1111/go-stdlib/math/big/gostdlib-math-big-ratscan
 
-go 1.21.5
+go 1.22.9

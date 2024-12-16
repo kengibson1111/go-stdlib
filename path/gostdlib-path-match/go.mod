@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-path-match
+module github.com/kengibson1111/go-stdlib/path/gostdlib-path-match
 
-go 1.22.4
+go 1.22.9

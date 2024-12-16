@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-mime-worddecoderdecode
+module github.com/kengibson1111/go-stdlib/mime/gostdlib-mime-worddecoderdecode
 
-go 1.21.5
+go 1.22.9

@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-net-ipv4
+module github.com/kengibson1111/go-stdlib/net/gostdlib-net-ipv4
 
-go 1.21.5
+go 1.22.9

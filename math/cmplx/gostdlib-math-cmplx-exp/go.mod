@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-math-cmplx-exp
+module github.com/kengibson1111/go-stdlib/math/cmplx/gostdlib-math-cmplx-exp
 
-go 1.21.5
+go 1.22.9

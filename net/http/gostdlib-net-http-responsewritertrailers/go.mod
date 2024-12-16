@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-net-http-responsewritertrailers
+module github.com/kengibson1111/go-stdlib/net/http/gostdlib-net-http-responsewritertrailers
 
-go 1.22.4
+go 1.22.9

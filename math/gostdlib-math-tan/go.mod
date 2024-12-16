@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-math-tan
+module github.com/kengibson1111/go-stdlib/math/gostdlib-math-tan
 
-go 1.21.5
+go 1.22.9

@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-net-http-httptest-newserver
+module github.com/kengibson1111/go-stdlib/net/http/httptest/gostdlib-net-http-httptest-newserver
 
-go 1.22.4
+go 1.22.9

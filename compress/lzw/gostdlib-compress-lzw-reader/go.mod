@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-compress-lzw-reader
+module github.com/kengibson1111/go-stdlib/compress/lzw/gostdlib-compress-lzw-reader
 
-go 1.20
+go 1.22.9

@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-regexp-regexpreplaceall
+module github.com/kengibson1111/go-stdlib/regexp/gostdlib-regexp-regexpreplaceall
 
-go 1.22.4
+go 1.22.9

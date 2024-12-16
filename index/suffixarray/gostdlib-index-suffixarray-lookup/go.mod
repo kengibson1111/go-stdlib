@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-index-suffixarray-lookup
+module github.com/kengibson1111/go-stdlib/index/suffixarray/gostdlib-index-suffixarray-lookup
 
-go 1.21.5
+go 1.22.9

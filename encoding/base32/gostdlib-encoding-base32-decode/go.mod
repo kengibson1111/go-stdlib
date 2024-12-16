@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-encoding-base32-decode
+module github.com/kengibson1111/go-stdlib/encoding/base32/gostdlib-encoding-base32-decode
 
-go 1.20
+go 1.22.9

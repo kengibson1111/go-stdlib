@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-log-logger
+module github.com/kengibson1111/go-stdlib/log/gostdlib-log-logger
 
-go 1.21.5
+go 1.22.9

@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-net-http-httputil-reverseproxy
+module github.com/kengibson1111/go-stdlib/net/http/httputil/gostdlib-net-http-httputil-reverseproxy
 
-go 1.22.4
+go 1.22.9

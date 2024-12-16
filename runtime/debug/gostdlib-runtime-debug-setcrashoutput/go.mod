@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-runtime-debug-setcrashoutput
+module github.com/kengibson1111/go-stdlib/runtime/debug/gostdlib-runtime-debug-setcrashoutput
 
-go 1.22.4
+go 1.22.9

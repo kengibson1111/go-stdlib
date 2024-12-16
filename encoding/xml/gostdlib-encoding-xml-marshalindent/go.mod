@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-encoding-xml-marshalindent
+module github.com/kengibson1111/go-stdlib/encoding/xml/gostdlib-encoding-xml-marshalindent
 
-go 1.20
+go 1.22.9

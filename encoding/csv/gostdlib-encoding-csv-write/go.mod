@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-encoding-csv-write
+module github.com/kengibson1111/go-stdlib/encoding/csv/gostdlib-encoding-csv-write
 
-go 1.20
+go 1.22.9

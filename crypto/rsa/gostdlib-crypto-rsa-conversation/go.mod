@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-crypto-rsa-conversation
+module github.com/kengibson1111/go-stdlib/crypto/rsa/gostdlib-crypto-rsa-conversation
 
-go 1.20
+go 1.22.9

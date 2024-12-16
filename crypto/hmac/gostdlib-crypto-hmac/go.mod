@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-crypto-hmac
+module github.com/kengibson1111/go-stdlib/crypto/hmac/gostdlib-crypto-hmac
 
-go 1.20
+go 1.22.9

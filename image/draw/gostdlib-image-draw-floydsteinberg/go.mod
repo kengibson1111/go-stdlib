@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-image-draw-floydsteinberg
+module github.com/kengibson1111/go-stdlib/image/draw/gostdlib-image-draw-floydsteinberg
 
-go 1.21.5
+go 1.22.9

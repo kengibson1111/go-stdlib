@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-hash-crc32-maketable
+module github.com/kengibson1111/go-stdlib/hash/crc32/gostdlib-hash-crc32-maketable
 
-go 1.21.5
+go 1.22.9

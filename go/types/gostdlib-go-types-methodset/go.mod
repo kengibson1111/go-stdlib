@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-go-types-methodset
+module github.com/kengibson1111/go-stdlib/go/types/gostdlib-go-types-methodset
 
-go 1.21.5
+go 1.22.9

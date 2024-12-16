@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-io-fs-walkdir
+module github.com/kengibson1111/go-stdlib/io/fs/gostdlib-io-fs-walkdir
 
-go 1.21.5
+go 1.22.9

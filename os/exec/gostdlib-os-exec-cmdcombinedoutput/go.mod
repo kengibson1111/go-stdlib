@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-os-exec-cmdcombinedoutput
+module github.com/kengibson1111/go-stdlib/os/exec/gostdlib-os-exec-cmdcombinedoutput
 
-go 1.22.4
+go 1.22.9

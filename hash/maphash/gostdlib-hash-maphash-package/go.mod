@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-hash-maphash-package
+module github.com/kengibson1111/go-stdlib/hash/maphash/gostdlib-hash-maphash-package
 
-go 1.21.5
+go 1.22.9

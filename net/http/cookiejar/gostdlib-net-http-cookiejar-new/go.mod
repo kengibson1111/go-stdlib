@@ -1,5 +1,5 @@
-module kengibson1111/gostdlib-net-http-cookiejar-new
+module github.com/kengibson1111/go-stdlib/net/http/cookiejar/gostdlib-net-http-cookiejar-new
 
-go 1.22.4
+go 1.22.9
 
 require golang.org/x/net v0.27.0

@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-net-ipequal
+module github.com/kengibson1111/go-stdlib/net/gostdlib-net-ipequal
 
-go 1.21.5
+go 1.22.9

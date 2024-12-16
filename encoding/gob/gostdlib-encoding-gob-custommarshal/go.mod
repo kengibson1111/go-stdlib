@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-encoding-gob-custommarshal
+module github.com/kengibson1111/go-stdlib/encoding/gob/gostdlib-encoding-gob-custommarshal
 
-go 1.20
+go 1.22.9

@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-math-bits-sub
+module github.com/kengibson1111/go-stdlib/math/bits/gostdlib-math-bits-sub
 
-go 1.21.5
+go 1.22.9

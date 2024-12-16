@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-os-readdir
+module github.com/kengibson1111/go-stdlib/os/gostdlib-os-readdir
 
-go 1.22.4
+go 1.22.9

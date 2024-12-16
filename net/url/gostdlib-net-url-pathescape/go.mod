@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-net-url-pathescape
+module github.com/kengibson1111/go-stdlib/net/url/gostdlib-net-url-pathescape
 
-go 1.22.4
+go 1.22.9

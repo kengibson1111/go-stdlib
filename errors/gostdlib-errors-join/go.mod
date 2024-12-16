@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-errors-join
+module github.com/kengibson1111/go-stdlib/errors/gostdlib-errors-join
 
-go 1.21.5
+go 1.22.9

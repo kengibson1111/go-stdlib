@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-container-ring-next
+module github.com/kengibson1111/go-stdlib/container/ring/gostdlib-container-ring-next
 
-go 1.20
+go 1.22.9

@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-regexp-regexpfindallstring
+module github.com/kengibson1111/go-stdlib/regexp/gostdlib-regexp-regexpfindallstring
 
-go 1.22.4
+go 1.22.9

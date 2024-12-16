@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-go-constant-unaryop
+module github.com/kengibson1111/go-stdlib/go/constant/gostdlib-go-constant-unaryop
 
-go 1.21.5
+go 1.22.9

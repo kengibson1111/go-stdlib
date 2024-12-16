@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-go-ast-print
+module github.com/kengibson1111/go-stdlib/go/ast/gostdlib-go-ast-print
 
-go 1.21.5
+go 1.22.9

@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-crypto-cipher-cbcencrypter
+module github.com/kengibson1111/go-stdlib/crypto/cipher/gostdlib-crypto-cipher-cbcencrypter
 
-go 1.20
+go 1.22.9

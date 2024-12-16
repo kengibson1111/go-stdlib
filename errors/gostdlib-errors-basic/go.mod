@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-errors-basic
+module github.com/kengibson1111/go-stdlib/errors/gostdlib-errors-basic
 
-go 1.20
+go 1.22.9

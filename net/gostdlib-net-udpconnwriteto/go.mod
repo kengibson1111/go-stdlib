@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-net-udpconnwriteto
+module github.com/kengibson1111/go-stdlib/net/gostdlib-net-udpconnwriteto
 
-go 1.21.5
+go 1.22.9

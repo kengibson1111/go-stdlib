@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-encoding-hex-dump
+module github.com/kengibson1111/go-stdlib/encoding/hex/gostdlib-encoding-hex-dump
 
-go 1.20
+go 1.22.9

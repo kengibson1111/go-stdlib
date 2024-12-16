@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-path-filepath-walk
+module github.com/kengibson1111/go-stdlib/path/filepath/gostdlib-path-filepath-walk
 
-go 1.22.4
+go 1.22.9

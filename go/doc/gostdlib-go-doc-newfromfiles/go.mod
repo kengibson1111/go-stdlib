@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-go-doc-newfromfiles
+module github.com/kengibson1111/go-stdlib/go/doc/gostdlib-go-doc-newfromfiles
 
-go 1.21.5
+go 1.22.9

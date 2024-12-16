@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-encoding-xml-marshalcustom
+module github.com/kengibson1111/go-stdlib/encoding/xml/gostdlib-encoding-xml-marshalcustom
 
-go 1.20
+go 1.22.9

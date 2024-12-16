@@ -1,3 +1,3 @@
-module kengibson1111/gostdlib-archive-zip-writer
+module github.com/kengibson1111/go-stdlib/archive/zip/gostdlib-archive-zip-writer
 
-go 1.20
+go 1.22.9
