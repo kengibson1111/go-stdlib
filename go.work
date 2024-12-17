@@ -548,4 +548,5 @@ use (
 	./slices/gostdlib-slices-contains
 	./slices/gostdlib-slices-containsfunc
 	./slices/gostdlib-slices-delete
+	./slices/gostdlib-slices-deletefunc
 )
