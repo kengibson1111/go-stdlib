@@ -553,4 +553,5 @@ use (
 	./slices/gostdlib-slices-equalfunc
 	./slices/gostdlib-slices-grow
 	./slices/gostdlib-slices-index
+	./slices/gostdlib-slices-indexfunc
 )
