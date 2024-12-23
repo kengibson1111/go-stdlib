@@ -554,4 +554,5 @@ use (
 	./slices/gostdlib-slices-grow
 	./slices/gostdlib-slices-index
 	./slices/gostdlib-slices-indexfunc
+	./slices/gostdlib-slices-insert
 )
