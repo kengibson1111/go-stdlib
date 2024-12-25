@@ -556,4 +556,5 @@ use (
 	./slices/gostdlib-slices-indexfunc
 	./slices/gostdlib-slices-insert
 	./slices/gostdlib-slices-issorted
+	./slices/gostdlib-slices-issortedfunc
 )
