@@ -558,4 +558,5 @@ use (
 	./slices/gostdlib-slices-issorted
 	./slices/gostdlib-slices-issortedfunc
 	./slices/gostdlib-slices-max
+	./slices/gostdlib-slices-maxfunc
 )
