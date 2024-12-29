@@ -560,4 +560,5 @@ use (
 	./slices/gostdlib-slices-max
 	./slices/gostdlib-slices-maxfunc
 	./slices/gostdlib-slices-min
+	./slices/gostdlib-slices-minfunc
 )
