@@ -561,4 +561,5 @@ use (
 	./slices/gostdlib-slices-maxfunc
 	./slices/gostdlib-slices-min
 	./slices/gostdlib-slices-minfunc
+	./slices/gostdlib-slices-repeat
 )
