@@ -562,4 +562,5 @@ use (
 	./slices/gostdlib-slices-min
 	./slices/gostdlib-slices-minfunc
 	./slices/gostdlib-slices-repeat
+	./slices/gostdlib-slices-replace
 )
