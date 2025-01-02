@@ -564,4 +564,5 @@ use (
 	./slices/gostdlib-slices-repeat
 	./slices/gostdlib-slices-replace
 	./slices/gostdlib-slices-reverse
+	./slices/gostdlib-slices-sort
 )
