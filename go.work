@@ -565,4 +565,5 @@ use (
 	./slices/gostdlib-slices-replace
 	./slices/gostdlib-slices-reverse
 	./slices/gostdlib-slices-sort
+	./slices/gostdlib-slices-sortfunccaseinsensitive
 )
