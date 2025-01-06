@@ -568,4 +568,5 @@ use (
 	./slices/gostdlib-slices-sortfunccaseinsensitive
 	./slices/gostdlib-slices-sortfuncmultifield
 	./slices/gostdlib-slices-sortstablefunc
+	./sort/gostdlib-sort-package
 )
