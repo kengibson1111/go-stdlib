@@ -567,4 +567,5 @@ use (
 	./slices/gostdlib-slices-sort
 	./slices/gostdlib-slices-sortfunccaseinsensitive
 	./slices/gostdlib-slices-sortfuncmultifield
+	./slices/gostdlib-slices-sortstablefunc
 )
