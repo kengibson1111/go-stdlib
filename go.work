@@ -570,4 +570,5 @@ use (
 	./slices/gostdlib-slices-sortstablefunc
 	./sort/gostdlib-sort-package
 	./sort/gostdlib-sort-sortkeys
+	./sort/gostdlib-sort-sortmultikeys
 )
