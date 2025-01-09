@@ -571,4 +571,5 @@ use (
 	./sort/gostdlib-sort-package
 	./sort/gostdlib-sort-sortkeys
 	./sort/gostdlib-sort-sortmultikeys
+	./sort/gostdlib-sort-sortwrapper
 )
