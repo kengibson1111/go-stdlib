@@ -569,6 +569,7 @@ use (
 	./slices/gostdlib-slices-sortfuncmultifield
 	./slices/gostdlib-slices-sortstablefunc
 	./sort/gostdlib-sort-find
+	./sort/gostdlib-sort-float64s
 	./sort/gostdlib-sort-package
 	./sort/gostdlib-sort-sortkeys
 	./sort/gostdlib-sort-sortmultikeys
