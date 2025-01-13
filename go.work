@@ -571,6 +571,7 @@ use (
 	./sort/gostdlib-sort-find
 	./sort/gostdlib-sort-float64s
 	./sort/gostdlib-sort-float64saresorted
+	./sort/gostdlib-sort-ints
 	./sort/gostdlib-sort-package
 	./sort/gostdlib-sort-sortkeys
 	./sort/gostdlib-sort-sortmultikeys
