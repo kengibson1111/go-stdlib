@@ -574,6 +574,7 @@ use (
 	./sort/gostdlib-sort-ints
 	./sort/gostdlib-sort-intsaresorted
 	./sort/gostdlib-sort-package
+	./sort/gostdlib-sort-reverse
 	./sort/gostdlib-sort-sortkeys
 	./sort/gostdlib-sort-sortmultikeys
 	./sort/gostdlib-sort-sortwrapper
