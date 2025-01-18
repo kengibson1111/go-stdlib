@@ -577,6 +577,7 @@ use (
 	./sort/gostdlib-sort-reverse
 	./sort/gostdlib-sort-search
 	./sort/gostdlib-sort-searchdescending
+	./sort/gostdlib-sort-searchfloat64s
 	./sort/gostdlib-sort-sortkeys
 	./sort/gostdlib-sort-sortmultikeys
 	./sort/gostdlib-sort-sortwrapper
