@@ -585,4 +585,5 @@ use (
 	./sort/gostdlib-sort-sortmultikeys
 	./sort/gostdlib-sort-sortwrapper
 	./sort/gostdlib-sort-strings
+	./strconv/gostdlib-strconv-appendbool
 )
