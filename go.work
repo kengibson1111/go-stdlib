@@ -586,4 +586,5 @@ use (
 	./sort/gostdlib-sort-sortwrapper
 	./sort/gostdlib-sort-strings
 	./strconv/gostdlib-strconv-appendbool
+	./strconv/gostdlib-strconv-appendfloat
 )
