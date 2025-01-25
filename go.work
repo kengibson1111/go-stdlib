@@ -587,4 +587,5 @@ use (
 	./sort/gostdlib-sort-strings
 	./strconv/gostdlib-strconv-appendbool
 	./strconv/gostdlib-strconv-appendfloat
+	./strconv/gostdlib-strconv-appendint
 )
