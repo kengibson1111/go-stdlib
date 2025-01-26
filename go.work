@@ -588,4 +588,5 @@ use (
 	./strconv/gostdlib-strconv-appendbool
 	./strconv/gostdlib-strconv-appendfloat
 	./strconv/gostdlib-strconv-appendint
+	./strconv/gostdlib-strconv-appendquote
 )
