@@ -589,4 +589,5 @@ use (
 	./strconv/gostdlib-strconv-appendfloat
 	./strconv/gostdlib-strconv-appendint
 	./strconv/gostdlib-strconv-appendquote
+	./strconv/gostdlib-strconv-appendquoterune
 )
