@@ -590,4 +590,5 @@ use (
 	./strconv/gostdlib-strconv-appendint
 	./strconv/gostdlib-strconv-appendquote
 	./strconv/gostdlib-strconv-appendquoterune
+	./strconv/gostdlib-strconv-appendquoterunetoascii
 )
