@@ -594,4 +594,5 @@ use (
 	./strconv/gostdlib-strconv-appendquotetoascii
 	./strconv/gostdlib-strconv-appenduint
 	./strconv/gostdlib-strconv-atoi
+	./strconv/gostdlib-strconv-canbackquote
 )
