@@ -595,4 +595,5 @@ use (
 	./strconv/gostdlib-strconv-appenduint
 	./strconv/gostdlib-strconv-atoi
 	./strconv/gostdlib-strconv-canbackquote
+	./strconv/gostdlib-strconv-formatbool
 )
