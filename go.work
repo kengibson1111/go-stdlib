@@ -596,4 +596,5 @@ use (
 	./strconv/gostdlib-strconv-atoi
 	./strconv/gostdlib-strconv-canbackquote
 	./strconv/gostdlib-strconv-formatbool
+	./strconv/gostdlib-strconv-formatfloat
 )
