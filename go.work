@@ -599,4 +599,5 @@ use (
 	./strconv/gostdlib-strconv-formatfloat
 	./strconv/gostdlib-strconv-formatint
 	./strconv/gostdlib-strconv-formatuint
+	./strconv/gostdlib-strconv-isgraphic
 )
