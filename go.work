@@ -600,4 +600,5 @@ use (
 	./strconv/gostdlib-strconv-formatint
 	./strconv/gostdlib-strconv-formatuint
 	./strconv/gostdlib-strconv-isgraphic
+	./strconv/gostdlib-strconv-isprint
 )
