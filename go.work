@@ -601,4 +601,5 @@ use (
 	./strconv/gostdlib-strconv-formatuint
 	./strconv/gostdlib-strconv-isgraphic
 	./strconv/gostdlib-strconv-isprint
+	./strconv/gostdlib-strconv-itoa
 )
