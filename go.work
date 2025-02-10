@@ -603,4 +603,5 @@ use (
 	./strconv/gostdlib-strconv-isprint
 	./strconv/gostdlib-strconv-itoa
 	./strconv/gostdlib-strconv-numerror
+	./strconv/gostdlib-strconv-parsebool
 )
