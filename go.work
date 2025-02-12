@@ -605,4 +605,5 @@ use (
 	./strconv/gostdlib-strconv-numerror
 	./strconv/gostdlib-strconv-parsebool
 	./strconv/gostdlib-strconv-parsefloat
+	./strconv/gostdlib-strconv-parseint
 )
