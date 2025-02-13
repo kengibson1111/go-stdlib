@@ -6,11 +6,12 @@ import (
 )
 
 func main() {
-	v := uint64(42)
+	v := "42"
+	if s, err := strconv.ParseUint(v, 10, 32); err == nil {
+		fmt.Printf("%T, %v\n", s, s)
+	}
 
-	s10 := strconv.FormatUint(v, 10)
-	fmt.Printf("%T, %v\n", s10, s10)
-
-	s16 := strconv.FormatUint(v, 16)
-	fmt.Printf("%T, %v\n", s16, s16)
+	if s, err := strconv.ParseUint(v, 10, 64); err == nil {
+		fmt.Printf("%T, %v\n", s, s)
+	}
 }
