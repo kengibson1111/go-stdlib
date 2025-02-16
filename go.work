@@ -1,4 +1,4 @@
-go 1.22.9
+go 1.23.6
 
 use (
 	./archive/tar/gostdlib-archive-tar
@@ -609,4 +609,5 @@ use (
 	./strconv/gostdlib-strconv-parseuint
 	./strconv/gostdlib-strconv-quote
 	./strconv/gostdlib-strconv-quoterune
+	./strconv/gostdlib-strconv-quoterunetoascii
 )
