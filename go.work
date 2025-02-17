@@ -610,4 +610,5 @@ use (
 	./strconv/gostdlib-strconv-quote
 	./strconv/gostdlib-strconv-quoterune
 	./strconv/gostdlib-strconv-quoterunetoascii
+	./strconv/gostdlib-strconv-quoterunetographic
 )
