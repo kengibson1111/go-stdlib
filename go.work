@@ -608,6 +608,7 @@ use (
 	./strconv/gostdlib-strconv-parseint
 	./strconv/gostdlib-strconv-parseuint
 	./strconv/gostdlib-strconv-quote
+	./strconv/gostdlib-strconv-quotedprefix
 	./strconv/gostdlib-strconv-quoterune
 	./strconv/gostdlib-strconv-quoterunetoascii
 	./strconv/gostdlib-strconv-quoterunetographic
