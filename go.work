@@ -613,4 +613,5 @@ use (
 	./strconv/gostdlib-strconv-quoterunetoascii
 	./strconv/gostdlib-strconv-quoterunetographic
 	./strconv/gostdlib-strconv-quotetoascii
+	./strconv/gostdlib-strconv-quotetographic
 )
