@@ -615,4 +615,5 @@ use (
 	./strconv/gostdlib-strconv-quotetoascii
 	./strconv/gostdlib-strconv-quotetographic
 	./strconv/gostdlib-strconv-unquote
+	./strconv/gostdlib-strconv-unquotechar
 )
