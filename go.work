@@ -616,4 +616,5 @@ use (
 	./strconv/gostdlib-strconv-quotetographic
 	./strconv/gostdlib-strconv-unquote
 	./strconv/gostdlib-strconv-unquotechar
+	./strings/gostdlib-strings-builder
 )
