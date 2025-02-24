@@ -617,4 +617,5 @@ use (
 	./strconv/gostdlib-strconv-unquote
 	./strconv/gostdlib-strconv-unquotechar
 	./strings/gostdlib-strings-builder
+	./strings/gostdlib-strings-clone
 )
