@@ -618,4 +618,5 @@ use (
 	./strconv/gostdlib-strconv-unquotechar
 	./strings/gostdlib-strings-builder
 	./strings/gostdlib-strings-clone
+	./strings/gostdlib-strings-compare
 )
