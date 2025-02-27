@@ -620,4 +620,5 @@ use (
 	./strings/gostdlib-strings-clone
 	./strings/gostdlib-strings-compare
 	./strings/gostdlib-strings-contains
+	./strings/gostdlib-strings-containsany
 )
