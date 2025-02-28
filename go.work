@@ -621,4 +621,5 @@ use (
 	./strings/gostdlib-strings-compare
 	./strings/gostdlib-strings-contains
 	./strings/gostdlib-strings-containsany
+	./strings/gostdlib-strings-containsfunc
 )
