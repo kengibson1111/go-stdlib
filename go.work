@@ -622,4 +622,5 @@ use (
 	./strings/gostdlib-strings-contains
 	./strings/gostdlib-strings-containsany
 	./strings/gostdlib-strings-containsfunc
+	./strings/gostdlib-strings-containsrune
 )
