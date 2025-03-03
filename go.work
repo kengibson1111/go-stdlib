@@ -624,4 +624,5 @@ use (
 	./strings/gostdlib-strings-containsfunc
 	./strings/gostdlib-strings-containsrune
 	./strings/gostdlib-strings-count
+	./strings/gostdlib-strings-cut
 )
