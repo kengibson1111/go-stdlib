@@ -626,4 +626,5 @@ use (
 	./strings/gostdlib-strings-count
 	./strings/gostdlib-strings-cut
 	./strings/gostdlib-strings-cutprefix
+	./strings/gostdlib-strings-cutsuffix
 )
