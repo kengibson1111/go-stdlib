@@ -628,4 +628,5 @@ use (
 	./strings/gostdlib-strings-cutprefix
 	./strings/gostdlib-strings-cutsuffix
 	./strings/gostdlib-strings-equalfold
+	./strings/gostdlib-strings-fields
 )
