@@ -630,4 +630,5 @@ use (
 	./strings/gostdlib-strings-equalfold
 	./strings/gostdlib-strings-fields
 	./strings/gostdlib-strings-fieldsfunc
+	./strings/gostdlib-strings-hasprefix
 )
