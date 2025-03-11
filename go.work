@@ -632,4 +632,5 @@ use (
 	./strings/gostdlib-strings-fieldsfunc
 	./strings/gostdlib-strings-hasprefix
 	./strings/gostdlib-strings-hassuffix
+	./strings/gostdlib-strings-index
 )
