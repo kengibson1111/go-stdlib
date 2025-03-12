@@ -633,4 +633,5 @@ use (
 	./strings/gostdlib-strings-hasprefix
 	./strings/gostdlib-strings-hassuffix
 	./strings/gostdlib-strings-index
+	./strings/gostdlib-strings-indexany
 )
