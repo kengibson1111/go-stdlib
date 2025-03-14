@@ -635,4 +635,5 @@ use (
 	./strings/gostdlib-strings-index
 	./strings/gostdlib-strings-indexany
 	./strings/gostdlib-strings-indexbyte
+	./strings/gostdlib-strings-indexfunc
 )
