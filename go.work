@@ -637,4 +637,5 @@ use (
 	./strings/gostdlib-strings-indexbyte
 	./strings/gostdlib-strings-indexfunc
 	./strings/gostdlib-strings-indexrune
+	./strings/gostdlib-strings-join
 )
