@@ -638,4 +638,5 @@ use (
 	./strings/gostdlib-strings-indexfunc
 	./strings/gostdlib-strings-indexrune
 	./strings/gostdlib-strings-join
+	./strings/gostdlib-strings-lastindex
 )
