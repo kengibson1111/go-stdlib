@@ -640,4 +640,5 @@ use (
 	./strings/gostdlib-strings-join
 	./strings/gostdlib-strings-lastindex
 	./strings/gostdlib-strings-lastindexany
+	./strings/gostdlib-strings-lastindexbyte
 )
