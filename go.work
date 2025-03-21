@@ -642,4 +642,5 @@ use (
 	./strings/gostdlib-strings-lastindexany
 	./strings/gostdlib-strings-lastindexbyte
 	./strings/gostdlib-strings-lastindexfunc
+	./strings/gostdlib-strings-map
 )
