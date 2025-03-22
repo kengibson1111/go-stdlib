@@ -643,4 +643,5 @@ use (
 	./strings/gostdlib-strings-lastindexbyte
 	./strings/gostdlib-strings-lastindexfunc
 	./strings/gostdlib-strings-map
+	./strings/gostdlib-strings-newreplacer
 )
