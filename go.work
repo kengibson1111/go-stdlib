@@ -646,4 +646,5 @@ use (
 	./strings/gostdlib-strings-newreplacer
 	./strings/gostdlib-strings-repeat
 	./strings/gostdlib-strings-replace
+	./strings/gostdlib-strings-replaceall
 )
