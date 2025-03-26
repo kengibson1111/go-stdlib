@@ -647,4 +647,5 @@ use (
 	./strings/gostdlib-strings-repeat
 	./strings/gostdlib-strings-replace
 	./strings/gostdlib-strings-replaceall
+	./strings/gostdlib-strings-split
 )
