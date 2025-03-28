@@ -649,4 +649,5 @@ use (
 	./strings/gostdlib-strings-replaceall
 	./strings/gostdlib-strings-split
 	./strings/gostdlib-strings-splitafter
+	./strings/gostdlib-strings-splitaftern
 )
