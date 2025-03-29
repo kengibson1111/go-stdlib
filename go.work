@@ -650,4 +650,5 @@ use (
 	./strings/gostdlib-strings-split
 	./strings/gostdlib-strings-splitafter
 	./strings/gostdlib-strings-splitaftern
+	./strings/gostdlib-strings-splitn
 )
