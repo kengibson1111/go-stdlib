@@ -652,4 +652,5 @@ use (
 	./strings/gostdlib-strings-splitaftern
 	./strings/gostdlib-strings-splitn
 	./strings/gostdlib-strings-title
+	./strings/gostdlib-strings-tolower
 )
