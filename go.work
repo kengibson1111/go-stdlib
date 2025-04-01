@@ -653,4 +653,5 @@ use (
 	./strings/gostdlib-strings-splitn
 	./strings/gostdlib-strings-title
 	./strings/gostdlib-strings-tolower
+	./strings/gostdlib-strings-tolowerspecial
 )
