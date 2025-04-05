@@ -657,4 +657,5 @@ use (
 	./strings/gostdlib-strings-totitle
 	./strings/gostdlib-strings-totitlespecial
 	./strings/gostdlib-strings-toupper
+	./strings/gostdlib-strings-toupperspecial
 )
