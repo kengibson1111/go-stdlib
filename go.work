@@ -659,4 +659,5 @@ use (
 	./strings/gostdlib-strings-toupper
 	./strings/gostdlib-strings-toupperspecial
 	./strings/gostdlib-strings-tovalidutf8
+	./strings/gostdlib-strings-trim
 )
