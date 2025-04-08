@@ -19,7 +19,7 @@ To install a binary in $GOPATH/bin, navigate to a leaf directory in the repo. Ea
 For example, if you wanted to install `log/gostdlib-log-logger`:
 
 ```bash
-$ go install github.com/kengibson1111/go-stdlib/log/gostdlib-log-logger@latest
+go install github.com/kengibson1111/go-stdlib/log/gostdlib-log-logger@latest
 ```
 
 ## work in progress
