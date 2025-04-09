@@ -661,4 +661,5 @@ use (
 	./strings/gostdlib-strings-tovalidutf8
 	./strings/gostdlib-strings-trim
 	./strings/gostdlib-strings-trimfunc
+	./strings/gostdlib-strings-trimleft
 )
