@@ -663,4 +663,5 @@ use (
 	./strings/gostdlib-strings-trimfunc
 	./strings/gostdlib-strings-trimleft
 	./strings/gostdlib-strings-trimleftfunc
+	./strings/gostdlib-strings-trimprefix
 )
