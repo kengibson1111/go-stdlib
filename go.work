@@ -665,4 +665,5 @@ use (
 	./strings/gostdlib-strings-trimleftfunc
 	./strings/gostdlib-strings-trimprefix
 	./strings/gostdlib-strings-trimright
+	./strings/gostdlib-strings-trimrightfunc
 )
