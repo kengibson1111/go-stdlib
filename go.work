@@ -667,4 +667,5 @@ use (
 	./strings/gostdlib-strings-trimright
 	./strings/gostdlib-strings-trimrightfunc
 	./strings/gostdlib-strings-trimspace
+	./strings/gostdlib-strings-trimsuffix
 )
