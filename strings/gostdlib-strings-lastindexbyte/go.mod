@@ -1,3 +1,3 @@
-module github.com/kengibson1111/go-stdlib/strconv/gostdlib-strings-lastindexbyte
+module github.com/kengibson1111/go-stdlib/strings/gostdlib-strings-lastindexbyte
 
 go 1.23.6

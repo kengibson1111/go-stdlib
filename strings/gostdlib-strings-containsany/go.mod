@@ -1,3 +1,3 @@
-module github.com/kengibson1111/go-stdlib/strconv/gostdlib-strings-containsany
+module github.com/kengibson1111/go-stdlib/strings/gostdlib-strings-containsany
 
 go 1.23.6
