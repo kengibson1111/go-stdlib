@@ -668,4 +668,5 @@ use (
 	./strings/gostdlib-strings-trimrightfunc
 	./strings/gostdlib-strings-trimspace
 	./strings/gostdlib-strings-trimsuffix
+	./sync/gostdlib-sync-once
 )
