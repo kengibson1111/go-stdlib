@@ -670,4 +670,5 @@ use (
 	./strings/gostdlib-strings-trimsuffix
 	./sync/gostdlib-sync-once
 	./sync/gostdlib-sync-oncevalue
+	./sync/gostdlib-sync-oncevalues
 )
