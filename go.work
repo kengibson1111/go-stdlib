@@ -671,4 +671,5 @@ use (
 	./sync/gostdlib-sync-once
 	./sync/gostdlib-sync-oncevalue
 	./sync/gostdlib-sync-oncevalues
+	./sync/gostdlib-sync-pool
 )
