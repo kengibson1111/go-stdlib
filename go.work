@@ -669,6 +669,7 @@ use (
 	./strings/gostdlib-strings-trimspace
 	./strings/gostdlib-strings-trimsuffix
 	./sync/atomic/gostdlib-sync-atomic-value
+	./sync/atomic/gostdlib-sync-atomic-valuereadmostly
 	./sync/gostdlib-sync-once
 	./sync/gostdlib-sync-oncevalue
 	./sync/gostdlib-sync-oncevalues
