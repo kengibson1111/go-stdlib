@@ -1,3 +1,3 @@
 # testing - brunparallel
 
-This example shows how to use b.RunParallel.
+This example shows how to use B.RunParallel.
