@@ -677,5 +677,6 @@ use (
 	./sync/gostdlib-sync-waitgroup
 	./testing/gostdlib-testing-bloop
 	./testing/gostdlib-testing-breportmetric
+	./testing/gostdlib-testing-breportmetricparallel
 	./testing/gostdlib-testing-brunparallel
 )
