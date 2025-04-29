@@ -680,4 +680,5 @@ use (
 	./testing/gostdlib-testing-breportmetricparallel
 	./testing/gostdlib-testing-brunparallel
 	./testing/iotest/gostdlib-testing-iotest-errreader
+	./testing/slogtest/gostdlib-testing-slogtest-package
 )
