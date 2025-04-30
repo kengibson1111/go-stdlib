@@ -681,4 +681,5 @@ use (
 	./testing/gostdlib-testing-brunparallel
 	./testing/iotest/gostdlib-testing-iotest-errreader
 	./testing/slogtest/gostdlib-testing-slogtest-package
+	./testing/synctest/gostdlib-testing-synctest-contextafterfunc
 )
