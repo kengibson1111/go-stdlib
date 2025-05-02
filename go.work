@@ -683,4 +683,5 @@ use (
 	./testing/slogtest/gostdlib-testing-slogtest-package
 	./testing/synctest/gostdlib-testing-synctest-contextafterfunc
 	./testing/synctest/gostdlib-testing-synctest-contextwithtimeout
+	./text/scanner/gostdlib-text-scanner-package
 )
