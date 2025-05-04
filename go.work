@@ -684,5 +684,6 @@ use (
 	./testing/synctest/gostdlib-testing-synctest-contextafterfunc
 	./testing/synctest/gostdlib-testing-synctest-contextwithtimeout
 	./text/scanner/gostdlib-text-scanner-isidentrune
+	./text/scanner/gostdlib-text-scanner-mode
 	./text/scanner/gostdlib-text-scanner-package
 )
