@@ -686,4 +686,5 @@ use (
 	./text/scanner/gostdlib-text-scanner-isidentrune
 	./text/scanner/gostdlib-text-scanner-mode
 	./text/scanner/gostdlib-text-scanner-package
+	./text/scanner/gostdlib-text-scanner-whitespace
 )
