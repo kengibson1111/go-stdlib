@@ -687,4 +687,5 @@ use (
 	./text/scanner/gostdlib-text-scanner-mode
 	./text/scanner/gostdlib-text-scanner-package
 	./text/scanner/gostdlib-text-scanner-whitespace
+	./text/tabwriter/gostdlib-text-tabwriter-writerinit
 )
