@@ -27,7 +27,6 @@ Josie
 		Name, Gift string
 		Attended   bool
 	}
-
 	var recipients = []Recipient{
 		{"Aunt Mildred", "bone china tea set", true},
 		{"Uncle John", "moleskin pants", false},
@@ -44,5 +43,4 @@ Josie
 			log.Println("executing template:", err)
 		}
 	}
-
 }
