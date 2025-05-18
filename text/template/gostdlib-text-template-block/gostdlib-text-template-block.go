@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 	"strings"
@@ -35,4 +36,6 @@ func main() {
 	if err := overlayTmpl.Execute(os.Stdout, guardians); err != nil {
 		log.Fatal(err)
 	}
+
+	fmt.Println()
 }

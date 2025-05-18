@@ -690,5 +690,6 @@ use (
 	./text/tabwriter/gostdlib-text-tabwriter-notrailingtab
 	./text/tabwriter/gostdlib-text-tabwriter-trailingtab
 	./text/tabwriter/gostdlib-text-tabwriter-writerinit
+	./text/template/gostdlib-text-template-block
 	./text/template/gostdlib-text-template-package
 )
