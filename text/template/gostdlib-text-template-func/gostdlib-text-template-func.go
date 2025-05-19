@@ -10,25 +10,25 @@ import (
 func main() {
 	// First we create a FuncMap with which to register the function.
 	funcMap := template.FuncMap{
-		// The name "title" is what the function will be called in the template text.
-		"title": strings.Title,
+		// The name "upper" is what the function will be called in the template text.
+		"upper": strings.ToUpper,
 	}
 
 	// A simple template definition to test our function.
 	// We print the input text several ways:
 	// - the original
-	// - title-cased
-	// - title-cased and then printed with %q
-	// - printed with %q and then title-cased.
-const templateText = `
+	// - upper-cased
+	// - upper-cased and then printed with %q
+	// - printed with %q and then upper-cased.
+	const templateText = `
 Input: {{printf "%q" .}}
-Output 0: {{title .}}
-Output 1: {{title . | printf "%q"}}
-Output 2: {{printf "%q" . | title}}
+Output 0: {{upper .}}
+Output 1: {{upper . | printf "%q"}}
+Output 2: {{printf "%q" . | upper}}
 `
 
 	// Create a template, add the function map, and parse the text.
-	tmpl, err := template.New("titleTest").Funcs(funcMap).Parse(templateText)
+	tmpl, err := template.New("upperTest").Funcs(funcMap).Parse(templateText)
 	if err != nil {
 		log.Fatalf("parsing: %s", err)
 	}
@@ -38,5 +38,4 @@ Output 2: {{printf "%q" . | title}}
 	if err != nil {
 		log.Fatalf("execution: %s", err)
 	}
-
 }
