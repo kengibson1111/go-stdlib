@@ -692,5 +692,6 @@ use (
 	./text/tabwriter/gostdlib-text-tabwriter-writerinit
 	./text/template/gostdlib-text-template-block
 	./text/template/gostdlib-text-template-func
+	./text/template/gostdlib-text-template-glob
 	./text/template/gostdlib-text-template-package
 )
