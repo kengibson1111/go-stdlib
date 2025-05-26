@@ -2,7 +2,6 @@ package main
 
 import (
 	"io"
-	"io/ioutil"
 	"log"
 	"os"
 	"path/filepath"
@@ -16,7 +15,7 @@ type templateFile struct {
 }
 
 func createTestDir(files []templateFile) string {
-	dir, err := ioutil.TempDir("", "template")
+	dir, err := os.MkdirTemp("", "template")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -26,7 +25,6 @@ func createTestDir(files []templateFile) string {
 		if err != nil {
 			log.Fatal(err)
 		}
-
 		defer f.Close()
 		_, err = io.WriteString(f, file.contents)
 		if err != nil {

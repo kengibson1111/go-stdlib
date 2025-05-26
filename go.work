@@ -695,4 +695,5 @@ use (
 	./text/template/gostdlib-text-template-glob
 	./text/template/gostdlib-text-template-helpers
 	./text/template/gostdlib-text-template-package
+	./text/template/gostdlib-text-template-share
 )
