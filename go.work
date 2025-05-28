@@ -697,4 +697,5 @@ use (
 	./text/template/gostdlib-text-template-package
 	./text/template/gostdlib-text-template-share
 	./time/gostdlib-time-after
+	./time/gostdlib-time-date
 )

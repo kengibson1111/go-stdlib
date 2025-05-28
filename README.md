@@ -6,7 +6,7 @@ This is a collection of various public examples. Each example in the standard li
 
 [Types](https://github.com/kengibson1111/go-stdlib/blob/master/types.md) is a summary of primitive types in Go. There are times when it helps with the examples.
 
-Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). A companion repo for the tour is [here](https://github.com/kengibson1111/tour-of-go).
+Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). My [companion repo](https://github.com/kengibson1111/tour-of-go) may help.
 
 ## .netrc
 
