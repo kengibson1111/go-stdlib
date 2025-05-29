@@ -698,4 +698,5 @@ use (
 	./text/template/gostdlib-text-template-share
 	./time/gostdlib-time-after
 	./time/gostdlib-time-date
+	./time/gostdlib-time-duration
 )
