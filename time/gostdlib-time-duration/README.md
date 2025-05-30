@@ -1,3 +1,3 @@
 # time - duration
 
-This example shows how to use Duration.
+This example shows how to determine a time duration.

@@ -699,4 +699,5 @@ use (
 	./time/gostdlib-time-after
 	./time/gostdlib-time-date
 	./time/gostdlib-time-duration
+	./time/gostdlib-time-durationabs
 )
