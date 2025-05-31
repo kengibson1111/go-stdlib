@@ -700,4 +700,5 @@ use (
 	./time/gostdlib-time-date
 	./time/gostdlib-time-duration
 	./time/gostdlib-time-durationabs
+	./time/gostdlib-time-durationhours
 )
