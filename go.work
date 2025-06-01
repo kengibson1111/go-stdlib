@@ -701,4 +701,5 @@ use (
 	./time/gostdlib-time-duration
 	./time/gostdlib-time-durationabs
 	./time/gostdlib-time-durationhours
+	./time/gostdlib-time-durationmicrosec
 )
