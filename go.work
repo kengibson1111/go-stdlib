@@ -703,4 +703,5 @@ use (
 	./time/gostdlib-time-durationhours
 	./time/gostdlib-time-durationmicrosec
 	./time/gostdlib-time-durationmillisec
+	./time/gostdlib-time-durationminutes
 )
