@@ -705,4 +705,5 @@ use (
 	./time/gostdlib-time-durationmillisec
 	./time/gostdlib-time-durationminutes
 	./time/gostdlib-time-durationnanosec
+	./time/gostdlib-time-durationround
 )
