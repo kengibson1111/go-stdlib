@@ -706,5 +706,6 @@ use (
 	./time/gostdlib-time-durationminutes
 	./time/gostdlib-time-durationnanosec
 	./time/gostdlib-time-durationround
+	./time/gostdlib-time-durationseconds
 	./time/gostdlib-time-durationstring
 )
