@@ -708,4 +708,5 @@ use (
 	./time/gostdlib-time-durationround
 	./time/gostdlib-time-durationseconds
 	./time/gostdlib-time-durationstring
+	./time/gostdlib-time-durationtruncate
 )
