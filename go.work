@@ -711,4 +711,5 @@ use (
 	./time/gostdlib-time-durationtruncate
 	./time/gostdlib-time-fixedzone
 	./time/gostdlib-time-loadlocation
+	./time/gostdlib-time-location
 )
