@@ -712,4 +712,5 @@ use (
 	./time/gostdlib-time-fixedzone
 	./time/gostdlib-time-loadlocation
 	./time/gostdlib-time-location
+	./time/gostdlib-time-month
 )
