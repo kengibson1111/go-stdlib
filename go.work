@@ -713,4 +713,5 @@ use (
 	./time/gostdlib-time-loadlocation
 	./time/gostdlib-time-location
 	./time/gostdlib-time-month
+	./time/gostdlib-time-newticker
 )
