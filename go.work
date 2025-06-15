@@ -715,4 +715,5 @@ use (
 	./time/gostdlib-time-month
 	./time/gostdlib-time-newticker
 	./time/gostdlib-time-parse
+	./time/gostdlib-time-parseduration
 )
