@@ -717,4 +717,5 @@ use (
 	./time/gostdlib-time-parse
 	./time/gostdlib-time-parseduration
 	./time/gostdlib-time-parseinlocation
+	./time/gostdlib-time-since
 )
