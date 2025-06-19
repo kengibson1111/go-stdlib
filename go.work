@@ -719,4 +719,5 @@ use (
 	./time/gostdlib-time-parseinlocation
 	./time/gostdlib-time-since
 	./time/gostdlib-time-sleep
+	./time/gostdlib-time-tick
 )
