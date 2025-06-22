@@ -720,4 +720,5 @@ use (
 	./time/gostdlib-time-since
 	./time/gostdlib-time-sleep
 	./time/gostdlib-time-tick
+	./time/gostdlib-time-timeadd
 )
