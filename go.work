@@ -723,4 +723,5 @@ use (
 	./time/gostdlib-time-timeadd
 	./time/gostdlib-time-timeadddate
 	./time/gostdlib-time-timeafter
+	./time/gostdlib-time-timeappendformat
 )
