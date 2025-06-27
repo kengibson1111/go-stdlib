@@ -725,4 +725,5 @@ use (
 	./time/gostdlib-time-timeafter
 	./time/gostdlib-time-timeappendformat
 	./time/gostdlib-time-timebefore
+	./time/gostdlib-time-timedate
 )
