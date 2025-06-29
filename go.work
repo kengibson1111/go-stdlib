@@ -727,4 +727,5 @@ use (
 	./time/gostdlib-time-timebefore
 	./time/gostdlib-time-timedate
 	./time/gostdlib-time-timeday
+	./time/gostdlib-time-timeequal
 )
