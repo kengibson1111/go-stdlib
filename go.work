@@ -728,4 +728,5 @@ use (
 	./time/gostdlib-time-timedate
 	./time/gostdlib-time-timeday
 	./time/gostdlib-time-timeequal
+	./time/gostdlib-time-timeformat
 )
