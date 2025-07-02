@@ -730,4 +730,5 @@ use (
 	./time/gostdlib-time-timeequal
 	./time/gostdlib-time-timeformat
 	./time/gostdlib-time-timeformatpad
+	./time/gostdlib-time-timegostring
 )
