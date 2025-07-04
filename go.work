@@ -732,4 +732,5 @@ use (
 	./time/gostdlib-time-timeformatpad
 	./time/gostdlib-time-timegostring
 	./time/gostdlib-time-timeround
+	./time/gostdlib-time-timestring
 )
