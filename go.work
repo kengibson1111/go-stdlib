@@ -733,4 +733,5 @@ use (
 	./time/gostdlib-time-timegostring
 	./time/gostdlib-time-timeround
 	./time/gostdlib-time-timestring
+	./time/gostdlib-time-timesub
 )
