@@ -734,4 +734,5 @@ use (
 	./time/gostdlib-time-timeround
 	./time/gostdlib-time-timestring
 	./time/gostdlib-time-timesub
+	./time/gostdlib-time-timetruncate
 )
