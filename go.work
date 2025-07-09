@@ -737,4 +737,5 @@ use (
 	./time/gostdlib-time-timetruncate
 	./time/gostdlib-time-timeunix
 	./time/gostdlib-time-unix
+	./time/gostdlib-time-unixmicro
 )
