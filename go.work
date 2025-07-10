@@ -738,4 +738,5 @@ use (
 	./time/gostdlib-time-timeunix
 	./time/gostdlib-time-unix
 	./time/gostdlib-time-unixmicro
+	./time/gostdlib-time-unixmilli
 )
