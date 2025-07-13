@@ -740,5 +740,6 @@ use (
 	./time/gostdlib-time-unixmicro
 	./time/gostdlib-time-unixmilli
 	./time/gostdlib-time-until
+	./unicode/gostdlib-unicode-isdigit
 	./unicode/gostdlib-unicode-package
 )
