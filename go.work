@@ -742,5 +742,6 @@ use (
 	./time/gostdlib-time-until
 	./unicode/gostdlib-unicode-isdigit
 	./unicode/gostdlib-unicode-isletter
+	./unicode/gostdlib-unicode-islower
 	./unicode/gostdlib-unicode-package
 )
