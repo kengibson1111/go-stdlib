@@ -743,5 +743,6 @@ use (
 	./unicode/gostdlib-unicode-isdigit
 	./unicode/gostdlib-unicode-isletter
 	./unicode/gostdlib-unicode-islower
+	./unicode/gostdlib-unicode-isnumber
 	./unicode/gostdlib-unicode-package
 )
