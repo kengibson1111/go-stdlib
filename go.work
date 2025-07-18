@@ -745,5 +745,6 @@ use (
 	./unicode/gostdlib-unicode-islower
 	./unicode/gostdlib-unicode-isnumber
 	./unicode/gostdlib-unicode-isspace
+	./unicode/gostdlib-unicode-istitle
 	./unicode/gostdlib-unicode-package
 )
