@@ -748,4 +748,5 @@ use (
 	./unicode/gostdlib-unicode-istitle
 	./unicode/gostdlib-unicode-isupper
 	./unicode/gostdlib-unicode-package
+	./unicode/gostdlib-unicode-simplefold
 )
