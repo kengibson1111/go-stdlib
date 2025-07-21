@@ -1,3 +1,3 @@
-# unicode - isupper
+# unicode - simplefold
 
-This example shows how to use unicode.IsUpper.
+This example shows how to use unicode.SimpleFold.

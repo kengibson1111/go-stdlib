@@ -749,4 +749,5 @@ use (
 	./unicode/gostdlib-unicode-isupper
 	./unicode/gostdlib-unicode-package
 	./unicode/gostdlib-unicode-simplefold
+	./unicode/gostdlib-unicode-specialcase
 )
