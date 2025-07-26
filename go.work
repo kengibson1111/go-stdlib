@@ -751,4 +751,5 @@ use (
 	./unicode/gostdlib-unicode-simplefold
 	./unicode/gostdlib-unicode-specialcase
 	./unicode/gostdlib-unicode-to
+	./unicode/gostdlib-unicode-tolower
 )
