@@ -753,4 +753,5 @@ use (
 	./unicode/gostdlib-unicode-to
 	./unicode/gostdlib-unicode-tolower
 	./unicode/gostdlib-unicode-totitle
+	./unicode/gostdlib-unicode-toupper
 )
