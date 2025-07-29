@@ -1,8 +1,7 @@
-all: clean install
+.PHONY: clean install
 
 clean:
-	go clean -i github.com/kengibson1111/go-packages/...
+	go clean -i github.com/kengibson1111/go-stdlib/...
 
 install:
 	go install ./...
-
