@@ -756,4 +756,5 @@ use (
 	./unicode/gostdlib-unicode-toupper
 	./unicode/utf8/gostdlib-unicode-utf8-appendrune
 	./unicode/utf8/gostdlib-unicode-utf8-decodelastrune
+	./unicode/utf8/gostdlib-unicode-utf8-decodelastruneinstring
 )
