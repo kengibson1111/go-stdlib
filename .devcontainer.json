@@ -26,16 +26,16 @@
                 "go.lintOnSave": "package",
                 "[go]": {
                     "editor.codeActionsOnSave": {
-                        "source.organizeImports": true
+                        "source.organizeImports": "always"
                     }
                 },
 				"go.buildTags": "",
 
 				"gopls": {
                     "usePlaceholders": false,
-                    "staticcheck": true,
-                    "vulncheck": "Imports"
+                    "staticcheck": true
                 },
+                "vulncheck": "Imports",
 
 				"go.testTimeout": "30s",
                 "go.coverOnSingleTest": true,
