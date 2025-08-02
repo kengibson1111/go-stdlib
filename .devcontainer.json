@@ -4,14 +4,10 @@
 		"--rm",
 		"--network=kglabs-net"
 	],
-	"containerEnv": {
-		"GIT_SSH_COMMAND": "ssh -i ~/.ssh/id_rsa_go-stdlib"
-	},
 	"mounts": [
 		"source=${localEnv:USERPROFILE}/docker-user-home,target=/root,type=bind,consistency=cached",
 		"source=${localEnv:USERPROFILE}/myprojects,target=/var/local/myprojects,type=bind,consistency=cached",
-		"source=//var/run/docker.sock,target=//var/run/docker.sock,type=bind,consistency=cached",
-		"source=${localEnv:USERPROFILE},target=/var/local/kubeparent,type=bind,consistency=cached"
+		"source=//var/run/docker.sock,target=//var/run/docker.sock,type=bind,consistency=cached"
 	],
 	"customizations": {
 		// Configure properties specific to VS Code.
