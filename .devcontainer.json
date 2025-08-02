@@ -43,7 +43,9 @@
                 ]
 			},
 			"extensions": [
-				"golang.go"
+				"golang.Go",
+				"GitHub.copilot",
+				"golangci.golangci-lint"
 			]
 		}
 	}

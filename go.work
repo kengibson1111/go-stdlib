@@ -1,4 +1,4 @@
-go 1.23.6
+go 1.24.4
 
 use (
 	./archive/tar/gostdlib-archive-tar
@@ -757,4 +757,5 @@ use (
 	./unicode/utf8/gostdlib-unicode-utf8-appendrune
 	./unicode/utf8/gostdlib-unicode-utf8-decodelastrune
 	./unicode/utf8/gostdlib-unicode-utf8-decodelastruneinstring
+	./unicode/utf8/gostdlib-unicode-utf8-decoderune
 )
