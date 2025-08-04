@@ -759,4 +759,5 @@ use (
 	./unicode/utf8/gostdlib-unicode-utf8-decodelastruneinstring
 	./unicode/utf8/gostdlib-unicode-utf8-decoderune
 	./unicode/utf8/gostdlib-unicode-utf8-decoderuneinstring
+	./unicode/utf8/gostdlib-unicode-utf8-encoderune
 )
