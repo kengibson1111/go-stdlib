@@ -762,4 +762,5 @@ use (
 	./unicode/utf8/gostdlib-unicode-utf8-encoderune
 	./unicode/utf8/gostdlib-unicode-utf8-fullrune
 	./unicode/utf8/gostdlib-unicode-utf8-fullruneinstring
+	./unicode/utf8/gostdlib-unicode-utf8-runecount
 )
