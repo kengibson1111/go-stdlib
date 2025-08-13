@@ -767,4 +767,5 @@ use (
 	./unicode/utf8/gostdlib-unicode-utf8-runelen
 	./unicode/utf8/gostdlib-unicode-utf8-runestart
 	./unicode/utf8/gostdlib-unicode-utf8-valid
+	./unicode/utf8/gostdlib-unicode-utf8-validrune
 )
