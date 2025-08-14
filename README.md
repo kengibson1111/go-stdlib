@@ -4,7 +4,7 @@ Code examples using [Go's standard library](https://pkg.go.dev/std).[^1] It is g
 
 This is a collection of various public examples. Each example in the standard library docs has a code window, so definitely use that first if you prefer. Some of the examples in this repo expand or modify an example, and there is a README for each example that, at times, provides additional insight.
 
-[Types](https://github.com/kengibson1111/go-stdlib/blob/master/types.md) is a summary of primitive types in Go. There are times when it helps with the examples.
+[Types](https://github.com/kengibson1111/go-stdlib/blob/main/types.md) is a summary of primitive types in Go. There are times when it helps with the examples.
 
 Before diving into this repo, it may help to start with the [Tour of Go](https://go.dev/tour/welcome/1). My [companion repo](https://github.com/kengibson1111/tour-of-go) may help.
 
